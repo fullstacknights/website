@@ -1,0 +1,24 @@
+.navbar {
+  position: sticky;
+  background: var(--black-gradient);
+  padding: calc(var(--spacing-unit) * 3px) 0;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  height: 35px;
+  width: auto;
+}
+
+.linksWrapper .link:last-child {
+  margin-right: 0;
+}
+
+.link {
+  color: var(--white-color);
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-right: calc(var(--spacing-unit) * 4px);
+  text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.container {
+  padding: calc(var(--spacing-unit) * 3px);
+  background-color: var(--background-color);
+}
+
+.logoContainer {
+  margin-right: calc(var(--spacing-unit) * 2px);
+}
+
+.logo {
+  display: block;
+  height: 35px;
+  width: 35px;
+}
