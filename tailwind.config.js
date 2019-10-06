@@ -40,6 +40,9 @@ module.exports = {
       h3: "32px",
       h4: "24px"
     },
+    borderWidth: {
+      default: "5px"
+    },
     borderRadius: {
       default: "6px"
     }

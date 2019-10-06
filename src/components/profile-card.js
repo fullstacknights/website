@@ -11,7 +11,7 @@ function ProfileCard({ name, img, title }) {
     <Card variant="dark" className={styles.container}>
       <div className="mb-4">
         <img
-          className={`profile-img ${styles.img}`}
+          className={`avatar ${styles.img}`}
           src={img}
           alt={`Image of ${name}`}
         />
