@@ -5,7 +5,7 @@ import styles from "./navbar.module.css";
 
 function Navbar() {
   return (
-    <nav className="flex items-center justify-center py-3 bg-gradient sticky top-0 z-50">
+    <nav className="flex items-center justify-center py-3 sticky top-0 z-50">
       <div className="flex justify-between w-11/12">
         <a href="/">
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />

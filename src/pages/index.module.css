@@ -1,0 +1,11 @@
+.nextEventCard {
+  margin-top: -290px;
+}
+
+.profileContainer > div {
+  @apply mr-10;
+}
+
+.profileContainer > div:last-child {
+  margin-right: 0;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 
-import Facebook from "../assets/facebook.svg";
-import Github from "../assets/github.svg";
-import Twitter from "../assets/twitter.svg";
-import YouTube from "../assets/youtube.svg";
+import Facebook from "../assets/facebook-circle.svg";
+import Github from "../assets/github-circle.svg";
+import Twitter from "../assets/twitter-circle.svg";
+import YouTube from "../assets/youtube-circle.svg";
 import styles from "./footer.module.css";
 
 function Icon({ url, icon }) {

@@ -1,0 +1,26 @@
+.container {
+  width: 325px;
+}
+
+.img {
+  height: 155px;
+  width: 155px;
+}
+
+.brandLogo {
+  height: 35px;
+  width: 40px;
+}
+
+.socialNetworkContainer a {
+  @apply mr-4;
+}
+
+.socialNetworkContainer a:last-child {
+  margin-right: 0;
+}
+
+.socialNetwork {
+  height: 35px;
+  width: 35px;
+}

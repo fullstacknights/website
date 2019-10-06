@@ -1,0 +1,40 @@
+import React from "react";
+
+import Card from "./card";
+import styles from "./profile-card.module.css";
+import BrandLogo from "../assets/brand-logo.svg";
+import GitHub from "../assets/github.svg";
+import Twitter from "../assets/twitter.svg";
+
+function ProfileCard({ name, img, title }) {
+  return (
+    <Card variant="dark" className={styles.container}>
+      <div className="mb-4">
+        <img
+          className={`profile-img ${styles.img}`}
+          src={img}
+          alt={`Image of ${name}`}
+        />
+      </div>
+      <h4 className="text-h4 text-white font-extrabold text-center">{name}</h4>
+      <div className="mt-3 mb-4">
+        <img
+          className={styles.brandLogo}
+          src={BrandLogo}
+          alt="Fullstack Nights Logo"
+        />
+      </div>
+      <p className="text-rg text-white text-center">{title}</p>
+      <div className={`${styles.socialNetworkContainer} flex mt-4`}>
+        <a href="">
+          <img className={styles.socialNetwork} src={Twitter} alt="" />
+        </a>
+        <a href="">
+          <img className={styles.socialNetwork} src={GitHub} alt="" />
+        </a>
+      </div>
+    </Card>
+  );
+}
+
+export default ProfileCard;
