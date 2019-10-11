@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Card from "./card";
 import styles from "./profile-card.module.css";
@@ -36,5 +37,11 @@ function ProfileCard({ name, img, title }) {
     </Card>
   );
 }
+
+ProfileCard.propTypes = {
+  name: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired
+};
 
 export default ProfileCard;

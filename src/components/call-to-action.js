@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 import Card from "./card";
 import styles from "./call-to-action.module.css";
@@ -21,5 +22,11 @@ function CallToAction({ title, description, url }) {
     </Card>
   );
 }
+
+CallToAction.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+  url: PropTypes.string
+};
 
 export default CallToAction;

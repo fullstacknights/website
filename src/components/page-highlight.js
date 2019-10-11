@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function PageHighlight({ header, subheader, url, urlTitle }) {
   return (
@@ -13,5 +14,12 @@ function PageHighlight({ header, subheader, url, urlTitle }) {
     </section>
   );
 }
+
+PageHighlight.propTypes = {
+  header: PropTypes.string.isRequired,
+  subheader: PropTypes.string.isRequired,
+  url: PropTypes.string,
+  urlTitle: PropTypes.string
+};
 
 export default PageHighlight;

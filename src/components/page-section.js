@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function PageSection({ title, description, children }) {
   return (
@@ -11,5 +12,14 @@ function PageSection({ title, description, children }) {
     </section>
   );
 }
+
+PageSection.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string,
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ])
+};
 
 export default PageSection;
