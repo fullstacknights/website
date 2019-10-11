@@ -10,9 +10,26 @@
   @apply bg-primary;
 }
 
+.btn--primary:hover {
+  @apply bg-primary-hover text-white-hover;
+}
+
+.btn--primary:active {
+  @apply bg-primary-pressed text-white-hover;
+}
+
 .btn--inverse {
   @apply border;
   border-width: 1px;
+}
+
+.btn--inverse:hover {
+  @apply bg-white text-primary;
+}
+
+.btn--inverse:active {
+  @apply text-primary;
+  background-color: #e8e8e8;
 }
 
 .avatar {

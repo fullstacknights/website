@@ -2,9 +2,9 @@ module.exports = {
   theme: {
     colors: {
       brand: "#31d7fb",
-      primary: "#0282f8",
+      primary: { default: "#0282f8", hover: "#015aad", pressed: "#00407b" },
       background: "#f3f5f8",
-      white: "#ffffff",
+      white: { default: "#ffffff", hover: "#b2b2b2" },
       black: "#000000"
     },
     boxShadow: {
