@@ -6,3 +6,7 @@
 .linksWrapper .link:last-child {
   margin-right: 0;
 }
+
+.shadow {
+  box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.5);
+}
