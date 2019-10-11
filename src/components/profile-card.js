@@ -26,7 +26,9 @@ function ProfileCard({ name, img, title }) {
         />
       </div>
       <p className="text-rg text-white text-center">{title}</p>
-      <div className={`${styles.socialNetworkContainer} flex mt-4`}>
+      <div
+        className={`${styles.socialNetworkContainer} flex items-center mt-4`}
+      >
         <a href="">
           <img className={styles.socialNetwork} src={Twitter} alt="" />
         </a>
