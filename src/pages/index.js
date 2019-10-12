@@ -11,6 +11,8 @@ import PageHighlight from "../components/page-highlight";
 import UpcomingEvent from "../components/upcoming-event";
 import GradientBackground from "../components/gradient-background";
 
+const SLACK_LINK = "https://sopr-slack.herokuapp.com/";
+
 function IndexPage() {
   return (
     <Layout>
@@ -81,7 +83,7 @@ function IndexPage() {
         header="Join the community in Slack"
         subheader="Ask questions, get help from the community and stay up to date with
         the latest events."
-        url="https://www.google.com"
+        url={SLACK_LINK}
         urlTitle="Join us"
       />
     </Layout>
