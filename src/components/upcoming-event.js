@@ -21,12 +21,15 @@ function UpcomingEvent() {
             href={EVENTBRITE_LINK}
             className="btn btn--primary"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Get tickets
           </a>
         </div>
         <h4 className="text-h4 font-extrabold">Line up for the next event</h4>
-        <div className={`flex mt-6 mb-8 ${styles.profileContainer}`}>
+        <div
+          className={`flex justify-center mt-6 mb-8 ${styles.profileContainer}`}
+        >
           <ProfileCard
             img="https://randomuser.me/api/portraits/men/3.jpg"
             name="Juana del Pueblo"

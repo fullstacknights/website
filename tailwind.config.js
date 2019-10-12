@@ -9,7 +9,7 @@ module.exports = {
     },
     boxShadow: {
       default: "0 1px 3px 0 rgba(0, 0, 0, 0.5)",
-      hover: "0 2px 3px 0 rgba(0, 0, 0, 0.5)"
+      lg: "0 2px 3px 0 rgba(0, 0, 0, 0.5)"
     },
     spacing: {
       px: "1px",

@@ -13,7 +13,7 @@ const GITHUB_LINK = "https://github.com/fullstacknights";
 
 function Icon({ url, icon, alt }) {
   return (
-    <a className="mr-2" href={url} target="_blank">
+    <a className="mr-2" href={url} target="_blank" rel="noopener noreferrer">
       <img className={styles.logo} src={icon} alt={alt} />
     </a>
   );
@@ -22,7 +22,7 @@ function Icon({ url, icon, alt }) {
 function Footer() {
   return (
     <footer className="flex items-center justify-center py-3 bg-background">
-      <div class="flex items-center justify-between w-11/12">
+      <div className="flex items-center justify-between w-11/12">
         <div className="flex items-center">
           <Icon url={FACEBOOK_LINK} icon={Facebook} alt="Facebook link" />
           <Icon url={TWITTER_LINK} icon={Twitter} alt="Twitter link" />

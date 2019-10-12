@@ -6,7 +6,7 @@ function Card({ children, className, variant }) {
 
   return (
     <div
-      className={`flex flex-col items-center p-6 rounded shadow ${className} ${backgroundColor}`}
+      className={`flex flex-col rounded shadow ${className} ${backgroundColor}`}
     >
       {children}
     </div>
