@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "gatsby";
 
 import Card from "./card";
 import styles from "./call-to-action.module.css";
@@ -15,9 +16,9 @@ function CallToAction({ title, description, url }) {
       <Division />
       <p className="text-lg text-center">{description}</p>
       {url ? (
-        <a href={url} className="btn btn--primary mt-11">
+        <Link to={url} className="btn btn--primary mt-11">
           Learn more
-        </a>
+        </Link>
       ) : null}
     </Card>
   );

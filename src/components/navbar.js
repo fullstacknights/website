@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { Link } from "gatsby";
 import throttle from "lodash.throttle";
 
 import Logo from "../assets/logo.svg";
@@ -32,25 +33,25 @@ function Navbar() {
       }`}
     >
       <div className="flex justify-between w-11/12">
-        <a href="/">
+        <Link to="/">
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
-        </a>
+        </Link>
         <div className={`flex items-center ${styles.linksWrapper}`}>
-          <a href="" className="text-white text-rg uppercase mr-4">
+          <Link to="/about/" className="text-white text-rg uppercase mr-4">
             About
-          </a>
-          <a href="" className="text-white text-rg uppercase mr-4">
+          </Link>
+          <Link to="/events/" className="text-white text-rg uppercase mr-4">
             Events
-          </a>
-          <a href="" className="text-white text-rg uppercase mr-4">
+          </Link>
+          <Link to="/schedule/" className="text-white text-rg uppercase mr-4">
             Schedule
-          </a>
-          <a href="" className="text-white text-rg uppercase mr-4">
+          </Link>
+          <Link to="/videos/" className="text-white text-rg uppercase mr-4">
             Videos
-          </a>
-          <a href="" className="text-white text-rg uppercase">
+          </Link>
+          <Link to="/podcast/" className="text-white text-rg uppercase">
             Podcast
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

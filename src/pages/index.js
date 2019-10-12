@@ -37,21 +37,21 @@ function IndexPage() {
             <CallToAction
               title="Become a speaker"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
-              url="https://www.google.com"
+              url="/become-a-speaker/"
             />
           </div>
           <div className="w-1/3 mr-4">
             <CallToAction
               title="Become a mentor"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
-              url="https://www.google.com"
+              url="/become-a-mentor/"
             />
           </div>
           <div className="w-1/3">
             <CallToAction
               title="Propose a topic"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
-              url="https://www.google.com"
+              url="/become-a-mentor/"
             />
           </div>
         </div>
