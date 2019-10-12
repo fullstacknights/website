@@ -1,15 +1,18 @@
 import React from "react";
 
+import {
+  SEO,
+  Image,
+  Layout,
+  PageSection,
+  CallToAction,
+  PageHighlight,
+  UpcomingEvent,
+  GradientBackground
+} from "../components/index";
+
 import RSS from "../assets/rss.svg";
-import SEO from "../components/seo";
-import Image from "../components/image";
-import Layout from "../components/layout";
-import PageSection from "../components/page-section";
-import CallToAction from "../components/call-to-action";
 import ApplePodcasts from "../assets/apple-podcasts.svg";
-import PageHighlight from "../components/page-highlight";
-import UpcomingEvent from "../components/upcoming-event";
-import GradientBackground from "../components/gradient-background";
 
 const SLACK_LINK = "https://sopr-slack.herokuapp.com/";
 
