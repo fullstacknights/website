@@ -13,7 +13,7 @@ const GITHUB_LINK = "https://github.com/fullstacknights";
 
 function Icon({ url, icon, alt }) {
   return (
-    <a className="mr-2" href={url}>
+    <a className="mr-2" href={url} target="_blank">
       <img className={styles.logo} src={icon} alt={alt} />
     </a>
   );

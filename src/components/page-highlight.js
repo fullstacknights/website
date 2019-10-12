@@ -7,7 +7,7 @@ function PageHighlight({ header, subheader, url, urlTitle }) {
       <div className="m-auto text-center w-10/12">
         <h3 className="text-h3 text-white font-extrabold mb-4">{header}</h3>
         <h4 className="text-h4 text-white mb-6">{subheader}</h4>
-        <a href={url} className="btn btn--inverse">
+        <a href={url} className="btn btn--inverse" target="_blank">
           {urlTitle}
         </a>
       </div>

@@ -4,6 +4,8 @@ import Card from "./card";
 import ProfileCard from "./profile-card";
 import styles from "./upcoming-event.module.css";
 
+const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
+
 function UpcomingEvent() {
   return (
     <section className="mb-20">
@@ -15,7 +17,11 @@ function UpcomingEvent() {
           <p className="text-h4">Venue: Parallel 18</p>
         </div>
         <div className="mb-10">
-          <a href="" className="btn btn--primary">
+          <a
+            href={EVENTBRITE_LINK}
+            className="btn btn--primary"
+            target="_blank"
+          >
             Get tickets
           </a>
         </div>
