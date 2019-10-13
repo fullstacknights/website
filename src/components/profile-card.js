@@ -11,11 +11,7 @@ function ProfileCard({ name, img, title }) {
   return (
     <Card className={`items-center p-6 ${styles.container}`} variant="dark">
       <div className="mb-4">
-        <img
-          className={`avatar ${styles.img}`}
-          src={img}
-          alt={`Image of ${name}`}
-        />
+        <img className={`avatar ${styles.img}`} src={img} alt={name} />
       </div>
       <h4 className="text-h4 text-white font-extrabold text-center">{name}</h4>
       <div className="mt-3 mb-4">

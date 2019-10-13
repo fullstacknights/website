@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Facebook from "../assets/facebook-circle.svg";
 import Twitter from "../assets/twitter-circle.svg";
@@ -28,7 +29,7 @@ function Footer() {
           <Icon url={TWITTER_LINK} icon={Twitter} alt="Twitter link" />
           <Icon url={YOUTUBE_LINK} icon={YouTube} alt="YouTube link" />
           <Icon url={GITHUB_LINK} icon={Github} alt="Github link" />
-          <a href="">Code of Conduct</a>
+          <Link to="/code-of-conduct/">Code of Conduct</Link>
         </div>
         <p>Copyright © Fullstack Nights 2019</p>
       </div>

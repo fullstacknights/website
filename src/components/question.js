@@ -11,9 +11,9 @@ function Question({ isOpened, question, answer, id, onClick }) {
   };
 
   return (
-    <a
+    <button
       onClick={handleClick}
-      className={`w-full mb-4 block ${styles.container} ${
+      className={`w-full mb-4 ${styles.container} ${
         isOpened ? styles.containerOpened : ""
       }`}
     >
@@ -30,7 +30,7 @@ function Question({ isOpened, question, answer, id, onClick }) {
         </div>
         {isOpened ? <p className="text-rg mt-2">{answer}</p> : null}
       </Card>
-    </a>
+    </button>
   );
 }
 
