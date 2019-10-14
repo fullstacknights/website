@@ -5,8 +5,10 @@ import {
   GradientBackground,
   PageSection,
   CallToAction,
-  FAQList
+  FAQList,
+  PageHighlight
 } from "../components/index";
+import { SLACK_LINK } from "../constants";
 
 const FORM_LINK =
   "https://docs.google.com/forms/d/1SIL9HvzaQ34F3iHIIsMmDlS5Icoc9XPXTwrsr9_M87U/edit?ts=57ff9dee";
@@ -31,6 +33,45 @@ const FAQ = [
     question: "Where can I find examples of other talks and presentations?",
     answer:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+  }
+];
+
+const PAST_SPEAKERS = [
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
+  },
+  {
+    img: "https://randomuser.me/api/portraits/men/3.jpg",
+    fullname: "Juan Pueblo"
   }
 ];
 
@@ -89,6 +130,27 @@ export default function() {
           </div>
         </div>
       </PageSection>
+      <PageSection title="Past Fullstack Nights Speakers">
+        <div className="flex flex-wrap">
+          {PAST_SPEAKERS.map(speaker => (
+            <div className="w-1/4 text-center mb-8">
+              <img
+                className="avatar m-auto"
+                src={speaker.img}
+                alt={speaker.fullname}
+                style={{ height: 150, width: 150 }}
+              />
+              <p className="mt-3">{speaker.fullname}</p>
+            </div>
+          ))}
+        </div>
+      </PageSection>
+      <PageHighlight
+        header="Still have questions?"
+        subheader="Let us know if you have any questions about the presentation process. We’re here to help!"
+        url={SLACK_LINK}
+        urlTitle="Contact us"
+      />
     </Layout>
   );
 }

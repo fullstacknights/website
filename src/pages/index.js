@@ -13,8 +13,7 @@ import {
 
 import RSS from "../assets/rss.svg";
 import ApplePodcasts from "../assets/apple-podcasts.svg";
-
-const SLACK_LINK = "https://sopr-slack.herokuapp.com/";
+import { SLACK_LINK } from "../constants";
 
 function IndexPage() {
   return (
