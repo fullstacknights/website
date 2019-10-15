@@ -44,16 +44,16 @@ function IndexPage() {
           </div>
           <div className="w-1/3 mr-4">
             <CallToAction
-              title="Become a mentor"
+              title="Become a moderator"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
-              url="/become-a-mentor/"
+              url="/become-a-moderator/"
             />
           </div>
           <div className="w-1/3">
             <CallToAction
               title="Propose a topic"
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
-              url="/become-a-mentor/"
+              url="/become-a-moderator/"
             />
           </div>
         </div>
