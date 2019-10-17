@@ -15,7 +15,7 @@ body {
 }
 
 .btn {
-  @apply py-2 px-4 font-semibold rounded text-white inline-block;
+  @apply py-2 px-4 font-semibold rounded text-white inline-block text-center;
 }
 
 .btn--primary {

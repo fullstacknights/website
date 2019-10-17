@@ -9,11 +9,13 @@ import PageSection from "./page-section";
 import ProfileCard from "./profile-card";
 import Question from "./question";
 import SEO from "./seo";
+import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
 
 export {
   CallToAction,
   Card,
+  FAQList,
   GradientBackground,
   Image,
   Layout,
@@ -22,6 +24,6 @@ export {
   ProfileCard,
   Question,
   SEO,
-  UpcomingEvent,
-  FAQList
+  Timeline,
+  UpcomingEvent
 };

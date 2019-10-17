@@ -12,8 +12,6 @@ function Division() {
 function CallToAction({ title, description, url, urlTitle }) {
   const isExternalLink = url.includes("https");
 
-  console.log({ isExternalLink });
-
   return (
     <Card className="items-center p-6">
       <h4 className="text-h4 font-extrabold">{title}</h4>
