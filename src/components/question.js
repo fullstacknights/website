@@ -11,26 +11,28 @@ function Question({ isOpened, question, answer, id, onClick }) {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      className={`w-full mb-4 ${styles.container} ${
-        isOpened ? styles.containerOpened : ""
-      }`}
-    >
-      <Card className={`p-4 text-left ${isOpened ? "shadow-lg" : ""}`}>
-        <div className="flex items-center justify-between">
-          <p className="text-lg font-semibold">{question}</p>
-          <img
-            className={`${styles.chevron} ${
-              isOpened ? styles.chevronOpened : ""
-            }`}
-            src={Chevron}
-            alt="Chevron"
-          />
-        </div>
-        {isOpened ? <p className="text-rg mt-2">{answer}</p> : null}
-      </Card>
-    </button>
+    <li className="mb-4">
+      <button
+        onClick={handleClick}
+        className={`w-full ${styles.container} ${
+          isOpened ? styles.containerOpened : ""
+        }`}
+      >
+        <Card className={`p-4 text-left ${isOpened ? "shadow-lg" : ""}`}>
+          <div className="flex items-center justify-between">
+            <p className="text-lg font-semibold">{question}</p>
+            <img
+              className={`${styles.chevron} ${
+                isOpened ? styles.chevronOpened : ""
+              }`}
+              src={Chevron}
+              alt="Chevron"
+            />
+          </div>
+          {isOpened ? <p className="text-rg mt-2">{answer}</p> : null}
+        </Card>
+      </button>
+    </li>
   );
 }
 

@@ -1,3 +1,7 @@
+.container {
+  @apply list-none;
+}
+
 .container :last-child {
   @apply mb-0;
 }

@@ -17,7 +17,7 @@ function FAQList({ list }) {
   );
 
   return (
-    <div className={styles.container}>
+    <ul className={styles.container}>
       {list.map((item, index) => (
         <Question
           key={index}
@@ -28,7 +28,7 @@ function FAQList({ list }) {
           onClick={toggleOpened}
         />
       ))}
-    </div>
+    </ul>
   );
 }
 
