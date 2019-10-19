@@ -40,17 +40,20 @@ function Navbar() {
           <Link to="/about/" className="text-white text-rg uppercase mr-4">
             About
           </Link>
-          <Link to="/events/" className="text-white text-rg uppercase mr-4">
-            Events
-          </Link>
           <Link to="/schedule/" className="text-white text-rg uppercase mr-4">
             Schedule
           </Link>
-          <Link to="/videos/" className="text-white text-rg uppercase mr-4">
-            Videos
+          <Link
+            to="/become-a-speaker/"
+            className="text-white text-rg uppercase mr-4"
+          >
+            Become a Speaker
           </Link>
-          <Link to="/podcast/" className="text-white text-rg uppercase">
-            Podcast
+          <Link
+            to="/become-a-moderator/"
+            className="text-white text-rg uppercase"
+          >
+            Become a Moderator
           </Link>
         </div>
       </div>
