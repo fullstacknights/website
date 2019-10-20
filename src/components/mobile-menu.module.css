@@ -1,0 +1,9 @@
+.container {
+  transform: translate(0, -100%);
+  transition: all 250ms ease;
+}
+
+.containerOpened {
+  transform: translate(0, 0);
+  transition: all 250ms ease;
+}

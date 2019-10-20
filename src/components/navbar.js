@@ -1,12 +1,14 @@
 import React, { useState, useEffect, useCallback } from "react";
+import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import throttle from "lodash.throttle";
 
 import Logo from "../assets/logo.svg";
 import Menu from "../assets/menu.svg";
+import { SECTIONS } from "../constants";
 import styles from "./navbar.module.css";
 
-function Navbar() {
+function Navbar({ toggleMenu }) {
   const [isTransparent, setIsTransparent] = useState(true);
   const handleScroll = useCallback(
     throttle(() => {
@@ -29,7 +31,7 @@ function Navbar() {
 
   return (
     <nav
-      className={`flex items-center justify-center py-3 sticky top-0 z-50 ${
+      className={`flex items-center justify-center py-3 sticky top-0 z-40 ${
         !isTransparent ? `bg-gradient ${styles.shadow}` : ""
       }`}
     >
@@ -38,33 +40,28 @@ function Navbar() {
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>
         <div className={`hidden md:flex items-center ${styles.linksWrapper}`}>
-          <Link to="/about/" className="text-white text-rg uppercase mr-4">
-            About
-          </Link>
-          <Link to="/schedule/" className="text-white text-rg uppercase mr-4">
-            Schedule
-          </Link>
-          <Link
-            to="/become-a-speaker/"
-            className="text-white text-rg uppercase mr-4"
-          >
-            Become a Speaker
-          </Link>
-          <Link
-            to="/become-a-moderator/"
-            className="text-white text-rg uppercase"
-          >
-            Become a Moderator
-          </Link>
+          {SECTIONS.map((section, index) => (
+            <Link
+              key={index}
+              to={section.to}
+              className="text-white text-rg uppercase mr-4"
+            >
+              {section.title}
+            </Link>
+          ))}
         </div>
         <div className="flex md:hidden">
-          <button>
-            <img class="h-6 w-6" src={Menu} alt="hamburger menu" />
+          <button onClick={toggleMenu}>
+            <img className="h-6 w-6" src={Menu} alt="hamburger menu" />
           </button>
         </div>
       </div>
     </nav>
   );
 }
+
+Navbar.propTypes = {
+  toggleMenu: PropTypes.func
+};
 
 export default Navbar;
