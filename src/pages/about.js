@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  Avatar,
   GradientBackground,
   Layout,
   PageSection,
@@ -76,31 +77,15 @@ export default function() {
       </PageSection>
       <PageSection title="Event organizers">
         <div className="flex flex-wrap">
-          {ORGANIZERS.map(organizer => (
-            <div className="w-1/4 text-center">
-              <img
-                className="avatar m-auto"
-                src={organizer.img}
-                alt={organizer.name}
-                style={{ height: 150, width: 150 }}
-              />
-              <p className="mt-3">{organizer.name}</p>
-            </div>
+          {ORGANIZERS.map((organizer, index) => (
+            <Avatar key={index} {...organizer} />
           ))}
         </div>
       </PageSection>
       <PageSection title="Founders">
         <div className="flex flex-wrap">
-          {FOUNDERS.map(founder => (
-            <div className="w-1/4 text-center">
-              <img
-                className="avatar m-auto"
-                src={founder.img}
-                alt={founder.name}
-                style={{ height: 150, width: 150 }}
-              />
-              <p className="mt-3">{founder.name}</p>
-            </div>
+          {FOUNDERS.map((founder, index) => (
+            <Avatar key={index} {...founder} />
           ))}
         </div>
       </PageSection>

@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  Avatar,
   GradientBackground,
   Layout,
   PageSection
@@ -94,16 +95,8 @@ export default function() {
         description="Contact one of the organizars through twitter or personally."
       >
         <div className="flex flex-wrap">
-          {ORGANIZERS.map(organizer => (
-            <div className="w-1/4 text-center">
-              <img
-                className="avatar m-auto"
-                src={organizer.img}
-                alt={organizer.name}
-                style={{ height: 150, width: 150 }}
-              />
-              <p className="mt-3">{organizer.name}</p>
-            </div>
+          {ORGANIZERS.map((organizer, index) => (
+            <Avatar key={index} {...organizer} />
           ))}
         </div>
       </PageSection>

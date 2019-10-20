@@ -1,3 +1,4 @@
+import Avatar from "./avatar";
 import CallToAction from "./call-to-action";
 import Card from "./card";
 import FAQList from "./faq";
@@ -13,6 +14,7 @@ import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
 
 export {
+  Avatar,
   CallToAction,
   Card,
   FAQList,

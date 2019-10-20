@@ -1,6 +1,7 @@
 import React from "react";
 
 import {
+  Avatar,
   Layout,
   GradientBackground,
   PageSection,
@@ -132,16 +133,8 @@ export default function() {
       </PageSection>
       <PageSection title="Past Fullstack Nights Speakers">
         <div className="flex flex-wrap">
-          {PAST_SPEAKERS.map(speaker => (
-            <div className="w-1/4 text-center mb-8">
-              <img
-                className="avatar m-auto"
-                src={speaker.img}
-                alt={speaker.fullname}
-                style={{ height: 150, width: 150 }}
-              />
-              <p className="mt-3">{speaker.fullname}</p>
-            </div>
+          {PAST_SPEAKERS.map((speaker, index) => (
+            <Avatar key={index} name={speaker.fullname} img={speaker.img} />
           ))}
         </div>
       </PageSection>

@@ -1,0 +1,19 @@
+.container {
+  @apply w-1/2 mb-6 text-center;
+}
+
+.container:nth-child(3),
+.container:nth-child(4) {
+  @apply mb-0;
+}
+
+.img {
+  height: 150px;
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    @apply w-1/4 mb-0;
+  }
+}
