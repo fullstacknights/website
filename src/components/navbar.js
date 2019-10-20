@@ -3,6 +3,7 @@ import { Link } from "gatsby";
 import throttle from "lodash.throttle";
 
 import Logo from "../assets/logo.svg";
+import Menu from "../assets/menu.svg";
 import styles from "./navbar.module.css";
 
 function Navbar() {
@@ -36,7 +37,7 @@ function Navbar() {
         <Link to="/">
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>
-        <div className={`flex items-center ${styles.linksWrapper}`}>
+        <div className={`hidden md:flex items-center ${styles.linksWrapper}`}>
           <Link to="/about/" className="text-white text-rg uppercase mr-4">
             About
           </Link>
@@ -55,6 +56,11 @@ function Navbar() {
           >
             Become a Moderator
           </Link>
+        </div>
+        <div className="flex md:hidden">
+          <button>
+            <img class="h-6 w-6" src={Menu} alt="hamburger menu" />
+          </button>
         </div>
       </div>
     </nav>

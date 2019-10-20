@@ -9,7 +9,7 @@ const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
 function UpcomingEvent() {
   return (
     <section className="mb-20">
-      <Card className={`w-11/12 m-auto py-7 text-center ${styles.container}`}>
+      <Card className={`w-11/12 m-auto p-6 text-center mt-20 md:-mt-58`}>
         <div className="mb-4">
           <h3 className="text-h3 font-extrabold mb-5">Upcoming event</h3>
           <h4 className="text-h4 mb-2">Speakers</h4>
@@ -28,7 +28,7 @@ function UpcomingEvent() {
         </div>
         <h4 className="text-h4 font-extrabold">Line up for the next event</h4>
         <div
-          className={`flex justify-center mt-6 mb-8 ${styles.profileContainer}`}
+          className={`flex flex-wrap justify-center mt-6 mb-8 ${styles.profileContainer} md:flex-no-wrap`}
         >
           <ProfileCard
             img="https://randomuser.me/api/portraits/men/3.jpg"

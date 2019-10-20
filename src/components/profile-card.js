@@ -9,7 +9,10 @@ import Twitter from "../assets/twitter.svg";
 
 function ProfileCard({ name, img, title }) {
   return (
-    <Card className={`items-center p-6 ${styles.container}`} variant="dark">
+    <Card
+      className={`${styles.container} items-center p-6 w-full m-auto mb-4 md:m-0 md:mb-0 md:mr-5 md:ml-5`}
+      variant="dark"
+    >
       <div className="mb-4">
         <img className={`avatar ${styles.img}`} src={img} alt={name} />
       </div>
