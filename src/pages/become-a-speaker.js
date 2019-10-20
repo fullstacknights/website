@@ -80,7 +80,7 @@ export default function() {
   return (
     <Layout>
       <GradientBackground>
-        <div className="flex flex-col items-center justify-center text-center h-full">
+        <div className="flex flex-col items-center justify-center text-center h-full px-4">
           <h2 className="text-h2 font-bold text-white">
             Give a talk at Fullstack Nights!
           </h2>
@@ -100,20 +100,20 @@ export default function() {
         title="We'll help you craft your presentation"
         description="We are committed to help you have the best presentaion possible. In order to do so we take the following steps before your presentation"
       >
-        <div className="flex">
-          <div className="w-1/3 mr-4">
+        <div className="flex flex-wrap md:flex-no-wrap">
+          <div className="w-full mb-4 md:w-1/3 md:mr-4 md:mb-0">
             <CallToAction
               title="Topic scoping"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
             />
           </div>
-          <div className="w-1/3 mr-4">
+          <div className="w-full mb-4 md:w-1/3 md:mr-4 md:mb-0">
             <CallToAction
               title="Slides evaluation"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
             />
           </div>
-          <div className="w-1/3">
+          <div className="w-full md:w-1/3 md:mr-4">
             <CallToAction
               title="Presentation rehearsal"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
@@ -126,7 +126,7 @@ export default function() {
         description="We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter."
       >
         <div className="flex justify-center">
-          <div className="w-10/12">
+          <div className="w-full md:w-10/12">
             <FAQList list={FAQ} />
           </div>
         </div>

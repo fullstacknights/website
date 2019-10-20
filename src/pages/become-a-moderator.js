@@ -90,9 +90,9 @@ export default function() {
           </h4>
         </div>
       </GradientBackground>
-      <div className="w-2/3 m-auto mb-20" style={{ marginTop: -260 }}>
-        <div className="flex">
-          <div className="w-1/2 mr-4">
+      <div className="w-11/12 m-auto mb-20 mt-20 md:w-2/3 md:-mt-52">
+        <div className="flex flex-wrap md:flex-no-wrap">
+          <div className="w-full mb-4 md:w-1/2 md:mr-4 md:mb-0">
             <CallToAction
               title="Topic scoping"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
@@ -100,7 +100,7 @@ export default function() {
               urlTitle="Apply"
             />
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2">
             <CallToAction
               title="Slides evaluation"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
@@ -115,7 +115,7 @@ export default function() {
         description="We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter."
       >
         <div className="flex justify-center">
-          <div className="w-10/12">
+          <div className="w-full md:w-10/12">
             <FAQList list={FAQ} />
           </div>
         </div>

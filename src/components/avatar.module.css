@@ -1,10 +1,5 @@
 .container {
-  @apply w-1/2 mb-6 text-center;
-}
-
-.container:nth-child(3),
-.container:nth-child(4) {
-  @apply mb-0;
+  @apply w-1/2 mt-3 mb-3 text-center;
 }
 
 .img {
