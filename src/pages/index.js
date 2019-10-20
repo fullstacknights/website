@@ -19,8 +19,8 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
-      <GradientBackground>
-        <div className="flex flex-col items-center justify-center h-full py-6 px-4 -mt-13 text-center md:block md:mb-8 md:mt-12">
+      <GradientBackground className="flex flex-col items-center justify-center md:block">
+        <div className="py-6 px-4 -mt-13 text-center md:mb-8 md:mt-12">
           <h2 className="text-h2 font-bold text-white">Fullstack Nights</h2>
           <h4 className="text-h4 text-white">
             Charlas sobre technología y diseño en un ambiente informal

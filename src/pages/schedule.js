@@ -54,26 +54,24 @@ const EVENTS = [
 export default function() {
   return (
     <Layout>
-      <GradientBackground>
-        <div className="flex px-9 mt-18 mb-12">
-          <div className="flex flex-col w-1/3">
-            <h2 className="text-h2 font-bold text-white">Schedule</h2>
-            <h4 className="text-h4 text-white mb-8">
-              Charlas sobre tecnología y diseño en un ambiente informal
-            </h4>
-            <a
-              className="btn btn--primary mt-11"
-              href="https://fullstacknights.eventbrite.com"
-              target="_blank"
-            >
-              Get tickets
-            </a>
-          </div>
+      <GradientBackground className="flex flex-col items-center justify-center md:items-start md:justify-start">
+        <div className="py-6 px-4 -mt-13 text-center md:w-1/3 md:text-left md:py-0 md:mt-18 md:pl-8 md:pr-0">
+          <h2 className="text-h2 font-bold text-white">Schedule</h2>
+          <h4 className="text-h4 text-white mb-8">
+            Charlas sobre tecnología y diseño en un ambiente informal
+          </h4>
+          <a
+            className="btn btn--primary mt-11"
+            href="https://fullstacknights.eventbrite.com"
+            target="_blank"
+          >
+            Get tickets
+          </a>
         </div>
       </GradientBackground>
-      <div className="flex justify-end px-9 mb-15">
-        <div className="inline-block w-2/3" style={{ marginTop: -410 }}>
-          <Card className="p-8 ml-6">
+      <div className="w-11/12 m-auto mb-15 md:flex md:justify-end md:px-9">
+        <div className="inline-block mt-20 md:-mt-82 md:w-2/3">
+          <Card className="p-4 md:p-8 md:ml-6">
             <Timeline events={EVENTS} />
           </Card>
         </div>

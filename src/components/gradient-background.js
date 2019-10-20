@@ -9,6 +9,10 @@ function GradientBackground({ children, className }) {
   );
 }
 
+GradientBackground.defaultProps = {
+  className: ""
+};
+
 GradientBackground.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
