@@ -14,7 +14,7 @@ function CallToAction({ title, description, url, urlTitle }) {
 
   return (
     <Card className="items-center p-6">
-      <h4 className="text-h4 font-extrabold">{title}</h4>
+      <h4 className="text-h4 text-center font-extrabold">{title}</h4>
       <Division />
       <p className="text-lg text-center">{description}</p>
       {isExternalLink && url ? (

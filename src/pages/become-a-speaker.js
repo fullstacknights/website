@@ -98,20 +98,20 @@ export default function() {
         title="We'll help you craft your presentation"
         description="We are committed to help you have the best presentaion possible. In order to do so we take the following steps before your presentation"
       >
-        <div className="flex flex-wrap md:flex-no-wrap">
-          <div className="w-full mb-4 md:w-1/3 md:mr-4 md:mb-0">
+        <div className="flex flex-wrap lg:flex-no-wrap">
+          <div className="w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Topic scoping"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
             />
           </div>
-          <div className="w-full mb-4 md:w-1/3 md:mr-4 md:mb-0">
+          <div className="w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Slides evaluation"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
             />
           </div>
-          <div className="w-full md:w-1/3 md:mr-4">
+          <div className="w-full lg:w-1/3 lg:mr-4">
             <CallToAction
               title="Presentation rehearsal"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
@@ -124,7 +124,7 @@ export default function() {
         description="We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter."
       >
         <div className="flex justify-center">
-          <div className="w-full md:w-10/12">
+          <div className="w-full lg:w-10/12">
             <FAQList list={FAQ} />
           </div>
         </div>

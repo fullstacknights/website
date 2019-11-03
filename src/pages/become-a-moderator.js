@@ -90,9 +90,9 @@ export default function() {
           </h4>
         </div>
       </GradientBackground>
-      <div className="w-11/12 m-auto mb-20 mt-20 md:w-2/3 md:-mt-52 max-w-6xl">
-        <div className="flex flex-wrap md:flex-no-wrap">
-          <div className="w-full mb-4 md:w-1/2 md:mr-4 md:mb-0">
+      <div className="w-11/12 m-auto mb-20 mt-20 lg:w-2/3 lg:-mt-52 max-w-6xl">
+        <div className="flex flex-wrap lg:flex-no-wrap">
+          <div className="w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Topic scoping"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
@@ -100,7 +100,7 @@ export default function() {
               urlTitle="Apply"
             />
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full lg:w-1/2">
             <CallToAction
               title="Slides evaluation"
               description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
@@ -115,7 +115,7 @@ export default function() {
         description="We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter."
       >
         <div className="flex justify-center">
-          <div className="w-full md:w-10/12">
+          <div className="w-full lg:w-10/12">
             <FAQList list={FAQ} />
           </div>
         </div>

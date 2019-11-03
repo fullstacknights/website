@@ -39,7 +39,7 @@ function Navbar({ toggleMenu }) {
         <Link to="/">
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>
-        <div className={`hidden md:flex items-center ${styles.linksWrapper}`}>
+        <div className={`hidden lg:flex items-center ${styles.linksWrapper}`}>
           {SECTIONS.map((section, index) => (
             <Link
               key={index}
@@ -50,7 +50,7 @@ function Navbar({ toggleMenu }) {
             </Link>
           ))}
         </div>
-        <div className="flex md:hidden">
+        <div className="flex lg:hidden">
           <button onClick={toggleMenu}>
             <img className="h-6 w-6" src={Menu} alt="hamburger menu" />
           </button>

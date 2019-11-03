@@ -67,9 +67,9 @@ export default function() {
           Get tickets
         </a>
       </GradientBackground>
-      <div className="w-11/12 m-auto mb-15 md:w-2/3 md:flex md:justify-center md:items-center">
+      <div className="w-11/12 m-auto mb-15 lg:w-2/3 lg:flex lg:justify-center lg:items-center">
         <div className="mt-20">
-          <Card className="p-4 md:p-8 md:ml-6">
+          <Card className="p-4 lg:p-8 lg:ml-6">
             <Timeline events={EVENTS} />
           </Card>
         </div>
