@@ -9,7 +9,7 @@ const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
 function UpcomingEvent() {
   return (
     <section className="mb-20">
-      <Card className={`w-11/12 m-auto p-6 text-center mt-20 md:-mt-58`}>
+      <Card className="w-11/12 m-auto p-6 text-center mt-20 md:-mt-52 max-w-6xl">
         <div className="mb-4">
           <h3 className="text-h3 font-extrabold mb-5">Upcoming event</h3>
           <h4 className="text-h4 mb-2">Speakers</h4>

@@ -12,18 +12,11 @@ import { ORGANIZERS } from "../constants";
 export default function() {
   return (
     <Layout>
-      <GradientBackground>
-        <div className="flex items-center justify-center h-full">
-          <div
-            className="w-10/12 text-center self-center"
-            style={{ marginTop: -65 }}
-          >
-            <h2 className="text-h2 font-bold text-white">Code of conduct</h2>
-            <h4 className="text-h4 text-white">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </h4>
-          </div>
-        </div>
+      <GradientBackground className="flex flex-col items-center justify-center text-center">
+        <h2 className="text-h2 font-bold text-white">Code of conduct</h2>
+        <h4 className="text-h4 text-white">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </h4>
       </GradientBackground>
       <PageSection title="Short version" className="mt-20">
         <div className="w-11/12 m-auto">

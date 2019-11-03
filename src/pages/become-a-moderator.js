@@ -79,7 +79,7 @@ const PAST_SPEAKERS = [
 export default function() {
   return (
     <Layout>
-      <GradientBackground>
+      <GradientBackground className="pt-13">
         <div className="flex flex-col text-center mt-18">
           <h2 className="text-h2 font-bold text-white">
             Become a topic moderator
@@ -90,7 +90,7 @@ export default function() {
           </h4>
         </div>
       </GradientBackground>
-      <div className="w-11/12 m-auto mb-20 mt-20 md:w-2/3 md:-mt-52">
+      <div className="w-11/12 m-auto mb-20 mt-20 md:w-2/3 md:-mt-52 max-w-6xl">
         <div className="flex flex-wrap md:flex-no-wrap">
           <div className="w-full mb-4 md:w-1/2 md:mr-4 md:mb-0">
             <CallToAction

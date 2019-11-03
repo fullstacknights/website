@@ -79,21 +79,19 @@ const PAST_SPEAKERS = [
 export default function() {
   return (
     <Layout>
-      <GradientBackground>
-        <div className="flex flex-col items-center justify-center text-center h-full px-4">
-          <h2 className="text-h2 font-bold text-white">
-            Give a talk at Fullstack Nights!
-          </h2>
-          <h4 className="text-h4 text-white mb-8">
-            We're constantly looking for speakers. Join us!
-          </h4>
-          <a href={FORM_LINK} className="btn btn--primary mb-3">
-            Propose a talk
-          </a>
-          <p className="text-white text-xs">
-            Have questions? Check out our FAQ or email us
-          </p>
-        </div>
+      <GradientBackground className="flex flex-col items-center justify-center text-center">
+        <h2 className="text-h2 font-bold text-white">
+          Give a talk at Fullstack Nights!
+        </h2>
+        <h4 className="text-h4 text-white mb-8">
+          We're constantly looking for speakers. Join us!
+        </h4>
+        <a href={FORM_LINK} className="btn btn--primary mb-3">
+          Propose a talk
+        </a>
+        <p className="text-white text-xs">
+          Have questions? Check out our FAQ or email us
+        </p>
       </GradientBackground>
       <PageSection
         className="mt-20"

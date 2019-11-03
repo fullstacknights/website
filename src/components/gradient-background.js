@@ -5,7 +5,9 @@ import styles from "./gradient-background.module.css";
 
 function GradientBackground({ children, className }) {
   return (
-    <section className={`${styles.container} ${className}`}>{children}</section>
+    <section className={`${styles.container} ${className}`}>
+      <div className="max-w-6xl m-auto">{children}</div>
+    </section>
   );
 }
 

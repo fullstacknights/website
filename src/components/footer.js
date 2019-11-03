@@ -22,8 +22,11 @@ function Icon({ url, icon, alt }) {
 
 function Footer() {
   return (
-    <footer className="flex items-center justify-center py-3 bg-background">
-      <div className="flex flex-wrap items-center justify-between w-11/12">
+    <footer
+      className="flex items-center justify-center py-3 bg-background"
+      style={{ borderTop: "2px solid rgba(207,215,223,.25)" }}
+    >
+      <div className="flex flex-wrap items-center justify-between w-11/12 max-w-6xl">
         <div className="flex items-center">
           <Icon url={FACEBOOK_LINK} icon={Facebook} alt="Facebook link" />
           <Icon url={TWITTER_LINK} icon={Twitter} alt="Twitter link" />

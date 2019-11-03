@@ -35,7 +35,7 @@ function Navbar({ toggleMenu }) {
         !isTransparent ? `bg-gradient ${styles.shadow}` : ""
       }`}
     >
-      <div className="flex justify-between w-11/12">
+      <div className="flex justify-between w-11/12 max-w-6xl">
         <Link to="/">
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>

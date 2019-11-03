@@ -19,8 +19,8 @@ function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
-      <GradientBackground className="flex flex-col items-center justify-center md:block">
-        <div className="py-6 px-4 -mt-13 text-center md:mb-8 md:mt-12">
+      <GradientBackground className="flex flex-col items-center justify-center pt-13 md:block">
+        <div className="-mt-13 text-center md:mb-8 md:mt-18">
           <h2 className="text-h2 font-bold text-white">Fullstack Nights</h2>
           <h4 className="text-h4 text-white">
             Charlas sobre technología y diseño en un ambiente informal
@@ -58,7 +58,7 @@ function IndexPage() {
           </div>
         </div>
       </PageSection>
-      <div className="flex flex-wrap justify-between m-auto mb-20 w-11/12 md:flex-no-wrap">
+      <div className="flex flex-wrap justify-between m-auto mb-20 w-11/12 md:flex-no-wrap max-w-6xl">
         <div className="w-full text-center md:w-1/2 md:text-left">
           <h3 className="text-h3 font-extrabold mb-8">Podcast</h3>
           <h4 className="text-h4">
