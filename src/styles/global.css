@@ -48,3 +48,20 @@ body {
   @apply border border-brand shadow;
   border-radius: 100%;
 }
+
+.link {
+  margin-bottom: -3px;
+}
+
+.link::after {
+  content: "";
+  display: flex;
+  width: 0;
+  height: 3px;
+}
+
+.link:hover::after {
+  @apply bg-primary;
+  width: 100%;
+  transition: width 0.3s;
+}

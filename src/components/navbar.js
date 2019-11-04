@@ -44,7 +44,7 @@ function Navbar({ toggleMenu }) {
             <Link
               key={index}
               to={section.to}
-              className="text-white text-rg uppercase mr-4"
+              className="text-white text-rg uppercase mr-4 link"
             >
               {section.title}
             </Link>

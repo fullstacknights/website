@@ -33,7 +33,9 @@ function Footer() {
           <Icon url={YOUTUBE_LINK} icon={YouTube} alt="YouTube link" />
           <Icon url={GITHUB_LINK} icon={Github} alt="Github link" />
         </div>
-        <Link to="/code-of-conduct/">Code of Conduct</Link>
+        <Link className="link" to="/code-of-conduct/">
+          Code of Conduct
+        </Link>
         <p className="flex-1 text-center mt-4 lg:mt-0 lg:text-right">
           Copyright © Fullstack Nights 2019
         </p>

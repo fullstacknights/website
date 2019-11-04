@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 
 import Card from "./card";
 import ProfileCard from "./profile-card";
@@ -41,8 +42,22 @@ function UpcomingEvent() {
             title="Something cool goes here!"
           />
         </div>
-        <p className="text-rg">
-          While you wait for the event check out our code of conduct, schedule
+        <p className="text-rg inline-block">
+          While you wait for the event check out our{" "}
+          <div className="inline-block">
+            <Link
+              className="flex flex-col self-center link"
+              to="/code-of-conduct"
+            >
+              code of conduct
+            </Link>
+          </div>
+          ,{" "}
+          <div className="inline-block">
+            <Link className="flex flex-col link" to="/schedule">
+              schedule
+            </Link>
+          </div>{" "}
           or request an open mic spot.
         </p>
       </Card>
