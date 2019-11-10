@@ -7,20 +7,7 @@ import {
   PageSection,
   PageHighlight
 } from "../components/index.js";
-import { ORGANIZERS } from "../constants";
-
-const FOUNDERS = [
-  { name: "Axel Rivera", img: "https://randomuser.me/api/portraits/men/3.jpg" },
-  {
-    name: "Froilan Irizarry",
-    img: "https://randomuser.me/api/portraits/men/3.jpg"
-  },
-  {
-    name: "Giovanni Collazo",
-    img: "https://randomuser.me/api/portraits/men/3.jpg"
-  },
-  { name: "José Padilla", img: "https://randomuser.me/api/portraits/men/3.jpg" }
-];
+import { ORGANIZERS, FOUNDERS } from "../constants";
 
 const QUESTIONS = [
   {
