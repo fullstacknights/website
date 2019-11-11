@@ -10,6 +10,7 @@ import {
   PageHighlight
 } from "../components/index";
 import { SLACK_LINK } from "../constants";
+import PAST_SPEAKERS from "../past-speakers";
 
 const FORM_LINK =
   "https://docs.google.com/forms/d/1SIL9HvzaQ34F3iHIIsMmDlS5Icoc9XPXTwrsr9_M87U/edit?ts=57ff9dee";
@@ -34,45 +35,6 @@ const FAQ = [
     question: "Where can I find examples of other talks and presentations?",
     answer:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
-  }
-];
-
-const PAST_SPEAKERS = [
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
-  },
-  {
-    img: "https://randomuser.me/api/portraits/men/3.jpg",
-    fullname: "Juan Pueblo"
   }
 ];
 
