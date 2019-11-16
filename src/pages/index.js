@@ -11,23 +11,32 @@ import {
   GradientBackground
 } from "../components/index";
 
-import RSS from "../assets/rss.svg";
 import ApplePodcasts from "../assets/apple-podcasts.svg";
 import { SLACK_LINK } from "../constants";
+import RSS from "../assets/rss.svg";
+import CONFIG from "../config";
 
 function IndexPage() {
   return (
     <Layout>
       <SEO title="Home" />
-      <GradientBackground className="flex flex-col items-center justify-center pt-13 lg:block">
-        <div className="-mt-13 text-center lg:mb-8 lg:mt-18">
+      <GradientBackground
+        className={`flex flex-col items-center justify-center pt-13 ${
+          CONFIG.activeEvent ? "lg:block" : "mb-20"
+        }`}
+      >
+        <div
+          className={`-mt-13 text-center ${
+            CONFIG.activeEvent ? "lg:mb-8 lg:mt-18" : ""
+          }`}
+        >
           <h2 className="text-h2 font-bold text-white">Fullstack Nights</h2>
           <h4 className="text-h4 text-white">
             Charlas sobre technología y diseño en un ambiente informal
           </h4>
         </div>
       </GradientBackground>
-      <UpcomingEvent />
+      {CONFIG.activeEvent ? <UpcomingEvent /> : null}
       <PageSection
         title="Be a part of our events"
         description="The Fullstack Nights events are done by the community for the
