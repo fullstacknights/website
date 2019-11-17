@@ -48,7 +48,7 @@ export default function() {
           Give a talk at Fullstack Nights!
         </h2>
         <h4 className="text-h4 text-white mb-8">
-          We're looking for speakers. Join us!
+          We're always on the lookout for new speakers. Join us!
         </h4>
         <a href={FORM_LINK} className="btn btn--primary mb-3">
           Propose a talk

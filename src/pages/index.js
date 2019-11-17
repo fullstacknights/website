@@ -61,7 +61,7 @@ function IndexPage() {
           <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Become a moderator"
-              description="We're looking for  knowledgeable people that are willing to moderate a discussion. As a moderator you will help establish and move a topic along. The goal is for everyone to learn and share their experience through conversations."
+              description="We're looking for knowledgeable people that are willing to moderate a discussion. As a moderator you will help establish and move a topic along. The goal is for everyone to learn and share their experience through conversations."
               url="/become-a-moderator/"
             />
           </div>

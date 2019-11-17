@@ -56,18 +56,18 @@ export default function() {
       </GradientBackground>
       <div className="w-11/12 m-auto mb-20 mt-20 lg:w-2/3 lg:-mt-52 max-w-6xl">
         <div className="flex flex-wrap lg:flex-no-wrap">
-          <div className="w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
+          <div className="flex flex-initial w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
-              title="Topic scoping"
-              description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+              title="Moderator"
+              description="A moderator is someone who's knowledgeable about a specific topic and is willing to share their experience with others. As a moderator you will help establish and move a topic along. The goal is for everyone to learn and share their experience through conversations."
               url={FORM_LINK}
               urlTitle="Apply"
             />
           </div>
-          <div className="w-full lg:w-1/2">
+          <div className="flex flex-initial w-full lg:w-1/2">
             <CallToAction
-              title="Slides evaluation"
-              description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+              title="Topic"
+              description="You don't have to be a moderator to participate on FSN Topic Tables. If you're interested in having a conversation about a particular topic but you don't feel confident to moderate a table or give a presentation? Don't worry, you can propose your topic and we'll do our best to find someone who's willing to moderate a table."
               url={FORM_LINK}
               urlTitle="Propose"
             />
