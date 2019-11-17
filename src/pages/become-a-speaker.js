@@ -101,10 +101,10 @@ export default function() {
         </div>
       </PageSection>
       <PageHighlight
-        header="Still have questions?"
-        subheader="Let us know if you have any questions about the presentation process. We’re here to help!"
+        header="Join the community in Slack"
+        subheader="Ask questions, get help from the community and stay up to date with the latest events."
         url={SLACK_LINK}
-        urlTitle="Contact us"
+        urlTitle="Join us"
       />
     </Layout>
   );
