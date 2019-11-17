@@ -87,7 +87,7 @@ export default function() {
       <PageSection title="Past Moderators">
         <div className="flex flex-wrap">
           {MODERATORS.map((moderator, index) => (
-            <Avatar key={index} name={moderator.fullname} img={moderator.img} />
+            <Avatar key={index} name={moderator.name} img={moderator.img} />
           ))}
         </div>
       </PageSection>

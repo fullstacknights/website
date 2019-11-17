@@ -96,7 +96,7 @@ export default function() {
       <PageSection title="Past Fullstack Nights Speakers">
         <div className="flex flex-wrap">
           {PAST_SPEAKERS.map((speaker, index) => (
-            <Avatar key={index} name={speaker.fullname} img={speaker.img} />
+            <Avatar key={index} name={speaker.name} img={speaker.img} />
           ))}
         </div>
       </PageSection>
