@@ -7,7 +7,8 @@ import {
   PageSection,
   CallToAction,
   FAQList,
-  PageHighlight
+  PageHighlight,
+  SEO
 } from "../components/index";
 import { SLACK_LINK } from "../constants";
 import MODERATORS from "../past-moderators";
@@ -41,6 +42,7 @@ const FAQ = [
 export default function() {
   return (
     <Layout>
+      <SEO title="Become a moderator" />
       <GradientBackground className="pt-13">
         <div className="flex flex-col text-center mt-18">
           <h2 className="text-h2 font-bold text-white">

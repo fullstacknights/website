@@ -4,7 +4,8 @@ import {
   Avatar,
   GradientBackground,
   Layout,
-  PageSection
+  PageSection,
+  SEO
 } from "../components/index.js";
 
 import { ORGANIZERS } from "../constants";
@@ -12,6 +13,7 @@ import { ORGANIZERS } from "../constants";
 export default function() {
   return (
     <Layout>
+      <SEO title="Code of Conduct" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
         <h2 className="text-h2 font-bold text-white">Code of conduct</h2>
         <h4 className="text-h4 text-white">

@@ -4,7 +4,8 @@ import {
   Card,
   GradientBackground,
   Layout,
-  Timeline
+  Timeline,
+  SEO
 } from "../components/index";
 
 const EVENTS = [
@@ -54,6 +55,7 @@ const EVENTS = [
 export default function() {
   return (
     <Layout>
+      <SEO title="Schedule" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
         <h2 className="text-h2 font-bold text-white">Schedule</h2>
         <h4 className="text-h4 text-white mb-8">

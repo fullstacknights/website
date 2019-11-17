@@ -5,7 +5,8 @@ import {
   GradientBackground,
   Layout,
   PageSection,
-  PageHighlight
+  PageHighlight,
+  SEO
 } from "../components/index.js";
 import { ORGANIZERS, FOUNDERS } from "../constants";
 
@@ -35,6 +36,7 @@ const QUESTIONS = [
 export default function() {
   return (
     <Layout>
+      <SEO title="About" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
         <h2 className="text-h2 font-bold text-white">
           A brief introduction to FSN
