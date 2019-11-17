@@ -34,7 +34,7 @@ function IndexPage() {
         >
           <h2 className="text-h2 font-bold text-white">Fullstack Nights</h2>
           <h4 className="text-h4 text-white">
-            Charlas sobre technología y diseño en un ambiente informal
+            A space for people to share their knowledge about code and design.
           </h4>
         </div>
       </GradientBackground>
@@ -48,29 +48,27 @@ function IndexPage() {
       ) : null}
       <PageSection
         title="Be a part of our events"
-        description="The Fullstack Nights events are done by the community for the
-    community. Without your participation we cannot keep these events
-    going."
+        description="Our events are done by the community for the community. Without you there would be no us."
       >
-        <div className="flex flex-wrap lg:flex-no-wrap justify-between">
-          <div className="w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+        <div className="flex flex-wrap justify-between lg:flex-no-wrap">
+          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Become a speaker"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
+              description="We're looking for people who are willing to share their experiences with the community through talks. Speakers can be experts or people learning about a topic. If you're interested in sharing your experience building, designing, or programming let us know!"
               url="/become-a-speaker/"
             />
           </div>
-          <div className="w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+          <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Become a moderator"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
+              description="We're looking for  knowledgeable people that are willing to moderate a discussion. As a moderator you will help establish and move a topic along. The goal is for everyone to learn and share their experience through conversations."
               url="/become-a-moderator/"
             />
           </div>
-          <div className="w-full lg:w-1/3">
+          <div className="flex flex-initial w-full lg:w-1/3">
             <CallToAction
               title="Propose a topic"
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. A cum, ullam nisi optio soluta laboriosam eum dignissimos assumenda animi alias. Consectetur architecto repudiandae quidem, ea vitae rerum corrupti dolor expedita."
+              description="Interested in having a conversation about a particular topic but you don't feel confident to moderate a table or give a presentation? Don't worry, you can propose your topic and we'll try to find someone who's willing to share their knowledge and moderate a table."
               url="/become-a-moderator/"
             />
           </div>
@@ -80,7 +78,7 @@ function IndexPage() {
         <div className="w-full text-center lg:w-1/2 lg:text-left">
           <h3 className="text-h3 font-extrabold mb-8">Podcast</h3>
           <h4 className="text-h4">
-            Listen to the founds of Fullstack Nights geek out about technology
+            Listen to the founders of Fullstack Nights geek out about technology
             and events in the tech world in a relaxed environment.
           </h4>
           <div className="mt-8">
@@ -101,8 +99,7 @@ function IndexPage() {
       </div>
       <PageHighlight
         header="Join the community in Slack"
-        subheader="Ask questions, get help from the community and stay up to date with
-        the latest events."
+        subheader="Ask questions, get help from the community and stay up to date with the latest events."
         url={SLACK_LINK}
         urlTitle="Join us"
       />
