@@ -6,8 +6,22 @@ import styles from "./profile-card.module.css";
 import BrandLogo from "../assets/brand-logo.svg";
 import GitHub from "../assets/github.svg";
 import Twitter from "../assets/twitter.svg";
+import Dribbble from "../assets/dribbble.svg";
 
-function ProfileCard({ name, img, title }) {
+function getNetworkIcon(network) {
+  switch (network) {
+    case "twitter":
+      return Twitter;
+    case "github":
+      return GitHub;
+    case "dribbble":
+      return Dribbble;
+    default:
+      return "";
+  }
+}
+
+function ProfileCard({ name, img, title, links }) {
   return (
     <Card
       className={`${styles.container} items-center p-6 w-full m-auto mb-4 lg:m-0 lg:mb-0 lg:mr-5 lg:ml-5`}
@@ -28,12 +42,15 @@ function ProfileCard({ name, img, title }) {
       <div
         className={`${styles.socialNetworkContainer} flex items-center mt-4`}
       >
-        <a href="">
-          <img className={styles.socialNetwork} src={Twitter} alt="" />
-        </a>
-        <a href="">
-          <img className={styles.socialNetwork} src={GitHub} alt="" />
-        </a>
+        {links.map(link => (
+          <a href={link.url}>
+            <img
+              className={styles.socialNetwork}
+              src={getNetworkIcon(link.network)}
+              alt={link.network}
+            />
+          </a>
+        ))}
       </div>
     </Card>
   );

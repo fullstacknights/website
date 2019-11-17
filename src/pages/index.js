@@ -17,17 +17,19 @@ import RSS from "../assets/rss.svg";
 import CONFIG from "../config";
 
 function IndexPage() {
+  const { activeEvent, event } = CONFIG;
+
   return (
     <Layout>
       <SEO title="Home" />
       <GradientBackground
         className={`flex flex-col items-center justify-center pt-13 ${
-          CONFIG.activeEvent ? "lg:block" : "mb-20"
+          activeEvent ? "lg:block" : "mb-20"
         }`}
       >
         <div
           className={`-mt-13 text-center ${
-            CONFIG.activeEvent ? "lg:mb-8 lg:mt-18" : ""
+            activeEvent ? "lg:mb-8 lg:mt-18" : ""
           }`}
         >
           <h2 className="text-h2 font-bold text-white">Fullstack Nights</h2>
@@ -36,7 +38,14 @@ function IndexPage() {
           </h4>
         </div>
       </GradientBackground>
-      {CONFIG.activeEvent ? <UpcomingEvent /> : null}
+      {activeEvent ? (
+        <UpcomingEvent
+          type={event.type}
+          date={event.date}
+          venue={event.venue}
+          participants={event.participants}
+        />
+      ) : null}
       <PageSection
         title="Be a part of our events"
         description="The Fullstack Nights events are done by the community for the
