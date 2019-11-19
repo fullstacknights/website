@@ -20,22 +20,29 @@ const FAQ = [
   {
     question: "What can I speak about?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+      "You're welcomed to speak about programing languages, frameworks, tools, databases, infrastructure, email design, user interfaces, users experience, prototyping and any other topic or experience that can add value to our community."
   },
   {
-    question: "I’m new to this technology, can I speak about it?",
+    question: "How much time to I have to give my talk?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+      "The talk will be 20 minutes and 5 minutes of Q&A after the presentation is over."
+  },
+  {
+    question:
+      "I recently learned about a new technology, can I speak about it?",
+    answer:
+      "Yes, of course! When we've just learned about a topic we have a unique perspective compared to an expert. Don't count yourself out and apply as a speaker!"
   },
   {
     question: "Can I recommend someone to speak at this event?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+      "Yes! If you know someone that would be a good speaker at FSN you can apply on their behalf and we'll reach out to them."
   },
   {
-    question: "Where can I find examples of other talks and presentations?",
+    question:
+      "I've never done any public speaking before, should I apply as a speaker?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+      "Yes, you should! The FSN team is here to help you give the best talk possible! Before the event we'll rehearse the talk with you, give you feedback and help you polish your presentation."
   }
 ];
 
@@ -63,19 +70,19 @@ export default function() {
         description="We're committed to help you give the best talk possible. Before your talk we'll take the following steps:"
       >
         <div className="flex flex-wrap lg:flex-no-wrap">
-          <div className="w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Topic scoping"
               description="Before you're selected as a speaker we will research your topic. If your topic is too broad we'll discuss different approaches to narrow down your topic."
             />
           </div>
-          <div className="w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Slides evaluation"
               description="Two weeks before the event we'll rehearse the talk with you. We'll give you feedback about the structure of your talk, your delivery and the time you consumed presenting"
             />
           </div>
-          <div className="w-full lg:w-1/3 lg:mr-4">
+          <div className="flex flex-initial w-full lg:w-1/3 lg:mr-4">
             <CallToAction
               title="Presentation rehearsal"
               description="During the rehearsal we'll evaluate the content in your slides and give feedback to visually improve your talk."
