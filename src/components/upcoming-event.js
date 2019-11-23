@@ -11,9 +11,9 @@ const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
 function UpcomingEvent({ participants, type, date, venue }) {
   return (
     <section className="mb-20">
-      <Card className="w-11/12 m-auto p-6 text-center mt-20 lg:-mt-52 max-w-6xl">
+      <Card className="w-11/12 m-auto px-6 py-12 text-center mt-20 lg:-mt-52 max-w-6xl">
         <div className="mb-4">
-          <h3 className="text-h3 font-extrabold mb-5">Upcoming event</h3>
+          <h3 className="text-h3 font-extrabold mb-4">Upcoming event</h3>
           <h4 className="text-h4 mb-2">
             {type === "topic-tables" ? "Topic Tables" : "Speakers"}
           </h4>

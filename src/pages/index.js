@@ -12,8 +12,9 @@ import {
 } from "../components/index";
 
 import ApplePodcasts from "../assets/apple-podcasts.svg";
-import { SLACK_LINK } from "../constants";
 import RSS from "../assets/rss.svg";
+import Podcast from "../assets/podcast.svg";
+import { SLACK_LINK } from "../constants";
 import CONFIG from "../config";
 
 function IndexPage() {
@@ -75,29 +76,36 @@ function IndexPage() {
           </div>
         </div>
       </PageSection>
-      <div className="flex flex-wrap justify-between m-auto mb-20 w-11/12 lg:flex-no-wrap max-w-6xl">
-        <div className="w-full text-center lg:w-1/2 lg:text-left">
-          <h3 className="text-h3 font-extrabold mb-8">Podcast</h3>
-          <h4 className="text-h4">
-            Listen to the founders of Fullstack Nights geek out about technology
-            and events in the tech world in a relaxed environment.
-          </h4>
-          <div className="mt-8">
-            <h4 className="text-h4">Find on:</h4>
+      <PageSection
+        title="Podcast"
+        description="Listen to the founders of Fullstack Nights geek out about technology
+        and events in the tech world in a relaxed environment."
+      >
+        <div className="flex flex-col items-center justify-center">
+          <img className="w-1/4" src={Podcast} alt="podcast" />
+          <div className="mt-8 text-center">
+            <h4 className="text-lg mb-2">Find us on:</h4>
             <div className="flex justify-center lg:justify-start">
-              <img
-                className="h-8 w-8 mr-3"
-                src={ApplePodcasts}
-                alt="Apple podcasts logo"
-              />
-              <img className="h-8 w-8" src={RSS} alt="RSS logo" />
+              <button className="btn text-white bg-gradient--apple-podcast mr-4">
+                <div className="flex flex-row items-center">
+                  <img
+                    className="mr-2"
+                    src={ApplePodcasts}
+                    alt="Apple Podcasts"
+                  />
+                  Apple Podcasts
+                </div>
+              </button>
+              <button class="btn text-white bg-rss">
+                <div className="flex flex-row items-center">
+                  <img className="inline-block mr-2" src={RSS} alt="RSS" />
+                  RSS Feed
+                </div>
+              </button>
             </div>
           </div>
         </div>
-        <div className="w-full mt-8 lg:w-1/2 lg:mt-0">
-          <Image />
-        </div>
-      </div>
+      </PageSection>
       <PageHighlight
         header="Join the community in Slack"
         subheader="Ask questions, get help from the community and stay up to date with the latest events."

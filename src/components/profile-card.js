@@ -43,9 +43,13 @@ function ProfileCard({ name, img, title, links }) {
         className={`${styles.socialNetworkContainer} flex items-center mt-4`}
       >
         {links.map(link => (
-          <a href={link.url}>
+          <a href={link.url} target="_blank" rel="noopener noreferrer">
             <img
-              className={styles.socialNetwork}
+              className={
+                link.network === "twitter"
+                  ? styles.socialNetworkTwitter
+                  : styles.socialNetwork
+              }
               src={getNetworkIcon(link.network)}
               alt={link.network}
             />
