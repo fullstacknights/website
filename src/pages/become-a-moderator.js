@@ -18,24 +18,14 @@ const FORM_LINK =
 
 const FAQ = [
   {
-    question: "What can I speak about?",
+    question: "What is topic tables?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+      "Topic Tables is an event that brings together the community to talk about different topics in a relaxed and informal environment. Participants will be able to ask questions, talk about their experience and learn from others through moderated conversations."
   },
   {
-    question: "I’m new to this technology, can I speak about it?",
+    question: "Who should attend to this event?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
-  },
-  {
-    question: "Can I recommend someone to speak at this event?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
-  },
-  {
-    question: "Where can I find examples of other talks and presentations?",
-    answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere atque minus et debitis! Illo obcaecati, maiores nemo odit animi distinctio error tenetur"
+      "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
   }
 ];
 
@@ -46,11 +36,11 @@ export default function() {
       <GradientBackground className="pt-13">
         <div className="flex flex-col text-center mt-18">
           <h2 className="text-h2 font-bold text-white">
-            Become a topic moderator
+            Chat with the community on Topic Tables!
           </h2>
           <h4 className="text-h4 text-white mb-8">
-            We’re constantly looking for moderators and topics for FSN Topic
-            Tables. Join us!
+            We're looking for people that are willing to share their experience
+            with the community!
           </h4>
         </div>
       </GradientBackground>
@@ -59,7 +49,7 @@ export default function() {
           <div className="flex flex-initial w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Moderator"
-              description="A moderator is someone who's knowledgeable about a specific topic and is willing to share their experience with others. As a moderator you will help establish and move a topic along. The goal is for everyone to learn and share their experience through conversations."
+              description="We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic. The goal is for beginners and experts alike to learn and share their experience through conversations."
               url={FORM_LINK}
               urlTitle="Apply"
             />
@@ -67,7 +57,7 @@ export default function() {
           <div className="flex flex-initial w-full lg:w-1/2">
             <CallToAction
               title="Topic"
-              description="You don't have to be a moderator to participate on FSN Topic Tables. If you're interested in having a conversation about a particular topic but you don't feel confident to moderate a table or give a presentation? Don't worry, you can propose your topic and we'll do our best to find someone who's willing to moderate a table."
+              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas and we'll try to find someone interested in sharing their knowledge on your suggested topic!"
               url={FORM_LINK}
               urlTitle="Propose"
             />

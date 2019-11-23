@@ -43,6 +43,11 @@ const FAQ = [
       "I've never done any public speaking before, should I apply as a speaker?",
     answer:
       "Yes, you should! The FSN team is here to help you give the best talk possible! Before the event we'll rehearse the talk with you, give you feedback and help you polish your presentation."
+  },
+  {
+    question: "Who should attend to this event?",
+    answer:
+      "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
   }
 ];
 
@@ -55,10 +60,11 @@ export default function() {
           Give a talk at Fullstack Nights!
         </h2>
         <h4 className="text-h4 text-white mb-8">
-          We're always on the lookout for new speakers. Join us!
+          We're looking for people that are willing to share their experience
+          with the community!
         </h4>
         <a href={FORM_LINK} className="btn btn--primary mb-3">
-          Propose a talk
+          Submit your proposal
         </a>
         <p className="text-white text-xs">
           Have questions? Check out our FAQ or email us
@@ -66,26 +72,26 @@ export default function() {
       </GradientBackground>
       <PageSection
         className="mt-20"
-        title="We'll help you craft your presentation"
-        description="We're committed to help you give the best talk possible. Before your talk we'll take the following steps:"
+        title="We'll help you polish your talk"
+        description="Everyone has valuable knowledge to share and we are committed to help you give a top-quality talk. Before the event we'll go through the following process:"
       >
         <div className="flex flex-wrap lg:flex-no-wrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Topic scoping"
-              description="Before you're selected as a speaker we will research your topic. If your topic is too broad we'll discuss different approaches to narrow down your topic."
+              description="Before you're selected as a speaker we will research your topic. If our team finds your topic to be too broad we'll discuss different ways to narrow it down."
             />
           </div>
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title="Slides evaluation"
-              description="Two weeks before the event we'll rehearse the talk with you. We'll give you feedback about the structure of your talk, your delivery and the time you consumed presenting"
+              title="Talk rehearsal"
+              description="Two weeks before the event we'll do a dry run of your talk. We'll provide feedback about your talk structure, delivery and the time you consumed presenting."
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/3 lg:mr-4">
             <CallToAction
-              title="Presentation rehearsal"
-              description="During the rehearsal we'll evaluate the content in your slides and give feedback to visually improve your talk."
+              title="Slides evaluation"
+              description="During the dry run we'll evaluate the content in your slides and give you pointers that will help improve the visual aspect of your talk."
             />
           </div>
         </div>
