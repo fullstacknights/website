@@ -11,9 +11,8 @@ function Question({ isOpened, question, answer, id, onClick }) {
   };
 
   return (
-    <li className="mb-4">
-      <button
-        onClick={handleClick}
+    <li className="mb-4" onClick={handleClick} role="button">
+      <div
         className={`w-full ${styles.container} ${
           isOpened ? styles.containerOpened : ""
         }`}
@@ -31,7 +30,7 @@ function Question({ isOpened, question, answer, id, onClick }) {
           </div>
           {isOpened ? <p className="text-rg mt-2">{answer}</p> : null}
         </Card>
-      </button>
+      </div>
     </li>
   );
 }
