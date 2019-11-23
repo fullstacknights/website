@@ -112,6 +112,14 @@ export default function() {
             <Avatar key={index} name={speaker.name} img={speaker.img} />
           ))}
         </div>
+        <div class="text-center mt-6">
+          <h4 className="text-h4 font-semibold mb-4">
+            Ready to become a speaker?
+          </h4>
+          <a href={FORM_LINK} className="btn btn--primary mb-3">
+            Submit your proposal
+          </a>
+        </div>
       </PageSection>
       <PageHighlight
         header="Join the community in Slack"

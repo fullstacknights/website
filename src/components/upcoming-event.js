@@ -34,8 +34,8 @@ function UpcomingEvent({ participants, type, date, venue }) {
         </div>
         <div className="mb-10">
           <a
+            className="btn btn--primary w-2/12"
             href={EVENTBRITE_LINK}
-            className="btn btn--primary"
             target="_blank"
             rel="noopener noreferrer"
           >

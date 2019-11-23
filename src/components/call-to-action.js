@@ -20,12 +20,12 @@ function CallToAction({ title, description, url, urlTitle }) {
         <p className="mt-5 text-rg text-center">{description}</p>
       </div>
       {isExternalLink && url ? (
-        <a className="btn btn--primary mt-5" href={url} target="_blank">
+        <a className="btn btn--primary mt-5 w-1/2" href={url} target="_blank">
           {urlTitle}
         </a>
       ) : null}
       {!isExternalLink && url ? (
-        <Link to={url} className="btn btn--primary mt-5">
+        <Link to={url} className="btn btn--primary mt-5 w-1/2">
           {urlTitle}
         </Link>
       ) : null}
