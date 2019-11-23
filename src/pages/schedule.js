@@ -26,7 +26,7 @@ export default function() {
           schedule below.
         </h4>
         <a
-          className="btn btn--primary w-2/12"
+          className="btn btn--primary w-1/2 lg:w-2/12"
           href="https://fullstacknights.eventbrite.com"
           target="_blank"
         >

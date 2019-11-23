@@ -9,7 +9,7 @@ function PageHighlight({ header, subheader, url, urlTitle }) {
         <h4 className="text-h4 text-white mb-6">{subheader}</h4>
         <a
           href={url}
-          className="btn btn--inverse w-2/12"
+          className="btn btn--inverse lg:w-2/12"
           target="_blank"
           rel="noopener noreferrer"
         >

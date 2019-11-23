@@ -82,7 +82,7 @@ function IndexPage() {
         and events in the tech world in a relaxed environment."
       >
         <div className="flex flex-col items-center justify-center">
-          <img className="w-1/4" src={Podcast} alt="podcast" />
+          <img className="w-1/2 lg:w-1/4" src={Podcast} alt="podcast" />
           <div className="mt-8 text-center">
             <h4 className="text-lg mb-2">Find us on:</h4>
             <div className="flex justify-center lg:justify-start">

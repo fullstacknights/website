@@ -42,7 +42,7 @@ export default function() {
   return (
     <Layout>
       <SEO title="About" />
-      <GradientBackground className="flex flex-col items-center justify-center text-center">
+      <GradientBackground className="flex flex-col items-center justify-center text-center px-2">
         <h2 className="text-h2 font-bold text-white">About Fullstack Nights</h2>
         <h4 className="text-h4 text-white">
           Fullstack Nights is a monthly meetup where programmers and designers

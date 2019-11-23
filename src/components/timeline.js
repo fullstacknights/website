@@ -19,7 +19,7 @@ function Timeline({ events }) {
             } ml-11`}
           >
             {event.subheader ? (
-              <p className="text-rg mb-2">{event.subheader}</p>
+              <p className="text-sm uppercase">{event.subheader}</p>
             ) : null}
             <p className="text-lg">{event.header}</p>
           </div>
