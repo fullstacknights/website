@@ -49,7 +49,7 @@ export default function() {
           <div className="flex flex-initial w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Moderator"
-              description="We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic. The goal is for beginners and experts alike to learn and share their experience through conversations."
+              description="Want to propose a topic and help a table have a great conversation? Join us as a moderator! To be a moderator you should have some knowledge of the topic, help guide the conversation at your table and be willing to have fun. 😄"
               url={FORM_LINK}
               urlTitle="Apply"
             />
