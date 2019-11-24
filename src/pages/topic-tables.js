@@ -33,8 +33,8 @@ export default function() {
   return (
     <Layout>
       <SEO title="Become a moderator" />
-      <GradientBackground className="pt-13">
-        <div className="flex flex-col text-center mt-18">
+      <GradientBackground className="flex flex-col items-center justify-center pt-13 lg:block">
+        <div className="flex flex-col text-center lg:mt-18">
           <h2 className="text-h2 font-bold text-white">
             Chat with the community on Topic Tables!
           </h2>

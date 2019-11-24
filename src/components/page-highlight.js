@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 function PageHighlight({ header, subheader, url, urlTitle }) {
   return (
     <section className="py-7 px-2 bg-primary lg:py-10 lg:px-10">
-      <div className="m-auto text-center w-10/12 max-w-6xl">
+      <div className="m-auto text-center w-11/12 max-w-6xl lg:w-10/12">
         <h3 className="text-h3 text-white font-extrabold mb-4">{header}</h3>
         <h4 className="text-h4 text-white mb-6">{subheader}</h4>
         <a

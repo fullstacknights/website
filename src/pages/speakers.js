@@ -56,9 +56,7 @@ export default function() {
     <Layout>
       <SEO title="Become a speaker" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
-        <h2 className="text-h2 font-bold text-white">
-          Give a talk at Fullstack Nights!
-        </h2>
+        <h2 className="text-h2 font-bold text-white">Give a talk at FSN!</h2>
         <h4 className="text-h4 text-white mb-8">
           We're looking for people that are willing to share their experience
           with the community!
@@ -66,9 +64,6 @@ export default function() {
         <a href={FORM_LINK} className="btn btn--primary mb-3">
           Submit your proposal
         </a>
-        <p className="text-white text-xs">
-          Have questions? Check out our FAQ or email us
-        </p>
       </GradientBackground>
       <PageSection
         className="mt-20"

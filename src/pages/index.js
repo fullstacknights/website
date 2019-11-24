@@ -2,7 +2,6 @@ import React from "react";
 
 import {
   SEO,
-  Image,
   Layout,
   PageSection,
   CallToAction,
@@ -85,8 +84,8 @@ function IndexPage() {
           <img className="w-1/2 lg:w-1/4" src={Podcast} alt="podcast" />
           <div className="mt-8 text-center">
             <h4 className="text-lg mb-2">Find us on:</h4>
-            <div className="flex justify-center lg:justify-start">
-              <button className="btn text-white bg-gradient--apple-podcast mr-4">
+            <div className="flex flex-wrap justify-center lg:justify-start">
+              <button className="btn text-white bg-gradient--apple-podcast m-1">
                 <div className="flex flex-row items-center">
                   <img
                     className="mr-2"
@@ -96,7 +95,7 @@ function IndexPage() {
                   Apple Podcasts
                 </div>
               </button>
-              <button class="btn text-white bg-rss">
+              <button class="btn text-white bg-rss m-1">
                 <div className="flex flex-row items-center">
                   <img className="inline-block mr-2" src={RSS} alt="RSS" />
                   RSS Feed
