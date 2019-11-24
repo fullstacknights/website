@@ -20,18 +20,18 @@ const FAQ = [
   {
     question: "What can I speak about?",
     answer:
-      "You're welcomed to speak about programing languages, frameworks, tools, databases, infrastructure, email design, user interfaces, users experience, prototyping and any other topic or experience that can add value to our community."
+      "You're welcome to speak about programing languages, frameworks, tools, databases, infrastructure, email design, user interfaces, users experience, prototyping and any other topic or experience that can add value to our community."
   },
   {
     question: "How much time to I have to give my talk?",
     answer:
-      "The talk will be 20 minutes and 5 minutes of Q&A after the presentation is over."
+      "You'll have 20 minutes for your talk and 5 minutes for Q&A after the presentation is over."
   },
   {
     question:
       "I recently learned about a new technology, can I speak about it?",
     answer:
-      "Yes, of course! When we've just learned about a topic we have a unique perspective compared to an expert. Don't count yourself out and apply as a speaker!"
+      "Of course! When we've just learned about a topic we have a unique perspective compared to an expert. Don't count yourself out and apply as a speaker!"
   },
   {
     question: "Can I recommend someone to speak at this event?",
@@ -42,7 +42,7 @@ const FAQ = [
     question:
       "I've never done any public speaking before, should I apply as a speaker?",
     answer:
-      "Yes, you should! The FSN team is here to help you give the best talk possible! Before the event we'll rehearse the talk with you, give you feedback and help you polish your presentation."
+      "Yes, you should! The FSN team is here to help you give the best talk possible. We'll set up rehearsal sessions, provide feedback and help you polish your presentation."
   },
   {
     question: "Who should attend to this event?",

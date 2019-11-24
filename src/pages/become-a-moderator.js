@@ -18,14 +18,14 @@ const FORM_LINK =
 
 const FAQ = [
   {
-    question: "What is topic tables?",
+    question: "What are topic tables?",
     answer:
       "Topic Tables is an event that brings together the community to talk about different topics in a relaxed and informal environment. Participants will be able to ask questions, talk about their experience and learn from others through moderated conversations."
   },
   {
     question: "Who should attend to this event?",
     answer:
-      "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
+      "Anyone who's interested in technology and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
   }
 ];
 

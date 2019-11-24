@@ -14,27 +14,29 @@ const QUESTIONS = [
   {
     question: "What is Fullstack Nights?",
     answer:
-      "Fullstack Nights is a monthly meetup for programers and designers interested in learning and sharing their knowledge in an informal and relaxed environment. Fullstack Nights consists on two events: Speakers and Topic Tables. FSN Speakers is an event that consists of 2 presentations that have a length of 20 minutes each. The topics of each presentation can be programing languages, frameworks, tools, databases, user interfaces, users experience and any other topic that can be of interest to our community. Topic Tables aims to bring the community together to share conversations about different topics. Participants can ask questions, discuss ideas and expand their knowledge through a moderated conversation."
+      "Fullstack Nights is a monthly meetup for technologist and designers interested in learning and sharing their knowledge in an informal and relaxed environment."
   },
   {
-    question: "Why are we doing this?",
-    answer:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci incidunt iure autem provident omnis aut ex, laborum sint tempora officiis tempore sequi, nam, suscipit aspernatur porro voluptatibus placeat fugit deleniti."
+    question: "What's the format of our event?",
+    answer: `Great question! We actually have two events: FSN Speakers and FSN Topic Tables.
+    \n FSN Speakers is an event that consists of two 20 minute talks, an open mic session, and some networking time. Past topics have ranged from introductions to programming frameworks to user experience in event design.
+    \n FSN Topic Tables aims to bring the community together to share conversations about different topics. Participants can ask questions, discuss ideas and expand their knowledge through a moderated conversation.`
   },
   {
     question: "Who should attend to this event?",
     answer:
-      "Everyone who's interested in programming and interactive design. It doesn't matter if you're a student, an expert or if you just have a bit of curiosity about a topic. There's space for everyone to learn and share their experience."
+      "Everyone who's interested in technology and interactive design. It doesn't matter if you're a student, an expert or if you just have a bit of curiosity about a topic. There's space for everyone to learn and share their experience."
   },
   {
-    question: "What's the format of our event?",
-    answer:
-      "Fullstack Nights has different formats depending on the event. FSN Speakers aims to provide talks from people who are experts or are learning about about a topic. FSN Topic Tables is a forum there people from different skill levels can ask questions, discuss ideas and provide guidance to others in an informal setting."
+    question: "Why are we doing this?",
+    answer: `The simple answer is, we ❤️ community. From the start our goal has been to provide value and bring together the different communities working around tech and startups. From our point of view sharing our experiences across disciplines makes the over all community stronger.
+    \n We also wanted to meet people and provide a safe place where people can network and grow. We hope you'll join us in this journey.
+    `
   },
   {
     question: "How can I get involved?",
     answer:
-      "You can get involved by becoming a speaker, becoming a moderator, proposing a topic or by joining our Slack community."
+      "There's a number of ways. You can become a speaker or topic table moderator, you can propose a topic, or you can join our Slack community."
   }
 ];
 
@@ -56,7 +58,7 @@ export default function() {
               <h4 className="text-h4 font-extrabold mb-4">
                 {question.question}
               </h4>
-              <p className="text-rg">{question.answer}</p>
+              <p className="text-rg whitespace-pre-line">{question.answer}</p>
             </div>
           ))}
         </div>
