@@ -1,7 +1,11 @@
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
+/* purgecss end ignore */
+
 @tailwind utilities;
 
+/* purgecss start ignore */
 html {
   font-family: "Inter", Helvetica;
 }
@@ -9,6 +13,7 @@ html {
 body {
   @apply bg-background;
 }
+/* purgecss end ignore */
 
 .bg-gradient {
   background: linear-gradient(50deg, #000000, #383841);
