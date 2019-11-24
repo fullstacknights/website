@@ -55,21 +55,21 @@ function IndexPage() {
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Become a speaker"
-              description="We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker! If you are passionate about a particular topic and would like to share it, you're welcome to submit a talk. Either way, we'll help by providing feedback along the way."
+              description="We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!"
               url="/speakers/"
             />
           </div>
           <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title="Become a moderator"
-              description="We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic. The goal is for beginners and experts alike to learn and share their experience through conversations."
+              description="We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
               url="/topic-tables/"
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/3">
             <CallToAction
               title="Propose a topic"
-              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas and we'll try to find someone interested in sharing their knowledge on your suggested topic!"
+              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!" 
               url="/topic-tables/"
             />
           </div>
