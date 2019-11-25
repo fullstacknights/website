@@ -28,6 +28,7 @@ export const FOUNDERS = [
 
 export const SECTIONS = [
   { title: "About", to: "/about/" },
+  { title: "Code of Conduct", to:"/code-of-conduct/" },
   { title: "Schedule", to: "/schedule/" },
   { title: "Speakers", to: "/speakers/" },
   { title: "Topic Tables", to: "/topic-tables/" }
