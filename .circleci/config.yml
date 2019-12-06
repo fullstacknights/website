@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.4.1-node-browsers
-      - image: circleci/node:10.16.3
+      #   - image: circleci/ruby:2.4.1-node-browsers
+      - image: "circleci/node:11.5.0"
 
     working_directory: ~/repo
 
@@ -19,4 +19,4 @@ jobs:
           name: Run tests
           command: |
             npx gatsby build
-            percy snapshot public
+            # percy snapshot public
