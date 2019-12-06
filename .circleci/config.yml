@@ -11,7 +11,7 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            yarn
+            npm install
             gem install percy-cli
     #   - run:
     #       name: run our tests
