@@ -1,7 +1,7 @@
 module.exports = {
   theme: {
     colors: {
-      brand: "#31d7fb",
+      brand: "#f251fe",
       primary: { default: "#0282f8", hover: "#015aad", pressed: "#00407b" },
       background: "#f3f5f8",
       white: { default: "#ffffff", hover: "#b2b2b2" },
