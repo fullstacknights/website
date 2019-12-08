@@ -67,9 +67,7 @@ export default function() {
           <p className="text-rg mb-6">
             Si estás sufriendo algún abuso, adviertes abusos sobre otra persona,
             o tienes alguna otra preocupación, por favor contacta con algún
-            miembro del personal de la conferencia inmediatamente. El personal
-            de la conferencia puede ser fácilmente identificado, ya que vestirán
-            camisetas del evento.
+            miembro del personal de la conferencia inmediatamente.
           </p>
           <p className="text-rg mb-6">
             El personal de la conferencia estará contento de ayudar a los
@@ -79,7 +77,7 @@ export default function() {
             mientras dure la conferencia. Valoramos tu asistencia.
           </p>
           <p className="text-rg">
-            Esperamos que los participantes sigan estas reglas en la la
+            Esperamos que los participantes sigan estas reglas en la
             conferencia, talleres y eventos sociales relacionados con la
             conferencia.
           </p>
