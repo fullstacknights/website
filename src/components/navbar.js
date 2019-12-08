@@ -35,8 +35,8 @@ function Navbar({ toggleMenu }) {
         !isTransparent ? `bg-gradient ${styles.shadow}` : ""
       }`}
     >
-      <div className="flex justify-between w-11/12 max-w-6xl">
-        <Link className="flex flex-row items-center" to="/">
+      <div className="flex justify-between w-11/12 max-w-6xl overflow-y-auto">
+        <Link className="flex flex-row flex-no-wrap items-center" to="/">
           <img
             className={styles.logo}
             src={BrandLogo}
