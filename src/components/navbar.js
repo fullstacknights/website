@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import throttle from "lodash.throttle";
 
-import BrandLogo from "../assets/brand-logo.svg";
+import Logo from "../images/logo.png";
 import Menu from "../assets/menu.svg";
 import { SECTIONS } from "../constants";
 import styles from "./navbar.module.css";
@@ -37,14 +37,7 @@ function Navbar({ toggleMenu }) {
     >
       <div className="flex justify-between w-11/12 max-w-6xl overflow-x-auto">
         <Link className="flex flex-row flex-no-wrap items-center" to="/">
-          <img
-            className={styles.logo}
-            src={BrandLogo}
-            alt="Fullstack Nights Logo"
-          />
-          <h4 className="text-white font-bold text-h4 pl-2">
-            Fullstack Nights
-          </h4>
+          <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>
         <div className={`hidden lg:flex items-center ${styles.linksWrapper}`}>
           {SECTIONS.map((section, index) => (
