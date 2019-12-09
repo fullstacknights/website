@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Gracias por tu interes en Fullstack Nights y por hacer este GitHub Issue! Pronto estaremos en contacto.'
+        pr-message: 'Gracias por tu interes en Fullstack Nights y por hacer este Pull Request! Pronto estaremos en contacto.'
