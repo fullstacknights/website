@@ -10,23 +10,18 @@ const CONFIG = {
     },
     participants: [
       {
-        name: "Juan Álvarez",
-        topic: "Scalable Interfaces with Big Data",
-        img: "/moderators/juan-alvarez.jpeg",
-        links: [{ network: "github", url: "https://github.com/juanjalvarez" }]
+        name: "Kip Martin",
+        topic: "User Centered Design",
+        img: "/past-speakers/kip-martin.jpeg",
+        links: [{ network: "twitter", url: "https://twitter.com/uberkip" }]
       },
       {
-        name: "Alex Santos",
-        topic: "UI Design",
-        img: "/moderators/alex-santos.jpeg",
-        links: [{ network: "dribbble", url: "https://dribbble.com/makobi" }]
-      },
-      {
-        name: "Gabriel Pérez",
-        topic: "Indie Hackers",
-        img: "/moderators/gabriel-perez.jpeg",
+        name: "Sergio Mattei",
+        topic: "Shipping Projects at Lightning Speed with Django and NextJS",
+        img: "/past-speakers/sergio-mattei.jpeg",
         links: [
-          { network: "twitter", url: "https://twitter.com/gaburieru4649" }
+          { network: "github", url: "https://github.com/matteing" },
+          { network: "twitter", url: "https://mobile.twitter.com/matteing" }
         ]
       }
     ]
