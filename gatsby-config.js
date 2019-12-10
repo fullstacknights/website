@@ -18,12 +18,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Fullstack Nights`,
+        short_name: `FSN`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
+        background_color: `#0282f8`,
+        theme_color: `#0282f8`,
+        display: `standalone`,
         icon: `src/images/fsn.png` // This path is relative to the root of the site.
       }
     },
