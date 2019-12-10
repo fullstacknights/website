@@ -1,8 +1,8 @@
 const CONFIG = {
   activeEvent: true,
   event: {
-    type: "topic-tables",
-    date: "11/26/2019",
+    type: "speakers",
+    date: "12/17/2019",
     venue: {
       name: "Parallel 18",
       location:
