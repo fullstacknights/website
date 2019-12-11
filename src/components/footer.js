@@ -7,18 +7,12 @@ import YouTube from "../assets/youtube-circle.svg";
 import Github from "../assets/github-circle.svg";
 import styles from "./footer.module.css";
 
+import Icon from "./icon";
+
 const YOUTUBE_LINK = "https://www.youtube.com/channel/UCiJwjxdD9XIjRpV__kW2wsw";
 const FACEBOOK_LINK = "https://www.facebook.com/FullstackNights";
 const TWITTER_LINK = "https://twitter.com/fullstacknights";
 const GITHUB_LINK = "https://github.com/fullstacknights";
-
-function Icon({ url, icon, alt }) {
-  return (
-    <a className="mr-2" href={url} target="_blank" rel="noopener noreferrer">
-      <img className={styles.logo} src={icon} alt={alt} />
-    </a>
-  );
-}
 
 function Footer() {
   return (
