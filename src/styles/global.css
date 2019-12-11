@@ -13,18 +13,15 @@ html {
 body {
   @apply bg-background;
 }
+
+svg {
+  fill: currentColor;
+}
+
 /* purgecss end ignore */
 
 .bg-gradient {
   background: linear-gradient(50deg, #000000, #383841);
-}
-
-.bg-gradient--apple-podcast {
-  background: linear-gradient(#f251fe, #852cc2);
-}
-
-.bg-rss {
-  background-color: #ffa500;
 }
 
 .btn {
@@ -55,6 +52,36 @@ body {
 .btn--inverse:active {
   @apply text-primary;
   background-color: #e8e8e8;
+}
+
+.btn--apple-podcasts {
+  @apply text-white m-1;
+  background: linear-gradient(#f251fe, #852cc2);
+}
+
+.btn--apple-podcasts:hover {
+  @apply text-white-hover;
+  background: linear-gradient(#a13ebc, #592091);
+}
+
+.btn--apple-podcasts:active {
+  @apply text-white-hover;
+  background: linear-gradient(#8a35a3, #4f1d7e);
+}
+
+.btn--rss {
+  @apply text-white m-1;
+  background-color: #ffa500;
+}
+
+.btn--rss:hover {
+  @apply text-white-hover;
+  background: #b17d00;
+}
+
+.btn--rss:active {
+  @apply text-white-hover;
+  background: #996c00;
 }
 
 .avatar {

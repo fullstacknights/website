@@ -10,9 +10,9 @@ import {
   GradientBackground
 } from "../components/index";
 
-import ApplePodcasts from "../assets/apple-podcasts.svg";
-import RSS from "../assets/rss.svg";
+import ApplePodcasts from "../assets/apple-podcasts.inline.svg";
 import Podcast from "../assets/podcast.svg";
+import RSS from "../assets/rss.inline.svg";
 import { SLACK_LINK } from "../constants";
 import CONFIG from "../config";
 
@@ -69,7 +69,7 @@ function IndexPage() {
           <div className="flex flex-initial w-full lg:w-1/3">
             <CallToAction
               title="Propose a topic"
-              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!" 
+              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
               url="/topic-tables/"
             />
           </div>
@@ -85,19 +85,20 @@ function IndexPage() {
           <div className="mt-8 text-center">
             <h4 className="text-lg mb-2">Find us on:</h4>
             <div className="flex flex-wrap justify-center lg:justify-start">
-              <button className="btn text-white bg-gradient--apple-podcast m-1">
+              <a
+                className="btn btn--apple-podcasts"
+                href="https://podcasts.apple.com/us/podcast/fullstack-nights-podcast/id1388196921"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="flex flex-row items-center">
-                  <img
-                    className="mr-2"
-                    src={ApplePodcasts}
-                    alt="Apple Podcasts"
-                  />
+                  <ApplePodcasts className="mr-2" />
                   Apple Podcasts
                 </div>
-              </button>
-              <button class="btn text-white bg-rss m-1">
+              </a>
+              <button class="btn btn--rss">
                 <div className="flex flex-row items-center">
-                  <img className="inline-block mr-2" src={RSS} alt="RSS" />
+                  <RSS className="mr-2" />
                   RSS Feed
                 </div>
               </button>
