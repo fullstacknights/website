@@ -80,7 +80,7 @@ export default function() {
       </PageSection>
       <PageSection
         title="Need help?"
-        description="Contact one of the organizars through twitter or personally."
+        description="Contact one of the organizers through Twitter or personally."
       >
         <div className="flex flex-wrap">
           {ORGANIZERS.map((organizer, index) => (
