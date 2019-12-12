@@ -7,7 +7,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
       - name: Install
-        run: npm ci
+        run: yarn
       - name: Build
         run: npx gatsby build
       - name: Percy Test
