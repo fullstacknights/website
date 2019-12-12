@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.3.0",
+    "gatsby-plugin-react-svg": "^2.1.2",
     "prettier": "^1.18.2"
   },
   "keywords": [
