@@ -2,6 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
+import styles from "./page-highlight.module.css";
+
 function PageHighlight({ header, subheader, url, urlTitle }) {
   let isExternalUrl = url.indexOf("https") || url.indexOf("www");
 
@@ -13,14 +15,14 @@ function PageHighlight({ header, subheader, url, urlTitle }) {
         {isExternalUrl > 0 ? (
           <a
             href={url}
-            className="btn btn--inverse md:w-3/12"
+            className={`btn btn--inverse ${styles.cta}`}
             target="_blank"
             rel="noopener noreferrer"
           >
             {urlTitle}
           </a>
         ) : (
-          <Link className="btn btn--inverse md:w-3/12" to={url}>
+          <Link className={`btn btn--inverse ${styles.cta}`} to={url}>
             {urlTitle}
           </Link>
         )}
