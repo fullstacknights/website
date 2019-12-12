@@ -80,7 +80,7 @@ export default function() {
       <PageHighlight
         header="We don't tolerate idiotic behavior"
         subheader="Every Fullstack Nights participant has to accept our code of conduct. The organizers of the event will enforce the meetup rules through out the event. We expect that every participant and organizer will help provide a safe environment for everyone."
-        url="https://www.google.com"
+        url="/code-of-conduct"
         urlTitle="Code of Conduct"
       />
     </Layout>
