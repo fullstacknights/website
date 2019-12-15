@@ -3,7 +3,6 @@ import CallToAction from "./call-to-action";
 import Card from "./card";
 import FAQList from "./faq";
 import GradientBackground from "./gradient-background";
-import Icon from "./icon";
 import Image from "./image";
 import Layout from "./layout";
 import PageHighlight from "./page-highlight";
@@ -22,7 +21,6 @@ export {
   Card,
   FAQList,
   GradientBackground,
-  Icon,
   Image,
   Layout,
   PageHighlight,
