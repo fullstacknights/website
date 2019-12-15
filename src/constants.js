@@ -3,27 +3,28 @@ import CONFIG from "./config";
 export const SLACK_LINK = "https://sopr-slack.herokuapp.com/";
 
 export const ORGANIZERS = [
-         {
-           name: "Emmanuel Luciano",
-           img: "/organizers/emmanuel-luciano.jpeg",
-           twitterLink: "https://twitter.com/eLuciiano"
-         },
-         {
-           name: "Raúl Negrón",
-           img: "/organizers/raul-negron.jpeg",
-           twitterLink: "https://twitter.com/rucury"
-         },
-         {
-           name: "Ricardo Mercado",
-           img: "/organizers/ricardo-mercado.jpeg",
-           twitterLink: "https://twitter.com/futoricky"
-         },
-         {
-           name: "Yamil Asusta",
-           img: "/organizers/yamil-asusta.jpeg",
-           twitterLink: "https://twitter.com/elbuo8"
-         }
-       ];
+  {
+    name: "Emmanuel Luciano",
+    img: "/organizers/emmanuel-luciano.jpeg",
+    social: [{ network: "twitter", link: "https://twitter.com/rucury" }]
+  },
+  {
+    name: "Raúl Negrón",
+    img: "/organizers/raul-negron.jpeg",
+    social: [{ network: "twitter", link: "https://twitter.com/rucury" }]
+  },
+  {
+    name: "Ricardo Mercado",
+    img: "/organizers/ricardo-mercado.jpeg",
+    social: [{ network: "twitter", link: "https://twitter.com/futoricky" }]
+  },
+  {
+    name: "Yamil Asusta",
+    img: "/organizers/yamil-asusta.jpeg",
+
+    social: [{ network: "twitter", link: "https://twitter.com/elbuo8" }]
+  }
+];
 
 export const FOUNDERS = [
   { name: "Axel Rivera", img: "/founders/axel-rivera.jpeg" },
