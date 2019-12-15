@@ -11,7 +11,6 @@ import PageSection from "./page-section";
 import ProfileCard from "./profile-card";
 import Question from "./question";
 import SEO from "./seo";
-import SocialAvatar from "./social-avatar";
 import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
 import Form from "./form";
@@ -31,7 +30,6 @@ export {
   ProfileCard,
   Question,
   SEO,
-  SocialAvatar, 
   Timeline,
   UpcomingEvent,
   Form,
