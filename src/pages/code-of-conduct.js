@@ -1,7 +1,7 @@
 import React from "react";
 
 import {
-  SocialAvatar,
+  Avatar,
   GradientBackground,
   Layout,
   PageSection,
@@ -84,7 +84,7 @@ export default function() {
       >
         <div className="flex flex-wrap">
           {ORGANIZERS.map((organizer, index) => (
-            <SocialAvatar key={index} {...organizer} />
+            <Avatar key={index} {...organizer} />
           ))}
         </div>
       </PageSection>
