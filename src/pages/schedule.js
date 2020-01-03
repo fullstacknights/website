@@ -29,6 +29,7 @@ export default function() {
           className="btn btn--primary w-1/2 lg:w-2/12"
           href="https://fullstacknights.eventbrite.com"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Get tickets
         </a>

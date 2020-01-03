@@ -16,7 +16,8 @@ const NotFoundPage = () => (
             <img
               src="https://media.giphy.com/media/a9xhxAxaqOfQs/source.gif"
               className="lg:w-1/2 md:w-full"
-            ></img>
+              alt="Sad David Tennant in the rain"
+            />
           </div>
         </div>
       </div>

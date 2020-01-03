@@ -8,8 +8,10 @@ jobs:
         uses: actions/checkout@master
       - name: Install
         run: yarn
+      - name: Lint
+        run: npm run lint
       - name: Build
-        run: npx gatsby build
+        run: npm run build
       - name: Percy Test
         uses: percy/snapshot-action@v0.1.0
         with:
