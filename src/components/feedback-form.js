@@ -19,9 +19,6 @@ function FeedbackForm() {
           Title:
           <input className="w-full p6 shadow rounded p-1 mb-3" placeholder="Hello FSN!" type="text" />
         </label>
-        <label>
-          Your thoughts:
-          <textarea className="w-full p6 shadow rounded p-1 mb-3" placeholder="It would be awesome if ..." rows="5" type="text" />
         <label htmlFor="thoughts">Your thoughts:</label>
         <textarea
           id="thoughts"
