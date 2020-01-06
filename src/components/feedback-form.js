@@ -13,11 +13,12 @@ function FeedbackForm() {
       additionalFormAttr={additionalFormAttr}
     >
       <input type="hidden" netlify-honeypot="bot-field" />
-      <label htmlFor="title" className="feedback__label">
+      <label htmlFor="subject" className="feedback__label">
         Subject
       </label>
       <input
-        id="title"
+        id="subject"
+        name="subject"
         className="feedback__input"
         placeholder="Hello FSN!"
         type="text"
@@ -27,6 +28,7 @@ function FeedbackForm() {
       </label>
       <textarea
         id="thoughts"
+        name="thoughts"
         className="feedback__input"
         placeholder="It would be awesome if ..."
         rows="5"
