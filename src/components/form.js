@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-function Form({ children, className, variant, additionalFormAttr}) {
+function Form({ children, className, variant, additionalFormAttr }) {
   const backgroundColor = variant === "dark" ? "bg-gradient" : "bg-white";
 
   return (
@@ -10,7 +10,9 @@ function Form({ children, className, variant, additionalFormAttr}) {
       {...additionalFormAttr}
     >
       {children}
-      <button className="btn btn--primary" type="submit">Submit</button>
+      <button className="btn btn--primary mt-2" type="submit">
+        Submit
+      </button>
     </form>
   );
 }

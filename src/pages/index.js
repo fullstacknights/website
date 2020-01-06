@@ -107,9 +107,12 @@ function IndexPage() {
           </div>
         </div>
       </PageSection>
-      <PageSection title="Feedback" description="We weren't kidding about loving community. If you anything to tell us please use the form bellow. ❤️">
-      <div className="flex flex-col items-center justify-center">
-        <FeedbackForm />
+      <PageSection
+        title="Feedback"
+        description="We weren't kidding about loving community. If you anything to tell us please use the form bellow. ❤️"
+      >
+        <div className="flex flex-col items-center justify-center">
+          <FeedbackForm />
         </div>
       </PageSection>
       <PageHighlight

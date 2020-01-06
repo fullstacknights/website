@@ -107,19 +107,11 @@ svg {
 }
 
 /* Default form styles */
-form input, textarea {
-  @apply border px-2 py-1 mb-3 w-full rounded;
-}
-form label {
-  @apply mb-2;
-  display: inline-block;
-}
-
 /* Feedback form overrides */
-.feedback-form-inputs {
+.feedback__input {
+  @apply border border-white-hover px-2 py-2 mb-3 w-full rounded resize-none;
   border-width: 1px;
-  resize: none;
 }
-.feedback-form-labels {
-  @apply font-medium;
+.feedback__label {
+  @apply mb-2 inline-block;
 }
