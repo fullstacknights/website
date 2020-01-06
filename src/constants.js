@@ -1,3 +1,5 @@
+import CONFIG from "./config";
+
 export const SLACK_LINK = "https://sopr-slack.herokuapp.com/";
 
 export const ORGANIZERS = [
@@ -26,10 +28,20 @@ export const FOUNDERS = [
   { name: "José Padilla", img: "/founders/jose-padilla.jpeg" }
 ];
 
-export const SECTIONS = [
+const SECTIONS = [
   { title: "About", to: "/about/" },
-  { title: "Code of Conduct", to:"/code-of-conduct/" },
+  { title: "Code of Conduct", to: "/code-of-conduct/" },
   { title: "Schedule", to: "/schedule/" },
   { title: "Speakers", to: "/speakers/" },
   { title: "Topic Tables", to: "/topic-tables/" }
 ];
+
+export function getSections() {
+  const { activeEvent } = CONFIG;
+
+  if (activeEvent) {
+    return SECTIONS;
+  }
+
+  return SECTIONS.filter(section => section.to !== "/schedule/");
+}
