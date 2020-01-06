@@ -11,7 +11,7 @@ function FeedbackForm() {
 
   return (
     <Form
-      className={`flex flex-col rounded shadow w-full mb-4 lg:w-1/2 lg:mr-4 p-6`}
+      className={`flex flex-col rounded shadow w-full mb-4  p-6 lg:w-1/2`}
       additionalFormAttr={additionalFormAttr}
     >
       <div>
