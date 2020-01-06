@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from "prop-types";
 import Form from "./form";
 
 const additionalFormAttr = {
