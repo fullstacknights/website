@@ -105,3 +105,21 @@ svg {
   width: 100%;
   transition: width 0.3s;
 }
+
+/* Default form styles */
+form input, textarea {
+  @apply border px-2 py-1 mb-3 w-full rounded;
+}
+form label {
+  @apply mb-2;
+  display: inline-block;
+}
+
+/* Feedback form overrides */
+.feedback-form-inputs {
+  border-width: 1px;
+  resize: none;
+}
+.feedback-form-labels {
+  @apply font-medium;
+}

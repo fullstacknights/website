@@ -15,12 +15,12 @@ function FeedbackForm() {
     >
       <div>
         <input type="hidden" netlify-honeypot="bot-field"/>
-        <label htmlFor="title">Title:</label>
-        <input id="title" className="w-full p6 shadow rounded p-1 mb-3" placeholder="Hello FSN!" type="text" />
-        <label htmlFor="thoughts">Your thoughts:</label>
+        <label htmlFor="title" className="feedback-form-labels">Title</label>
+        <input id="title" className="feedback-form-inputs" placeholder="Hello FSN!" type="text" />
+        <label htmlFor="thoughts" className="feedback-form-labels">Your thoughts</label>
         <textarea
           id="thoughts"
-          className="w-full p6 shadow rounded p-1 mb-3"
+          className="feedback-form-inputs"
           placeholder="It would be awesome if ..."
           rows="5"
           type="text"
