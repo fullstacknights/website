@@ -1,16 +1,14 @@
 import React from "react";
-// import Form from "./form";
-import styles from "./call-to-action.module.css";
 import PropTypes from "prop-types";
 import Form from "./form";
 
+const additionalFormAttr = {
+  "data-netlify": "true",
+  method: "post"
+}
 
 function FeedbackForm() {
 
-  const additionalFormAttr = {
-    "data-netlify": "true",
-    method: "post"
-  }
   return (
     <Form
       className={`flex flex-col rounded shadow w-full mb-4 lg:w-1/2 lg:mr-4 p-6`}
