@@ -12,6 +12,8 @@ import Question from "./question";
 import SEO from "./seo";
 import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
+import Form from "./form";
+import FeedbackForm from "./feedback-form";
 
 export {
   Avatar,
@@ -27,5 +29,7 @@ export {
   Question,
   SEO,
   Timeline,
-  UpcomingEvent
+  UpcomingEvent,
+  Form,
+  FeedbackForm
 };

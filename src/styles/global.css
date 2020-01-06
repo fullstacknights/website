@@ -105,3 +105,13 @@ svg {
   width: 100%;
   transition: width 0.3s;
 }
+
+/* Default form styles */
+/* Feedback form overrides */
+.feedback__input {
+  @apply border border-white-hover px-2 py-2 mb-3 w-full rounded resize-none;
+  border-width: 1px;
+}
+.feedback__label {
+  @apply mb-2 inline-block;
+}

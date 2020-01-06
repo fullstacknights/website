@@ -7,7 +7,8 @@ import {
   CallToAction,
   PageHighlight,
   UpcomingEvent,
-  GradientBackground
+  GradientBackground,
+  FeedbackForm
 } from "../components/index";
 
 import ApplePodcasts from "../assets/apple-podcasts.inline.svg";
@@ -104,6 +105,14 @@ function IndexPage() {
               </button>
             </div>
           </div>
+        </div>
+      </PageSection>
+      <PageSection
+        title="Feedback"
+        description="We weren't kidding about loving community. If you anything to tell us please use the form bellow. ❤️"
+      >
+        <div className="flex flex-col items-center justify-center">
+          <FeedbackForm />
         </div>
       </PageSection>
       <PageHighlight
