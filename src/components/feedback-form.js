@@ -18,7 +18,7 @@ function FeedbackForm() {
         <input type="hidden" netlify-honeypot="bot-field"/>
         <label>
           Title:
-          <input className="w-full p6 shadow rounded p-1 mb-3" placeholder="Hell FSN!" type="text" />
+          <input className="w-full p6 shadow rounded p-1 mb-3" placeholder="Hello FSN!" type="text" />
         </label>
         <label>
           Your thoughts:
