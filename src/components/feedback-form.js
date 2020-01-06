@@ -23,7 +23,14 @@ function FeedbackForm() {
         <label>
           Your thoughts:
           <textarea className="w-full p6 shadow rounded p-1 mb-3" placeholder="It would be awesome if ..." rows="5" type="text" />
-        </label>
+        <label htmlFor="thoughts">Your thoughts:</label>
+        <textarea
+          id="thoughts"
+          className="w-full p6 shadow rounded p-1 mb-3"
+          placeholder="It would be awesome if ..."
+          rows="5"
+          type="text"
+        />
       </div>
     </Form>
   );
