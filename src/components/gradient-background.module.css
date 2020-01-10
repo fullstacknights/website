@@ -1,6 +1,6 @@
 .container {
   background: linear-gradient(50deg, #000000, #383841);
-  height: 565px;
+  min-height: 565px;
   margin-top: -66px;
   width: 100%;
 }
