@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "files.exclude": {
+    "**/node_modules": true,
+    "public": true,
+    ".cache": true
+  },
+  "editor.tabSize": 2
+}
