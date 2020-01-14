@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
 import Cross from "../assets/cross.svg";
-import { SECTIONS } from "../constants";
+import { getSections } from "../constants";
 import styles from "./mobile-menu.module.css";
+
+const sections = getSections();
 
 function MobileMenu({ isOpen, toggleMenu }) {
   return (
@@ -20,7 +22,7 @@ function MobileMenu({ isOpen, toggleMenu }) {
           </button>
         </div>
         <div className="flex flex-1 flex-col items-center justify-center text-center self-center">
-          {SECTIONS.map((section, index) => (
+          {sections.map((section, index) => (
             <Link
               key={index}
               to={section.to}

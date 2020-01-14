@@ -1,5 +1,5 @@
 const CONFIG = {
-  activeEvent: true,
+  activeEvent: false,
   event: {
     type: "speakers",
     date: "12/17/2019",

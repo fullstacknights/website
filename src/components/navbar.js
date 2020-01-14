@@ -5,8 +5,10 @@ import throttle from "lodash.throttle";
 
 import Logo from "../images/logo.png";
 import Menu from "../assets/menu.svg";
-import { SECTIONS } from "../constants";
+import { getSections } from "../constants";
 import styles from "./navbar.module.css";
+
+const sections = getSections();
 
 function Navbar({ toggleMenu }) {
   const [isTransparent, setIsTransparent] = useState(true);
@@ -40,7 +42,7 @@ function Navbar({ toggleMenu }) {
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>
         <div className={`hidden lg:flex items-center ${styles.linksWrapper}`}>
-          {SECTIONS.map((section, index) => (
+          {sections.map((section, index) => (
             <Link
               key={index}
               to={section.to}

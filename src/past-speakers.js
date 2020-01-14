@@ -111,7 +111,21 @@ const PAST_SPEAKERS = [
     link: "",
     img: "/past-speakers/christian-rodriguez.jpeg"
   },
-  { name: "Raúl Negrón", link: "", img: "/past-speakers/raul-negron.jpeg" }
+  {
+    name: "Raúl Negrón",
+    link: "",
+    img: "/past-speakers/raul-negron.jpeg"
+  },
+  {
+    name: "Kip Martin",
+    link: "",
+    img: "/past-speakers/kip-martin.jpeg"
+  },
+  {
+    name: "Sergio Mattei",
+    link: "",
+    img: "/past-speakers/sergio-mattei.jpeg"
+  }
 ];
 
 export default PAST_SPEAKERS;
