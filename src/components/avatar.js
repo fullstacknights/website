@@ -20,11 +20,10 @@ export default function({ img, name, social = [] }) {
       <div className="flex justify-center">
         {social.map(s => {
           return (
-
             <a
               key={s.link}
               href={s.link}
-              className="w-8 mt-5"
+              className="w-6 mt-5"
               target="_blank"
               rel="noopener noreferrer"
             >
