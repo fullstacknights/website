@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
+import { useTranslation } from "react-i18next";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import throttle from "lodash.throttle";
@@ -8,7 +9,7 @@ import Menu from "../assets/menu.svg";
 import { getSections } from "../constants";
 import styles from "./navbar.module.css";
 
-const sections = getSections();
+import { getLanguageSwitcher } from "../i18n";
 
 function Navbar({ toggleMenu }) {
   const [isTransparent, setIsTransparent] = useState(true);
@@ -24,6 +25,9 @@ function Navbar({ toggleMenu }) {
     }),
     [isTransparent]
   );
+
+  const { i18n } = useTranslation();
+  const sections = getSections(i18n);
 
   useEffect(() => {
     const onScroll = window.addEventListener("scroll", handleScroll);
@@ -51,6 +55,11 @@ function Navbar({ toggleMenu }) {
               {section.title}
             </Link>
           ))}
+
+          {getLanguageSwitcher({
+            i18n,
+            classNames: "text-white text-rg uppercase mr-4 link"
+          })}
         </div>
         <div className="flex lg:hidden">
           <button onClick={toggleMenu}>

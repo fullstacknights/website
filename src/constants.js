@@ -48,15 +48,15 @@ export const FOUNDERS = [
   }
 ];
 
-const SECTIONS = [
-  { title: "About", to: "/about/" },
-  { title: "Code of Conduct", to: "/code-of-conduct/" },
-  { title: "Schedule", to: "/schedule/" },
-  { title: "Speakers", to: "/speakers/" },
-  { title: "Topic Tables", to: "/topic-tables/" }
-];
+export function getSections(i18n) {
+  const SECTIONS = [
+    { title: i18n.t("menu.about"), to: "/about/" },
+    { title: i18n.t("menu.code of conduct"), to: "/code-of-conduct/" },
+    { title: i18n.t("menu.schedule"), to: "/schedule/" },
+    { title: "Speakers", to: "/speakers/" },
+    { title: "Topic Tables", to: "/topic-tables/" }
+  ];
 
-export function getSections() {
   const { activeEvent } = CONFIG;
 
   if (activeEvent) {
