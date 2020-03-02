@@ -37,7 +37,7 @@ function Footer() {
           Code of Conduct
         </Link>
         <p className="flex-1 text-center mt-4 lg:mt-0 lg:text-right">
-          Copyright © Fullstack Nights 2019
+          Copyright © Fullstack Nights 2020
         </p>
       </div>
     </footer>
