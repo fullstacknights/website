@@ -1,0 +1,40 @@
+{
+  "motto": "A space for everyone to learn and share their knowledge about code and design.",
+  "find us text": "Find us on",
+  "join us text": "Join us",
+  "learn more text": "Learn more",
+  "submit text": "Submit",
+  "subject text": "Subject",
+  "your thoughts text": "Your thoughts",
+  "menu": {
+    "about": "About",
+    "code of conduct": "Code of Conduct",
+    "schedule": "Schedule"
+  },
+  "main page": {
+    "main title": "Be a part of our events",
+    "main description": "Our events are done by the community, for the community. Without your support and participation there would be no us.",
+    "slack title": "Join the community in Slack",
+    "slack description": "Ask questions, get help from the community and stay up to date with the latest events."
+  },
+  "speakers": {
+    "call to action title": "Become a speaker",
+    "call to action description": "We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!"
+  },
+  "moderator": {
+    "call to action title": "Become a moderator",
+    "moderator call to action description": "We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
+  },
+  "proposal": {
+    "call to action title": "Propose a topic",
+    "call to action description": "Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
+  },
+  "feedback": {
+    "call to action description": "We weren't kidding about loving the community. If you have anything to tell us, please use the form bellow. ❤️",
+    "subject placeholder": "Hello FSN!",
+    "thoughts placeholder": "It would be awesome if ..."
+  },
+  "podcast": {
+    "section description": "Listen to the founders of Fullstack Nights geek out about technology and events in the tech world in a relaxed environment."
+  }
+}

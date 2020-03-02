@@ -1,0 +1,40 @@
+{
+  "motto": "Un espacio para aprender y compartir el conocimiento sobre código y diseño.",
+  "find us text": "Encuéntranos en",
+  "join us text": "Únete",
+  "learn more text": "Conoce más",
+  "submit text": "Enviar",
+  "subject text": "Título",
+  "your thoughts text": "Sus ideas",
+  "menu": {
+    "about": "Quienes somos",
+    "code of conduct": "Código de Conducta",
+    "schedule": "Horario"
+  },
+  "main page": {
+    "main title": "Forma parte de los eventos",
+    "main description": "Nuestros eventos son hechos por la comunidad, para la comunidad. Sin su apoyo y participación, no seriamos quienes somos.",
+    "slack title": "Únete a la comunidad en Slack.",
+    "slack description": "Haz preguntas, consigue ayuda de la comunidad y mantente al tanto de los eventos más recientes."
+  },
+  "speakers": {
+    "call to action title": "Conviértete en speaker",
+    "call to action description": "Buscamos personas que estén dispuestas a compartir su experiencia con la comunidad a través de charlas. ¡Si eres principiante, también puedes aplicar!"
+  },
+  "moderator": {
+    "call to action title": "Ayúdanos a moderar",
+    "call to action description": "Buscamos personas que conozcan algún tema a profundiad y les interese moderar una discución sobre ese tema."
+  },
+  "proposal": {
+    "call to action title": "Sugiere un tema",
+    "call to action description": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡nos encantaría saberlas!"
+  },
+  "feedback": {
+    "call to action description": "Eso de amar a la comunidad no es chiste. Si tienes algo que quisieras compartir, en confianza puedes usar el siguiente formulario. ❤️",
+    "subject placeholder": "¡Hola FSN!",
+    "thoughts placeholder": "Estaría brutal si ..."
+  },
+  "podcast": {
+    "section description": "Escucha a los fundadores de Fullstack Nights hablar sobre tecnología y eventos tech en un ambiente relajado."
+  }
+}
