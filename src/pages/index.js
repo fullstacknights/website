@@ -49,44 +49,44 @@ function IndexPage() {
         />
       ) : null}
       <PageSection
-        title={t("main page.main title")}
-        description={t("main page.main description")}
+        title={t("main-page.main-title")}
+        description={t("main-page.main-description")}
       >
         <div className="flex flex-wrap justify-between lg:flex-no-wrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title={t("speakers.call to action title")}
-              description={t("speakers.call to action description")}
+              title={t("speakers.call-to-action-title")}
+              description={t("speakers.call-to-action-description")}
               url="/speakers/"
-              urlTitle={t("learn more text")}
+              urlTitle={t("learn-more-text")}
             />
           </div>
           <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title={t("moderator.call to action title")}
-              description={t("moderator.call to action description")}
+              title={t("moderator.call-to-action-title")}
+              description={t("moderator.call-to-action-description")}
               url="/topic-tables/"
-              urlTitle={t("learn more text")}
+              urlTitle={t("learn-more-text")}
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/3">
             <CallToAction
-              title={t("proposal.call to action title")}
-              description={t("proposal.call to action description")}
+              title={t("proposal.call-to-action-title")}
+              description={t("proposal.call-to-action-description")}
               url="/topic-tables/"
-              urlTitle={t("learn more text")}
+              urlTitle={t("learn-more-text")}
             />
           </div>
         </div>
       </PageSection>
       <PageSection
         title="Podcast"
-        description={t("podcast.section description")}
+        description={t("podcast.section-description")}
       >
         <div className="flex flex-col items-center justify-center">
           <img className="w-1/2 lg:w-1/4" src={Podcast} alt="podcast" />
           <div className="mt-8 text-center">
-            <h4 className="text-lg mb-2">{t("find us text")}:</h4>
+            <h4 className="text-lg mb-2">{t("find-us-text")}:</h4>
             <div className="flex flex-wrap justify-center lg:justify-start">
               <a
                 className="btn btn--apple-podcasts"
@@ -111,17 +111,17 @@ function IndexPage() {
       </PageSection>
       <PageSection
         title="Feedback"
-        description={t("feedback.call to action description")}
+        description={t("feedback.call-to-action-description")}
       >
         <div className="flex flex-col items-center justify-center">
           <FeedbackForm i18n={i18n} />
         </div>
       </PageSection>
       <PageHighlight
-        header={t("main page.slack title")}
-        subheader={t("main page.slack description")}
+        header={t("main-page.slack-title")}
+        subheader={t("main-page.slack-description")}
         url={SLACK_LINK}
-        urlTitle={t("join us text")}
+        urlTitle={t("join-us-text")}
       />
     </Layout>
   );

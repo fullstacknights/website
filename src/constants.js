@@ -50,9 +50,9 @@ export const FOUNDERS = [
 
 export function getSections(i18n) {
   const SECTIONS = [
-    { title: i18n.t("menu.about"), to: "/about/" },
-    { title: i18n.t("menu.code of conduct"), to: "/code-of-conduct/" },
-    { title: i18n.t("menu.schedule"), to: "/schedule/" },
+    { title: i18n.t("menu.about-text"), to: "/about/" },
+    { title: i18n.t("menu.code-of-conduct-text"), to: "/code-of-conduct/" },
+    { title: i18n.t("menu.schedule-text"), to: "/schedule/" },
     { title: "Speakers", to: "/speakers/" },
     { title: "Topic Tables", to: "/topic-tables/" }
   ];
