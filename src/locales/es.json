@@ -1,40 +1,69 @@
 {
   "motto": "Un espacio para aprender y compartir el conocimiento sobre código y diseño.",
-  "find us text": "Encuéntranos en",
-  "join us text": "Únete",
-  "learn more text": "Conoce más",
-  "submit text": "Enviar",
-  "subject text": "Título",
-  "your thoughts text": "Sus ideas",
+  "find-us-text": "Encuéntranos en",
+  "join-us-text": "Únete",
+  "learn-more-text": "Conoce más",
+  "submit-text": "Enviar",
+  "subject-text": "Título",
+  "your-thoughts-text": "Sus ideas",
   "menu": {
-    "about": "Quienes somos",
-    "code of conduct": "Código de Conducta",
-    "schedule": "Horario"
+    "about-text": "Quiénes somos",
+    "code-of-conduct-text": "Código de Conducta",
+    "schedule-text": "Horario"
   },
-  "main page": {
-    "main title": "Forma parte de los eventos",
-    "main description": "Nuestros eventos son hechos por la comunidad, para la comunidad. Sin su apoyo y participación, no seriamos quienes somos.",
-    "slack title": "Únete a la comunidad en Slack.",
-    "slack description": "Haz preguntas, consigue ayuda de la comunidad y mantente al tanto de los eventos más recientes."
+  "main-page": {
+    "main-title": "Forma parte de los eventos",
+    "main-description": "Nuestros eventos son hechos por la comunidad, para la comunidad. Sin su apoyo y participación, no seriamos quienes somos.",
+    "slack-title": "Únete a la comunidad en Slack.",
+    "slack-description": "Haz preguntas, obtén ayuda de la comunidad y mantente al tanto de los eventos más recientes."
   },
   "speakers": {
-    "call to action title": "Conviértete en speaker",
-    "call to action description": "Buscamos personas que estén dispuestas a compartir su experiencia con la comunidad a través de charlas. ¡Si eres principiante, también puedes aplicar!"
+    "call-to-action-title": "Conviértete en speaker",
+    "call-to-action-description": "Buscamos personas que estén dispuestas a compartir su experiencia con la comunidad a través de charlas. ¡Si eres principiante, también puedes aplicar!"
   },
   "moderator": {
-    "call to action title": "Ayúdanos a moderar",
-    "call to action description": "Buscamos personas que conozcan algún tema a profundiad y les interese moderar una discución sobre ese tema."
+    "call-to-action-title": "Ayúdanos a moderar",
+    "call-to-action-description": "Buscamos personas que conozcan de algún tema a profundiad y les interese moderar una discución sobre ese tema."
   },
   "proposal": {
-    "call to action title": "Sugiere un tema",
-    "call to action description": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡nos encantaría saberlas!"
+    "call-to-action-title": "Sugiere un tema",
+    "call-to-action-description": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡nos encantaría saberlas!"
   },
   "feedback": {
-    "call to action description": "Eso de amar a la comunidad no es chiste. Si tienes algo que quisieras compartir, en confianza puedes usar el siguiente formulario. ❤️",
-    "subject placeholder": "¡Hola FSN!",
-    "thoughts placeholder": "Estaría brutal si ..."
+    "call-to-action-description": "Eso de amar a la comunidad no es chiste. Si tienes algo que quisieras compartir, en confianza puedes usar el siguiente formulario. ❤️",
+    "subject-placeholder": "¡Hola FSN!",
+    "thoughts-placeholder": "Estaría brutal si ..."
   },
   "podcast": {
-    "section description": "Escucha a los fundadores de Fullstack Nights hablar sobre tecnología y eventos tech en un ambiente relajado."
+    "section-description": "Escucha a los fundadores de Fullstack Nights hablar sobre tecnología y eventos tech en un ambiente relajado."
+  },
+
+  "about": {
+    "title": "Sobre FSN",
+    "text": "Fullstack Nights es un evento llevado a cabo mensualmente, donde personas con interés en programación y diseño pueden compartir su conocimiento en un ambiente informal.",
+    "questions-title": "Una breve introducción a FSN",
+    "event-organizers-text": "Personal que organiza el evento",
+    "what-is-fsn-question": "¿Qué es Fullstack Nights?",
+    "what-is-fsn-answer": "Fullstack Nights es un evento estilo \"meetup\" llevado a cabo mensualmente para personas con interés en aprender y compartir su conocimiento en un espacio informal y relajado.",
+    "what-is-the-format-question": "¿Cuál es el formato del evento?",
+    "what-is-the-format-answer-line-1": "¡Buena pregunta! Actualmente tenemos dos tipos de eventos: FSN Speakers and FSN Topic Tables.",
+    "what-is-the-format-answer-line-2": "FSN Speakers es un evento que consiste en dos charlas de 20 minutos cada una, seguidas ambas por unos minutos de micrófono abierto, y luego un tiempo para socializar. Los tópicos de charlas previas han variado desde introducciones a frameworks de programación hasta ideas sobre cómo mejorar la experiencia de los usuarios al momento de diseñar eventos.",
+    "what-is-the-format-answer-line-3": "FSN Topic Tables tiene como meta reunir a la comunidad en conversaciones sobre diversos tópicos. Los participantes hacen preguntas, discuten sus ideas y expanden su conocimiento a través del dialogo moderado.",
+    "who-should-attend-question": "¿Quien debe venir a estos eventos?",
+    "who-should-attend-answer": "Cualquier persona que tenga algún interés en tecnología y diseño es bienvenida. No importa si eres estudiante, professional o si solo tienes curiosidad sobre los estos temas. Hay un espacio para quien queira venir a aprender y compartir su experiencia.",
+    "why-are-we-doing-this-question": "¿Por qué hacemos esto?",
+    "why-are-we-doing-this-answer-line-1": "La respuesta corta: amamos a la comunidad ❤️. Desde el comienzo, nuestra meta fue unir a las distintas comunidades que trabajan alrededor de tecnología/startups y brindarles valor. Desde nuestro punto de vista, compartir nuestras experiencias entre las distintas diciplinas sirve para fortalecer a toda la comunidad en general.",
+    "why-are-we-doing-this-answer-line-2": "También, queremos conocer a personas nuevas y proveer un espacio seguro en donde colaborar y crecer. Esperamos que nos acompañes en esta aventura.",
+    "how-can-i-get-involved-question": "¿Cómo puedo involucrarme?",
+    "how-can-i-get-involved-answer": "Hay varias formas. Puedes aplicar para ser speaker, o para moderar una mesa de Topic Tables. Podrías proponer un tópico para futuros eventos. También puedes unirte a nuestra comunidad en Slack",
+    "founders-text": "Fundadores",
+    "code-of-conduct-title": "No toleramos el comportamiento inapropiado",
+    "code-of-conduct-description": "Todo participante de Fullstack Nights tiene que aceptar nuestro código de conducta. El personal a cargo será responsable de que las reglas se respeten durante el transcurso del evento. Esperamos que todos los participantes y personal ayuden a proveer un espacio seguro donde cualquier persona se sienta bienvenida.",
+    "code-of-conduct-text": "Código de Conducta"
+  },
+
+  "404": {
+    "title": "NO EXISTE",
+    "text": "Acabas de caer en una ruta que no existe... Qué lastima."
   }
 }

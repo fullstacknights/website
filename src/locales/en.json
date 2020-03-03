@@ -1,40 +1,69 @@
 {
   "motto": "A space for everyone to learn and share their knowledge about code and design.",
-  "find us text": "Find us on",
-  "join us text": "Join us",
-  "learn more text": "Learn more",
-  "submit text": "Submit",
-  "subject text": "Subject",
-  "your thoughts text": "Your thoughts",
+  "find-us-text": "Find us on",
+  "join-us-text": "Join us",
+  "learn-more-text": "Learn more",
+  "submit-text": "Submit",
+  "subject-text": "Subject",
+  "your-thoughts-text": "Your thoughts",
   "menu": {
-    "about": "About",
-    "code of conduct": "Code of Conduct",
-    "schedule": "Schedule"
+    "about-text": "About",
+    "code-of-conduct-text": "Code of Conduct",
+    "schedule-text": "Schedule"
   },
-  "main page": {
-    "main title": "Be a part of our events",
-    "main description": "Our events are done by the community, for the community. Without your support and participation there would be no us.",
-    "slack title": "Join the community in Slack",
-    "slack description": "Ask questions, get help from the community and stay up to date with the latest events."
+  "main-page": {
+    "main-title": "Be a part of our events",
+    "main-description": "Our events are done by the community, for the community. Without your support and participation there would be no us.",
+    "slack-title": "Join the community in Slack",
+    "slack-description": "Ask questions, get help from the community and stay up to date with the latest events."
   },
   "speakers": {
-    "call to action title": "Become a speaker",
-    "call to action description": "We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!"
+    "call-to-action-title": "Become a speaker",
+    "call-to-action-description": "We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!"
   },
   "moderator": {
-    "call to action title": "Become a moderator",
-    "call to action description": "We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
+    "call-to-action-title": "Become a moderator",
+    "call-to-action-description": "We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
   },
   "proposal": {
-    "call to action title": "Propose a topic",
-    "call to action description": "Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
+    "call-to-action-title": "Propose a topic",
+    "call-to-action-description": "Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
   },
   "feedback": {
-    "call to action description": "We weren't kidding about loving the community. If you have anything to tell us, please use the form bellow. ❤️",
-    "subject placeholder": "Hello FSN!",
-    "thoughts placeholder": "It would be awesome if ..."
+    "call-to-action-description": "We weren't kidding about loving the community. If you have anything to tell us, please use the form bellow. ❤️",
+    "subject-placeholder": "Hello FSN!",
+    "thoughts-placeholder": "It would be awesome if ..."
   },
   "podcast": {
-    "section description": "Listen to the founders of Fullstack Nights geek out about technology and events in the tech world in a relaxed environment."
+    "section-description": "Listen to the founders of Fullstack Nights geek out about technology and events in the tech world in a relaxed environment."
+  },
+
+  "about": {
+    "title": "About FSN",
+    "text": "Fullstack Nights is a monthly meetup where programmers and designers can share their experience and knowledge in an informal environment.",
+    "questions-title": "A brief introduction to FSN",
+    "what-is-fsn-question": "What is Fullstack Nights?",
+    "what-is-fsn-answer": "Fullstack Nights is a monthly meetup for technologist and designers interested in learning and sharing their knowledge in an informal and relaxed environment.",
+    "what-is-the-format-question": "What's the format of our event?",
+    "what-is-the-format-answer-line-1": "Great question! We actually have two events: FSN Speakers and FSN Topic Tables.",
+    "what-is-the-format-answer-line-2": "FSN Speakers is an event that consists of two 20 minute talks, an open mic session, and some networking time. Past topics have ranged from introductions to programming frameworks to user experience in event design.",
+    "what-is-the-format-answer-line-3": "FSN Topic Tables aims to bring the community together to share conversations about different topics. Participants can ask questions, discuss ideas and expand their knowledge through a moderated conversation.",
+    "who-should-attend-question": "Who should attend to this event?",
+    "who-should-attend-answer": "Everyone who's interested in technology and interactive design. It doesn't matter if you're a student, an expert or if you just have a bit of curiosity about a topic. There's space for everyone to learn and share their experience.",
+    "why-are-we-doing-this-question": "Why are we doing this?",
+    "why-are-we-doing-this-answer-line-1": "The simple answer is: we ❤️ community. From the start, our goal has been to provide value and bring together the different communities working around tech and startups. From our point of view, sharing our experiences across disciplines makes the overall community stronger.",
+    "why-are-we-doing-this-answer-line-2": "We also wanted to meet people and provide a safe place where people can network and grow. We hope you'll join us in this journey.",
+    "how-can-i-get-involved-question": "How can I get involved?",
+    "how-can-i-get-involved-answer": "There's a number of ways. You can become a speaker or topic table moderator, you can propose a topic, or you can join our Slack community.",
+    "event-organizers-text": "Event organizers",
+    "founders-text": "Founders",
+    "code-of-conduct-title": "We don't tolerate inappropriate behavior",
+    "code-of-conduct-description": "Every Fullstack Nights participant has to accept our code of conduct. The organizers of the event will enforce the meetup rules through out the event. We expect that every participant and organizer will help provide a safe environment for everyone.",
+    "code-of-conduct-text": "Code of Conduct"
+  },
+
+  "404": {
+    "title": "NOT FOUND",
+    "text": "You just hit a route that doesn't exist... the sadness."
   }
 }
