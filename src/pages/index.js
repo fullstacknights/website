@@ -58,7 +58,7 @@ function IndexPage() {
               title={t("speakers.call-to-action-title")}
               description={t("speakers.call-to-action-description")}
               url="/speakers/"
-              urlTitle={t("learn-more-text")}
+              urlTitle={t("learn-more")}
             />
           </div>
           <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
@@ -66,7 +66,7 @@ function IndexPage() {
               title={t("moderator.call-to-action-title")}
               description={t("moderator.call-to-action-description")}
               url="/topic-tables/"
-              urlTitle={t("learn-more-text")}
+              urlTitle={t("learn-more")}
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/3">
@@ -74,7 +74,7 @@ function IndexPage() {
               title={t("proposal.call-to-action-title")}
               description={t("proposal.call-to-action-description")}
               url="/topic-tables/"
-              urlTitle={t("learn-more-text")}
+              urlTitle={t("learn-more")}
             />
           </div>
         </div>
@@ -86,7 +86,7 @@ function IndexPage() {
         <div className="flex flex-col items-center justify-center">
           <img className="w-1/2 lg:w-1/4" src={Podcast} alt="podcast" />
           <div className="mt-8 text-center">
-            <h4 className="text-lg mb-2">{t("find-us-text")}:</h4>
+            <h4 className="text-lg mb-2">{t("find-us")}:</h4>
             <div className="flex flex-wrap justify-center lg:justify-start">
               <a
                 className="btn btn--apple-podcasts"
@@ -121,7 +121,7 @@ function IndexPage() {
         header={t("main-page.slack-title")}
         subheader={t("main-page.slack-description")}
         url={SLACK_LINK}
-        urlTitle={t("join-us-text")}
+        urlTitle={t("join-us")}
       />
     </Layout>
   );

@@ -15,11 +15,11 @@ function FeedbackForm() {
     <Form
       className={`flex flex-col rounded shadow w-full mb-4  p-6 lg:w-1/2`}
       additionalFormAttr={additionalFormAttr}
-      submitText={t("submit-text")}
+      submitText={t("submit")}
     >
       <input type="hidden" netlify-honeypot="bot-field" />
       <label htmlFor="subject" className="feedback__label">
-        {t("subject-text")}
+        {t("subject")}
       </label>
       <input
         id="subject"
@@ -29,7 +29,7 @@ function FeedbackForm() {
         type="text"
       />
       <label htmlFor="thoughts" className="feedback__label">
-        {t("your-thoughts-text")}
+        {t("your-thoughts")}
       </label>
       <textarea
         id="thoughts"

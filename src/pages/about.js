@@ -59,14 +59,14 @@ export default function() {
           ))}
         </div>
       </PageSection>
-      <PageSection title={t("about.event-organizers-text")}>
+      <PageSection title={t("about.event-organizers")}>
         <div className="flex flex-wrap">
           {ORGANIZERS.map((organizer, index) => (
             <Avatar key={index} {...organizer} />
           ))}
         </div>
       </PageSection>
-      <PageSection title={t("about.founders-text")}>
+      <PageSection title={t("about.founders")}>
         <div className="flex flex-wrap">
           {FOUNDERS.map((founder, index) => (
             <Avatar key={index} {...founder} />
@@ -77,7 +77,7 @@ export default function() {
         header={t("about.code-of-conduct-title")}
         subheader={t("about.code-of-conduct-description")}
         url="/code-of-conduct"
-        urlTitle={t("about.code-of-conduct-text")}
+        urlTitle={t("about.code-of-conduct")}
       />
     </Layout>
   );
