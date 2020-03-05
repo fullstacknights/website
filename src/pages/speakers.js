@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import {
   Avatar,
@@ -16,42 +17,36 @@ import PAST_SPEAKERS from "../past-speakers";
 const FORM_LINK =
   "https://docs.google.com/forms/d/1SIL9HvzaQ34F3iHIIsMmDlS5Icoc9XPXTwrsr9_M87U/edit?ts=57ff9dee";
 
-const FAQ = [
-  {
-    question: "What can I speak about?",
-    answer:
-      "You're welcome to speak about programing languages, frameworks, tools, databases, infrastructure, email design, user interfaces, users experience, prototyping and any other topic or experience that can add value to our community."
-  },
-  {
-    question: "How much time to I have to give my talk?",
-    answer:
-      "You'll have 20 minutes for your talk and 5 minutes for Q&A after the presentation is over."
-  },
-  {
-    question:
-      "I recently learned about a new technology, can I speak about it?",
-    answer:
-      "Of course! When we've just learned about a topic we have a unique perspective compared to an expert. Don't count yourself out and apply as a speaker!"
-  },
-  {
-    question: "Can I recommend someone to speak at this event?",
-    answer:
-      "Yes! If you know someone that would be a good speaker at FSN you can apply on their behalf and we'll reach out to them."
-  },
-  {
-    question:
-      "I've never done any public speaking before, should I apply as a speaker?",
-    answer:
-      "Yes, you should! The FSN team is here to help you give the best talk possible. We'll set up rehearsal sessions, provide feedback and help you polish your presentation."
-  },
-  {
-    question: "Who should attend to this event?",
-    answer:
-      "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
-  }
-];
-
 export default function() {
+  const { t } = useTranslation();
+
+  const FAQ = [
+    {
+      question: `${t("faq.what-can-i-speak-about-question")}`,
+      answer: `${t("faq.what-can-i-speak-about-answer")}`
+    },
+    {
+      question: `${t("faq.how-much-time-do-i-have-question")}`,
+      answer: `${t("faq.how-much-time-do-i-have-answer")}`
+    },
+    {
+      question: `${t("faq.can-i-speak-about-new-tech-question")}`,
+      answer: `${t("faq.can-i-speak-about-new-tech-answer")}`
+    },
+    {
+      question: `${t("faq.can-i-recommend-someone-question")}`,
+      answer: `${t("faq.can-i-recommend-someone-answer")}`
+    },
+    {
+      question: `${t("faq.should-i-apply-question")}`,
+      answer: `${t("faq.should-i-apply-answer")}`
+    },
+    {
+      question: `${t("faq.who-should-attend-this-event-question")}`,
+      answer: `${t("faq.who-should-attend-this-event-answer")}`
+    }
+  ];
+
   return (
     <Layout>
       <SEO title="Become a speaker" />
