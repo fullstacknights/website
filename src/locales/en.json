@@ -1,47 +1,42 @@
 {
   "motto": "A space for everyone to learn and share their knowledge about code and design.",
-  "find-us-text": "Find us on",
-  "join-us-text": "Join us",
-  "learn-more-text": "Learn more",
-  "submit-text": "Submit",
-  "subject-text": "Subject",
-  "your-thoughts-text": "Your thoughts",
+  "find-us": "Find us on",
+  "join-us": "Join us",
+  "learn-more": "Learn more",
+  "submit": "Submit",
+  "subject": "Subject",
+  "your-thoughts": "Your thoughts",
   "menu": {
-    "about-text": "About",
-    "code-of-conduct-text": "Code of Conduct",
-    "schedule-text": "Schedule"
+    "about": "About",
+    "code-of-conduct": "Code of Conduct",
+    "schedule": "Schedule"
   },
   "main-page": {
-    "main-title": "Be a part of our events",
-    "main-description": "Our events are done by the community, for the community. Without your support and participation there would be no us.",
-    "slack-title": "Join the community in Slack",
-    "slack-description": "Ask questions, get help from the community and stay up to date with the latest events."
-  },
-  "speakers": {
-    "call-to-action-title": "Become a speaker",
-    "call-to-action-description": "We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!"
-  },
-  "moderator": {
-    "call-to-action-title": "Become a moderator",
-    "call-to-action-description": "We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
+    "be-a-part-of-our-events": "Be a part of our events",
+    "our-events-are-done-by-the-community": "Our events are done by the community, for the community. Without your support and participation there would be no us.",
+    "join-the-community": "Join the community in Slack",
+    "ask-questions-get-help": "Ask questions, get help from the community and stay up to date with the latest events.",
+    "become-a-speaker": "Become a speaker",
+    "we-are-looking-for-speakers": "We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!",
+    "become-a-moderator": "Become a moderator",
+    "wea-re-looking-for-moderators": "We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
   },
   "proposal": {
-    "call-to-action-title": "Propose a topic",
-    "call-to-action-description": "Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
+    "propose-a-topic": "Propose a topic",
+    "interested-in-topic": "Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
   },
   "feedback": {
-    "call-to-action-description": "We weren't kidding about loving the community. If you have anything to tell us, please use the form bellow. ❤️",
-    "subject-placeholder": "Hello FSN!",
-    "thoughts-placeholder": "It would be awesome if ..."
+    "if-you-have-anything-to-tell-us": "We weren't kidding about loving the community. If you have anything to tell us, please use the form bellow. ❤️",
+    "hello-fsn": "Hello FSN!",
+    "it-would-be-awesome-if": "It would be awesome if ..."
   },
   "podcast": {
-    "section-description": "Listen to the founders of Fullstack Nights geek out about technology and events in the tech world in a relaxed environment."
+    "listen-to-the-founders": "Listen to the founders of Fullstack Nights geek out about technology and events in the tech world in a relaxed environment."
   },
-
   "about": {
-    "title": "About FSN",
-    "text": "Fullstack Nights is a monthly meetup where programmers and designers can share their experience and knowledge in an informal environment.",
-    "questions-title": "A brief introduction to FSN",
+    "about-fsn": "About FSN",
+    "fsn-is-a-monthly-meetup": "Fullstack Nights is a monthly meetup where programmers and designers can share their experience and knowledge in an informal environment.",
+    "a-brief-introduction": "A brief introduction to FSN",
     "what-is-fsn-question": "What is Fullstack Nights?",
     "what-is-fsn-answer": "Fullstack Nights is a monthly meetup for technologist and designers interested in learning and sharing their knowledge in an informal and relaxed environment.",
     "what-is-the-format-question": "What's the format of our event?",
@@ -55,15 +50,61 @@
     "why-are-we-doing-this-answer-line-2": "We also wanted to meet people and provide a safe place where people can network and grow. We hope you'll join us in this journey.",
     "how-can-i-get-involved-question": "How can I get involved?",
     "how-can-i-get-involved-answer": "There's a number of ways. You can become a speaker or topic table moderator, you can propose a topic, or you can join our Slack community.",
-    "event-organizers-text": "Event organizers",
-    "founders-text": "Founders",
-    "code-of-conduct-title": "We don't tolerate inappropriate behavior",
-    "code-of-conduct-description": "Every Fullstack Nights participant has to accept our code of conduct. The organizers of the event will enforce the meetup rules through out the event. We expect that every participant and organizer will help provide a safe environment for everyone.",
-    "code-of-conduct-text": "Code of Conduct"
+    "event-organizers": "Event organizers",
+    "founders": "Founders",
+    "we-do-not-tolerate-inappropriate-behavior": "We don't tolerate inappropriate behavior",
+    "every-fsn-participant-has-to-accept": "Every Fullstack Nights participant has to accept our code of conduct. The organizers of the event will enforce the meetup rules through out the event. We expect that every participant and organizer will help provide a safe environment for everyone.",
+    "code-of-conduct": "Code of Conduct"
   },
+  "speakers": {
+    "give-a-talk-at-fsn": "Give a talk at FSN!",
+    "we-are-looking-for-speakers": "We're looking for people that are willing to share their experience with the community!",
+    "submit-your-proposal": "Submit your proposal",
+    "past-speakers": "Past Fullstack Nights Speakers",
+    "ready-to-become-a-speaker": "Ready to become a speaker?",
+    "join-the-community": "Join the community in Slack",
+    "ask-questions-get-help": "Ask questions, get help from the community and stay up to date with the latest events.",
 
+    "we-will-help-polish-your-talk": "We'll help you polish your talk",
+    "everyone-has-valuable-knowledge-to-share": "Everyone has valuable knowledge to share and we are committed to help you give a top-quality talk. Before the event we'll go through the following process:",
+    "topic-scoping": "Topic scoping",
+    "we-will-research-your-topic": "Before you're selected as a speaker we will research your topic. If our team finds your topic to be too broad we'll discuss different ways to narrow it down.",
+    "talk-rehearsal": "Talk rehearsal",
+    "we-will-do-a-dry-run": "Two weeks before the event, we'll do a dry run of your talk. We'll provide feedback about your talk structure, delivery and the time you consumed presenting.",
+    "slides-evaluation": "Slides evaluation",
+    "we-will-evaluate-the-content": "During the dry run we'll evaluate the content in your slides and give you pointers that will help improve the visual aspect of your talk.",
+    "frequently-asked-questions": "Frequently Asked Questions",
+    "we-have-gathered-a-couple-of-questions": "We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter.",
+    "what-can-i-speak-about-question": "What can I speak about?",
+    "what-can-i-speak-about-answer": "You're welcome to speak about programing languages, frameworks, tools, databases, infrastructure, email design, user interfaces, users experience, prototyping and any other topic or experience that can add value to our community.",
+    "how-much-time-do-i-have-question": "How much time do I have to give my talk?",
+    "how-much-time-do-i-have-answer": "You'll have 20 minutes for your talk and 5 minutes for Q&A after the presentation is over.",
+    "can-i-speak-about-new-tech-question": "I recently learned about a new technology, can I speak about it?",
+    "can-i-speak-about-new-tech-answer": "Of course! When we've just learned about a topic we have a unique perspective compared to an expert. Don't count yourself out and apply as a speaker!",
+    "can-i-recommend-someone-question": "Can I recommend someone to speak at this event?",
+    "can-i-recommend-someone-answer": "Yes! If you know someone that would be a good speaker at FSN you can apply on their behalf and we'll reach out to them.",
+    "should-i-apply-question": "I've never done any public speaking before, should I apply as a speaker?",
+    "should-i-apply-answer": "Yes, you should! The FSN team is here to help you give the best talk possible. We'll set up rehearsal sessions, provide feedback and help you polish your presentation.",
+    "who-should-attend-this-event-question": "Who should attend to this event?",
+    "who-should-attend-this-event-answer": "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
+  },
+  "code-of-conduct": {
+    "section-title": "Code of conduct",
+    "short-version-title": "Short version",
+    "short-version-description": "Our conference is dedicated to offering a welcoming experience for everyone, regardless of their gender, sexual orientation, ability, appearance, ethnicity or religion. We do not tolerate abuses towards the participants of the conference in any form. Sexual language and/or sexualized images are not appropriate for any aspect of the conference, including talks, workshops, gatherings, Twitter or any other online medium associated to the event. Conference participants who violate these rules could be sanctioned or expelled from the conference without any reimbursement, at the discretion of the conference organizers.",
+    "long-version-title": "Long version",
+    "long-version-description-paragraph-1": "Examples of abuses are: offensive comments regarding gender, sexual orientation, ability, appearance, ethnicity or religion, sexual images in public spaces, intimidation, harassment, recording or photographing abuses, continued interruptions of the conference talks or other events, inappropriate physical contact and sexual harassment.",
+    "long-version-description-paragraph-2": "We expect participants who are made aware of their abusive behavior to immediately comply and stop said behavior.",
+    "long-version-description-paragraph-3": "Conference sponsors are also subject to the policies against abuse. In particular, sponsors should not make use of sexual content. Conference personnel (volunteers included) should not make use of clothing/uniforms/disguises that are sexual in nature.",
+    "long-version-description-paragraph-4": "If a participant incurs in abusive behavior, the conference personnel reserves the right to take official action, which may include warnings as well as expulsion from the event without any reimbursement.",
+    "long-version-description-paragraph-5": "If you are suffering from abuse at the conference, know of anyone suffering from abuse, or feel uncomfortable in any other way, please contact any conference personnel immediately.",
+    "long-version-description-paragraph-6": "The conference personnel will gladly help participants in contacting the security personnel of the event location or the local authorities, provide escort out of the conference, or otherwise assist those who are the victims of abuse in any way so that they can feel comfortable during the event. We value your assistance.",
+    "long-version-description-paragraph-7": "We hope that participants follow these rules and regulations in the conference, workshops and any other social event related to the conference.",
+    "need-help-title": "Need help?",
+    "need-help-description": "Contact one of the organizers through Twitter or personally."
+  },
   "404": {
-    "title": "NOT FOUND",
-    "text": "You just hit a route that doesn't exist... the sadness."
+    "not-found": "NOT FOUND",
+    "you-hit-a-route-that-does-not-exist": "You just hit a route that doesn't exist... the sadness."
   }
 }

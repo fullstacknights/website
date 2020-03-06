@@ -1,48 +1,42 @@
 {
   "motto": "Un espacio para aprender y compartir el conocimiento sobre código y diseño.",
-  "find-us-text": "Encuéntranos en",
-  "join-us-text": "Únete",
-  "learn-more-text": "Conoce más",
-  "submit-text": "Enviar",
-  "subject-text": "Título",
-  "your-thoughts-text": "Sus ideas",
+  "find-us": "Encuéntranos en",
+  "join-us": "Únete",
+  "learn-more": "Conoce más",
+  "submit": "Enviar",
+  "subject": "Título",
+  "your-thoughts": "Sus ideas",
   "menu": {
-    "about-text": "Quiénes somos",
-    "code-of-conduct-text": "Código de Conducta",
-    "schedule-text": "Horario"
+    "about": "Quiénes somos",
+    "code-of-conduct": "Código de Conducta",
+    "schedule": "Horario"
   },
   "main-page": {
-    "main-title": "Forma parte de los eventos",
-    "main-description": "Nuestros eventos son hechos por la comunidad, para la comunidad. Sin su apoyo y participación, no seriamos quienes somos.",
-    "slack-title": "Únete a la comunidad en Slack.",
-    "slack-description": "Haz preguntas, obtén ayuda de la comunidad y mantente al tanto de los eventos más recientes."
-  },
-  "speakers": {
-    "call-to-action-title": "Conviértete en speaker",
-    "call-to-action-description": "Buscamos personas que estén dispuestas a compartir su experiencia con la comunidad a través de charlas. ¡Si eres principiante, también puedes aplicar!"
-  },
-  "moderator": {
-    "call-to-action-title": "Ayúdanos a moderar",
-    "call-to-action-description": "Buscamos personas que conozcan de algún tema a profundiad y les interese moderar una discución sobre ese tema."
+    "be-a-part-of-our-events": "Forma parte de los eventos",
+    "our-events-are-done-by-the-community": "Nuestros eventos son hechos por la comunidad, para la comunidad. Sin su apoyo y participación, no seriamos quienes somos.",
+    "join-the-community": "Únete a la comunidad en Slack",
+    "ask-questions-get-help": "Haz preguntas, obtén ayuda y mantente al tanto de los eventos más recientes.",
+    "become-a-speaker": "Conviértete en speaker",
+    "we-are-looking-for-speakers": "Buscamos personas que estén dispuestas a compartir su experiencia con la comunidad a través de charlas. ¡Si eres principiante, también puedes aplicar!",
+    "become-a-moderator": "Ayúdanos a moderar",
+    "we-are-looking-for-moderators": "Buscamos personas que conozcan de algún tema a profundiad y les interese moderar una discución sobre ese tema."
   },
   "proposal": {
-    "call-to-action-title": "Sugiere un tema",
-    "call-to-action-description": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡nos encantaría saberlas!"
+    "propose-a-topic": "Sugiere un tema",
+    "interested-in-topic": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡nos encantaría saberlas!"
   },
   "feedback": {
-    "call-to-action-description": "Eso de amar a la comunidad no es chiste. Si tienes algo que quisieras compartir, en confianza puedes usar el siguiente formulario. ❤️",
-    "subject-placeholder": "¡Hola FSN!",
-    "thoughts-placeholder": "Estaría brutal si ..."
+    "if-you-have-anything-to-tell-us": "Eso de amar a la comunidad no es chiste. Si tienes algo que quisieras compartir, en confianza puedes usar el siguiente formulario. ❤️",
+    "hello-fsn": "¡Hola FSN!",
+    "it-would-be-awesome-if": "Estaría brutal si ..."
   },
   "podcast": {
-    "section-description": "Escucha a los fundadores de Fullstack Nights hablar sobre tecnología y eventos tech en un ambiente relajado."
+    "listen-to-the-founders": "Escucha a los fundadores de Fullstack Nights hablar sobre tecnología y eventos tech en un ambiente relajado."
   },
-
   "about": {
-    "title": "Sobre FSN",
-    "text": "Fullstack Nights es un evento llevado a cabo mensualmente, donde personas con interés en programación y diseño pueden compartir su conocimiento en un ambiente informal.",
-    "questions-title": "Una breve introducción a FSN",
-    "event-organizers-text": "Personal que organiza el evento",
+    "about-fsn": "Sobre FSN",
+    "fsn-is-a-monthly-meetup": "Fullstack Nights es un evento mensual, donde personas con interés en programación y diseño pueden compartir su conocimiento en un ambiente informal.",
+    "a-brief-introduction": "Una breve introducción a FSN",
     "what-is-fsn-question": "¿Qué es Fullstack Nights?",
     "what-is-fsn-answer": "Fullstack Nights es un evento estilo \"meetup\" llevado a cabo mensualmente para personas con interés en aprender y compartir su conocimiento en un espacio informal y relajado.",
     "what-is-the-format-question": "¿Cuál es el formato del evento?",
@@ -55,15 +49,62 @@
     "why-are-we-doing-this-answer-line-1": "La respuesta corta: amamos a la comunidad ❤️. Desde el comienzo, nuestra meta fue unir a las distintas comunidades que trabajan alrededor de tecnología/startups y brindarles valor. Desde nuestro punto de vista, compartir nuestras experiencias entre las distintas diciplinas sirve para fortalecer a toda la comunidad en general.",
     "why-are-we-doing-this-answer-line-2": "También, queremos conocer a personas nuevas y proveer un espacio seguro en donde colaborar y crecer. Esperamos que nos acompañes en esta aventura.",
     "how-can-i-get-involved-question": "¿Cómo puedo involucrarme?",
-    "how-can-i-get-involved-answer": "Hay varias formas. Puedes aplicar para ser speaker, o para moderar una mesa de Topic Tables. Podrías proponer un tópico para futuros eventos. También puedes unirte a nuestra comunidad en Slack",
-    "founders-text": "Fundadores",
-    "code-of-conduct-title": "No toleramos el comportamiento inapropiado",
-    "code-of-conduct-description": "Todo participante de Fullstack Nights tiene que aceptar nuestro código de conducta. El personal a cargo será responsable de que las reglas se respeten durante el transcurso del evento. Esperamos que todos los participantes y personal ayuden a proveer un espacio seguro donde cualquier persona se sienta bienvenida.",
-    "code-of-conduct-text": "Código de Conducta"
+    "how-can-i-get-involved-answer": "Hay varias formas. Puedes aplicar para ser speaker o para moderar una mesa de Topic Tables. Podrías proponer un tópico para futuros eventos. También puedes unirte a nuestra comunidad en Slack",
+    "event-organizers": "Personal que organiza el evento",
+    "founders": "Fundadores",
+    "we-do-not-tolerate-inappropriate-behavior": "No toleramos el comportamiento inapropiado",
+    "every-fsn-participant-has-to-accept": "Aceptar el código de conducta es obligatorio para participar en FullStack Nights. El personal a cargo será responsable de que las reglas se respeten durante el transcurso del evento. Esperamos que todo participante ayude a proveer un espacio donde cualquier persona se sienta bienvenida.",
+    "code-of-conduct": "Código de Conducta"
   },
+  "speakers": {
+    "give-a-talk-at-fsn": "¡Queremos ver tu charla!",
+    "we-are-looking-for-speakers": "¡Estamos buscando personas que estén dispuestas a compartir su experiencia con la comunidad!",
+    "submit-your-proposal": "Envía tu propuesta",
+    "past-speakers": "Fullstack Nights Speakers anteriores",
+    "ready-to-become-a-speaker": "¡Se parte de esta lista!",
+    "join-the-community": "Únete a la comunidad en Slack",
+    "ask-questions-get-help": "Haz preguntas, obtén ayuda y mantente al tanto de los eventos más recientes.",
 
+    "we-will-help-polish-your-talk": "Te ayudaremos a refinar tu charla",
+    "everyone-has-valuable-knowledge-to-share": "Toda persona tiene conocimiento valioso que aportar a la comunidad, y es por eso que queremos ayudarte a dar la mejor charla posible. Antes del evento, seguiremos el siguiente proceso:",
+    "topic-scoping": "Alcance del tema",
+    "we-will-research-your-topic": "Antes de decidir si serás speaker en el próximo evento, investigaremos tu tema. Si nuestro personal considera que el tema es demasiado amplio, discutiremos contigo distintas formas de limitarlo.",
+    "talk-rehearsal": "Práctica de la charla",
+    "we-will-do-a-dry-run": "Dos semanas antes del evento, haremos una práctica de tu charla. Te proveeremos feedback sobre la estructura de tu charla, sobre cómo das la charla y sobre el tiempo que te toma presentar.",
+    "slides-evaluation": "Evaluación de las diapositivas",
+    "we-will-evaluate-the-content": "Durante la práctica, evaluaremos el contenido de las diapositivas y te daremos consejos que te ayudarán a mejorar el aspecto visual de la charla.",
+    "frequently-asked-questions": "Preguntas Frecuentes",
+    "we-have-gathered-a-couple-of-questions": "Hemos recopilado algunas de las preguntas que nos han hecho con frecuencia. Si tienes alguna otra pregunta, en confianza nos puedes escribir por Facebook o Twitter.",
+    "what-can-i-speak-about-question": "¿Sobre qué puedo hablar?",
+    "what-can-i-speak-about-answer": "Puedes hablar sobre lenguajes de programación, frameworks, herramientas, base de datos, infraestructura, diseño de emails, interfaces de usuarios, experiencia de usuario, prototipos y cualquier otro tema o experiencia que crees pueda añadir valor a la comunidad.",
+    "how-much-time-do-i-have-question": "¿Cuánto tiempo tengo para dar mi charla?",
+    "how-much-time-do-i-have-answer": "Tendrás 20 minutos para dar la charla. Luego de que la charla culmine habrán 5 minutos de preguntas.",
+    "can-i-speak-about-new-tech-question": "Recientemente aprendí sobre una tecnología nueva, ¿aún así puedo hablar sobre eso?",
+    "can-i-speak-about-new-tech-answer": "¡Claro! Cuando apenas aprendemos sobre algún tema, tenemos una perspectiva única comparada a una persona experta. ¡No te descartes y aplica a ser speaker!",
+    "can-i-recommend-someone-question": "¿Puedo recomendar a alguien para que dé una charla?",
+    "can-i-recommend-someone-answer": "¡Si! Si conoces alguien que crees sea buen speaker, puedes llenar la solicitud a nombre de esa persona, indicando que es una recomendación. Nos encargamos de contactar a quien hayas recomendado.",
+    "should-i-apply-question": "Nunca he dado una charla en público, ¿comoquiera debo solicitar a ser speaker?",
+    "should-i-apply-answer": "¡Si, deberías solicitar! El personal de FSN está aqui para ayudarte a presentar la mejor charla posible. Tendremos sesiones de práctica, te proveeremos feedback y te ayudaremos a refinar tu charla.",
+    "who-should-attend-this-event-question": "¿Quién debería asistir a este evento?",
+    "who-should-attend-this-event-answer": "Cualquier persona que tenga interés en programación y diseño. No importa si eres estudiante, principiante o una persona experta. Hay espacio para que todo participante aprenda y crezca."
+  },
+  "code-of-conduct": {
+    "section-title": "Código de conducta",
+    "short-version-title": "Versión corta",
+    "short-version-description": "Nuestra conferencia está dedicada a ofrecer una experiencia acogedora para toda persona, independientemente de su género, orientación sexual, habilidad física, apariencia, etnia o creencia religiosa. No toleramos los abusos hacia los participantes de nuestra conferencia de ninguna forma. El lenguaje sexual y/o las imágenes sexualizadas no son apropiadas para ningún aspecto de la conferencia, incluyendo charlas, talleres, reuniones, en Twitter o cualquier otro medio asociado al evento. Cualquier participante de la conferencia que viole estas reglas podría ser sancionado o expulsado de la conferencia sin ningún reembolso, a discreción del personal organizador de la conferencia.",
+    "long-version-title": "Versión larga",
+    "long-version-description-paragraph-1": "Algunos ejemplos de conducta abusiva lo son: comentarios ofensivos relacionados con género, orientación sexual, habilidad física, apariencia, etnia o creencia religosa. También prohibimos imágenes sexuales en los espacios públicos, intimidación, acoso (incluyendo grabaciones o fotografías no deseadas), interrupciones continuas de las charlas o cualquier otro evento, contacto físico inapropiado y cualquier tipo de acoso sexual.",
+    "long-version-description-paragraph-2": "Esperamos que cualquier participante a quien se le señale un comportamiento abusivo inmediatamente detenga dicho comportamiento.",
+    "long-version-description-paragraph-3": "Los patrocinadores de la conferencia también están sujetos a las políticas contra el abuso. En particular, los patrocinadores no deben hacer uso de contenido sexual de ninguna forma. De igual forma, el personal de la conferencia no debe utilizar vestimenta de naturaleza sexual.",
+    "long-version-description-paragraph-4": "El personal de la conferencia se reserva el derecho de tomar medidas oficiales en contra de cualquier participante que se encuentre en violación del código de conducta. Estas medidas pueden incluir advertencias y hasta expulsión del evento sin ningún reembolso.",
+    "long-version-description-paragraph-5": "Si eres víctima de cualquier tipo de abuso en la conferencia, conoces a alguna víctima, o te encuentras en cualquier situación incómoda, por favor ponte en contacto con algún personal de inmediato.",
+    "long-version-description-paragraph-6": "El equipo de la conferencia con gusto te ayudará a contactar al personal de seguridad o a las autoridades pertinentes, a proveer escolta hacia afuera de los predios del evento, o a asistir a víctimas de abuso en cualquier manera que ayude a proveer un ambiente seguro durante el evento. Valoramos su asistencia.",
+    "long-version-description-paragraph-7": "Esperamos que los participantes respeten estas reglas y regulaciones en la conferencia, en talleres y en cualquier otro evento social relacionado con la conferencia.",
+    "need-help-title": "¿Necesitas ayuda?",
+    "need-help-description": "En confianza puedes contactar a cualquier personal del evento, tanto por Twitter como en persona."
+  },
   "404": {
-    "title": "NO EXISTE",
-    "text": "Acabas de caer en una ruta que no existe... Qué lastima."
+    "not-found": "NO EXISTE",
+    "you-hit-a-route-that-does-not-exist": "Acabas de caer en una ruta que no existe... Qué lástima."
   }
 }
