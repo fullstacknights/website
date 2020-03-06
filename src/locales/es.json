@@ -76,15 +76,15 @@
     "frequently-asked-questions": "Preguntas Frecuentes",
     "we-have-gathered-a-couple-of-questions": "Hemos recopilado algunas de las preguntas que nos han hecho con frecuencia. Si tienes alguna otra pregunta, en confianza nos puedes escribir por Facebook o Twitter.",
     "what-can-i-speak-about-question": "¿Sobre qué puedo hablar?",
-    "what-can-i-speak-about-answer": "Puedes hablar sobre lenguajes de programación, frameworks, herramientas, base de datos, infraestructura, diseño de emails, interfaces de usuarios, experiencia de usuario, prototipos y cualquier otro tema o experiencia que crees pueda añadir valor a la comunidad.",
+    "what-can-i-speak-about-answer": "Puedes hablar sobre lenguajes de programación, frameworks, herramientas, bases de datos, infraestructura, diseño de emails, interfaces de usuarios, experiencia de usuario, prototipos y cualquier otro tema o experiencia que crees pueda añadir valor a la comunidad.",
     "how-much-time-do-i-have-question": "¿Cuánto tiempo tengo para dar mi charla?",
     "how-much-time-do-i-have-answer": "Tendrás 20 minutos para dar la charla. Luego de que la charla culmine habrán 5 minutos de preguntas.",
-    "can-i-speak-about-new-tech-question": "Recientemente aprendí sobre una tecnología nueva, ¿aún así puedo hablar sobre eso?",
-    "can-i-speak-about-new-tech-answer": "¡Claro! Cuando apenas aprendemos sobre algún tema, tenemos una perspectiva única comparada a una persona experta. ¡No te descartes y aplica a ser speaker!",
+    "can-i-speak-about-new-tech-question": "Recientemente aprendí sobre una tecnología nueva, ¿aún así puedo hablar sobre ella?",
+    "can-i-speak-about-new-tech-answer": "¡Claro! Cuando apenas aprendemos sobre algún tema tenemos una perspectiva única comparada a una persona experta. ¡No te descartes y solicita para ser speaker!",
     "can-i-recommend-someone-question": "¿Puedo recomendar a alguien para que dé una charla?",
-    "can-i-recommend-someone-answer": "¡Si! Si conoces alguien que crees sea buen speaker, puedes llenar la solicitud a nombre de esa persona, indicando que es una recomendación. Nos encargamos de contactar a quien hayas recomendado.",
+    "can-i-recommend-someone-answer": "¡Sí! Si conoces alguien que crees pueda ser buen speaker, puedes llenar la solicitud a nombre de esa persona, indicando que es una recomendación. Nos encargaremos de contactar a quien hayas recomendado.",
     "should-i-apply-question": "Nunca he dado una charla en público, ¿comoquiera debo solicitar a ser speaker?",
-    "should-i-apply-answer": "¡Si, deberías solicitar! El personal de FSN está aqui para ayudarte a presentar la mejor charla posible. Tendremos sesiones de práctica, te proveeremos feedback y te ayudaremos a refinar tu charla.",
+    "should-i-apply-answer": "¡Sí, deberías solicitar! El personal de FSN está aqui para ayudarte a presentar la mejor charla posible. Tendremos sesiones de práctica, te proveeremos feedback y te ayudaremos a refinar tu charla.",
     "who-should-attend-this-event-question": "¿Quién debería asistir a este evento?",
     "who-should-attend-this-event-answer": "Cualquier persona que tenga interés en programación y diseño. No importa si eres estudiante, principiante o una persona experta. Hay espacio para que todo participante aprenda y crezca."
   },
@@ -120,8 +120,8 @@
     "chat-with-the-community": "¡Conversa con la comunidad en Topic Tables!",
     "we-are-looking-for-people-willing-to-share": "¡Buscamos personas dispuestas a compartir sus experiencias con la comunidad!",
     "moderator": "Moderar una mesa",
-    "want-to-propose-a-topic": "¿Te interesa proponer un tema y contribuir a una buena discusión? ¡Solicita para moderar una mesa! Para moderar una mesa, debes tener suficiente conocimiento sobre el tema, debes ayudar a mantener la conversación de la mesa y ayudar a que la discusión sea divertida. 😄",
-    "interested-in-having-a-conversation": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡intentaremos encontrar a alguien que pueda hablar sobre el tema sugerido!",
+    "want-to-propose-a-topic": "¿Te interesa proponer un tema y contribuir a una buena discusión? ¡Solicita moderar una mesa! Para moderar una mesa, debes tener suficiente conocimiento sobre el tema, debes ayudar a mantener la conversación de la mesa y ayudar a que la discusión sea divertida. 😄",
+    "interested-in-having-a-conversation": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, intentaremos encontrar a alguien que pueda hablar sobre el tema sugerido.",
     "apply": "Solicita",
     "propose": "Propón un tema",
     "topic": "Proponer un tema",
@@ -131,5 +131,19 @@
     "still-have-questions": "¿Todavia tienes preguntas?",
     "let-us-know-if-you-have-questions": "Déjanos saber si tienes alguna otra pregunta sobre el proceso. ¡Estamos aquí para ayudar!",
     "contact-us": "Contáctanos"
+  },
+  "upcoming-event": {
+    "upcoming-event": "Próximo evento",
+    "at": "a las",
+    "venue": "Sitio",
+    "get-tickets": "Obtén tu boleto de entrada",
+    "line-up": "Apúntate para el próximo evento",
+    "while-you-wait": "A lo que llega la hora del próximo evento, revisa nuestro",
+    "code-of-conduct": "código de conducta",
+    "or-request-an-open-mic": "o solicita un espacio de microfono abierto.",
+    "schedule": "horario"
+  },
+  "footer": {
+    "code-of-conduct": "Código de Conducta"
   }
 }

@@ -131,5 +131,19 @@
     "still-have-questions": "Still have questions?",
     "let-us-know-if-you-have-questions": "Let us know if you have any questions about the presentation process. We’re here to help!",
     "contact-us": "Contact us"
+  },
+  "upcoming-event": {
+    "upcoming-event": "Upcoming event",
+    "at": "at",
+    "venue": "Venue",
+    "get-tickets": "Get tickets",
+    "line-up": "Line up for the next event",
+    "while-you-wait": "While you wait for the event check out our",
+    "code-of-conduct": "code of conduct",
+    "schedule": "schedule",
+    "or-request-an-open-mic": "or request an open mic spot."
+  },
+  "footer": {
+    "code-of-conduct": "Code of Conduct"
   }
 }
