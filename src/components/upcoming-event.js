@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 import { Link } from "gatsby";
 import format from "date-fns/format";
 
@@ -9,19 +11,24 @@ import styles from "./upcoming-event.module.css";
 const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
 
 function UpcomingEvent({ participants, type, date, venue }) {
+  const { t } = useTranslation();
+
   return (
     <section className="mb-20">
       <Card className="w-11/12 m-auto p-6 text-center mt-20 lg:-mt-52 max-w-6xl lg:py-12">
         <div className="mb-4">
-          <h3 className="text-h3 font-extrabold mb-4">Upcoming event</h3>
+          <h3 className="text-h3 font-extrabold mb-4">
+            {t("upcoming-event.upcoming-event")}
+          </h3>
           <h4 className="text-h4 mb-2">
             {type === "topic-tables" ? "Topic Tables" : "Speakers"}
           </h4>
           <p className="text-h4">
-            {format(new Date(date), "EEEE, MMMM d, y")}, at 7pm
+            {format(new Date(date), "EEEE, MMMM d, y")},{" "}
+            {t("upcoming-event.at")} 7pm
           </p>
           <p className="text-h4 flex items-center justify-center">
-            Venue:
+            {t("upcoming-event.venue")}:
             <a
               className="flex flex-col self-center link ml-1"
               href={venue.location}
@@ -39,10 +46,12 @@ function UpcomingEvent({ participants, type, date, venue }) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Get tickets
+            {t("upcoming-event.get-tickets")}
           </a>
         </div>
-        <h4 className="text-h4 font-extrabold">Line up for the next event</h4>
+        <h4 className="text-h4 font-extrabold">
+          {t("upcoming-event.line-up")}
+        </h4>
         <div
           className={`flex flex-wrap justify-center mt-6 mb-8 ${styles.profileContainer} lg:flex-no-wrap`}
         >
@@ -57,22 +66,22 @@ function UpcomingEvent({ participants, type, date, venue }) {
           ))}
         </div>
         <p className="text-rg inline-block">
-          While you wait for the event check out our{" "}
+          {t("upcoming-event.while-you-wait")}{" "}
           <div className="inline-block">
             <Link
               className="flex flex-col self-center link"
               to="/code-of-conduct"
             >
-              code of conduct
+              {t("upcoming-event.code-of-conduct")}
             </Link>
           </div>
           ,{" "}
           <div className="inline-block">
             <Link className="flex flex-col link" to="/schedule">
-              schedule
+              {t("upcoming-event.schedule")}
             </Link>
           </div>{" "}
-          or request an open mic spot.
+          {t("upcoming-event.or-request-an-open-mic")}
         </p>
       </Card>
     </section>

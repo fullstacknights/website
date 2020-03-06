@@ -38,7 +38,7 @@ function Footer() {
           <Icon url={GITHUB_LINK} icon={Github} alt="Github link" />
         </div>
         <Link className="link" to="/code-of-conduct/">
-          {t("code-of-conduct")}
+          {t("footer.code-of-conduct")}
         </Link>
         <p className="flex-1 text-center mt-4 lg:mt-0 lg:text-right">
           Copyright © Fullstack Nights {new Date().getFullYear()}
