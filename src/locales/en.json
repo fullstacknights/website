@@ -106,5 +106,30 @@
   "404": {
     "not-found": "NOT FOUND",
     "you-hit-a-route-that-does-not-exist": "You just hit a route that doesn't exist... the sadness."
+  },
+  "schedule": {
+    "schedule": "Schedule",
+    "we-try-to-be-punctual": "We try to be as organized and punctual as possible. Check out our schedule below",
+    "get-tickets": "Get tickets"
+  },
+  "topic-tables": {
+    "what-are-topic-tables-question": "What is Topic Tables?",
+    "what-are-topic-tables-answer": "Topic Tables is an event that brings together the community to talk about different topics in a relaxed and informal environment. Participants will be able to ask questions, talk about their experience and learn from others through moderated conversations.",
+    "who-should-attend-question": "Who should attend to this event?",
+    "who-should-attend-answer": "Everyone who's interested in technology and interactive design. It doesn't matter if you're a student, an expert or if you just have a bit of curiosity about a topic. There's space for everyone to learn and share their experience.",
+    "chat-with-the-community": "Chat with the community on Topic Tables!",
+    "we-are-looking-for-people-willing-to-share": "We're looking for people that are willing to share their experience with the community!",
+    "moderator": "Moderator",
+    "want-to-propose-a-topic": "Want to propose a topic and help a table have a great conversation? Join us as a moderator! To be a moderator you should have some knowledge of the topic, help guide the conversation at your table and be willing to have fun. 😄",
+    "interested-in-having-a-conversation": "Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas and we'll try to find someone interested in sharing their knowledge on your suggested topic!",
+    "apply": "Apply",
+    "propose": "Propose",
+    "topic": "Topic",
+    "frequently-asked-questions": "Frequently Asked Questions",
+    "we-have-gathered-a-couple-of-questions": "We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter.",
+    "past-moderators": "Past Moderators",
+    "still-have-questions": "Still have questions?",
+    "let-us-know-if-you-have-questions": "Let us know if you have any questions about the presentation process. We’re here to help!",
+    "contact-us": "Contact us"
   }
 }

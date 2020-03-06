@@ -106,5 +106,30 @@
   "404": {
     "not-found": "NO EXISTE",
     "you-hit-a-route-that-does-not-exist": "Acabas de caer en una ruta que no existe... Qué lástima."
+  },
+  "schedule": {
+    "schedule": "Horario",
+    "we-try-to-be-punctual": "Tratamos de que el evento sea lo más organizado y puntual posible. Abajo puedes confirmar el horario",
+    "get-tickets": "Obtén tu boleto de entrada"
+  },
+  "topic-tables": {
+    "what-are-topic-tables-question": "¿Qué es Topic Tables?",
+    "what-are-topic-tables-answer": "Topic Tables es un evento relajado e informal que reune a la comunidad para dialogar sobre diversos temas de interés. Participantes de este evento podrán hacer preguntas, hablar sobre sus experiencias y aprender de otras personas, todo esto mediante una conversación moderada.",
+    "who-should-attend-question": "¿Quien debe participar en este evento?",
+    "who-should-attend-answer": "Cualquier persona que esté interesada en tecnología o diseño interactivo. No importa si eres estudiante o si conoces bastante sobre el tema. Hay un espacio para quien quiera aprender y compartir sus experiencias.",
+    "chat-with-the-community": "¡Conversa con la comunidad en Topic Tables!",
+    "we-are-looking-for-people-willing-to-share": "¡Buscamos personas dispuestas a compartir sus experiencias con la comunidad!",
+    "moderator": "Moderar una mesa",
+    "want-to-propose-a-topic": "¿Te interesa proponer un tema y contribuir a una buena discusión? ¡Solicita para moderar una mesa! Para moderar una mesa, debes tener suficiente conocimiento sobre el tema, debes ayudar a mantener la conversación de la mesa y ayudar a que la discusión sea divertida. 😄",
+    "interested-in-having-a-conversation": "¿Te interesa tener una conversación sobre algún tema, pero no te interesa ser speaker o moderar? Envíanos tus sugerencias, ¡intentaremos encontrar a alguien que pueda hablar sobre el tema sugerido!",
+    "apply": "Solicita",
+    "propose": "Propón un tema",
+    "topic": "Proponer un tema",
+    "frequently-asked-questions": "Preguntas Frecuentes",
+    "we-have-gathered-a-couple-of-questions": "Hemos recopilado algunas de las preguntas que nos han hecho con frecuencia. Si tienes alguna otra pregunta, en confianza nos puedes escribir por Facebook o Twitter.",
+    "past-moderators": "Personas que han moderado en el pasado",
+    "still-have-questions": "¿Todavia tienes preguntas?",
+    "let-us-know-if-you-have-questions": "Déjanos saber si tienes alguna otra pregunta sobre el proceso. ¡Estamos aquí para ayudar!",
+    "contact-us": "Contáctanos"
   }
 }
