@@ -110,7 +110,17 @@
   "schedule": {
     "schedule": "Schedule",
     "we-try-to-be-punctual": "We try to be as organized and punctual as possible. Check out our schedule below",
-    "get-tickets": "Get tickets"
+    "get-tickets": "Get tickets",
+    "make-your-way-to-our-venue": "Make your way to our venue",
+    "doors-open": "Doors open",
+    "check-in": "Check-in and reset your open-mic spot",
+    "introduction-and-kick-off": "Introduction and kick-off",
+    "grab-your-seat": "Grab your seat",
+    "open-mic-6-x-3": "Open Mic (6 x 3 min)",
+    "enjoy-the-event": "Enjoy the event!",
+    "wrap-up-networking": "Wrap-up / Networking",
+    "networking-break": "Networking / Break",
+    "the-end": "The end"
   },
   "topic-tables": {
     "what-are-topic-tables-question": "What is Topic Tables?",

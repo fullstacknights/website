@@ -110,7 +110,17 @@
   "schedule": {
     "schedule": "Horario",
     "we-try-to-be-punctual": "Tratamos de que el evento sea lo más organizado y puntual posible. Abajo puedes confirmar el horario",
-    "get-tickets": "Obtén tu boleto de entrada"
+    "get-tickets": "Obtén tu boleto de entrada",
+    "make-your-way-to-our-venue": "Make your way to our venue",
+    "doors-open": "Puertas abren",
+    "check-in": "Registro y confirmación de micrófono abierto",
+    "introduction-and-kick-off": "Introducción y comienzo",
+    "grab-your-seat": "Tome asiento",
+    "open-mic-6-x-3": "Open Mic (6 x 3 min)",
+    "enjoy-the-event": "¡Disfrute el evento!",
+    "wrap-up-networking": "Conclusión / Networking",
+    "networking-break": "Networking / Descanso",
+    "the-end": "Fin"
   },
   "topic-tables": {
     "what-are-topic-tables-question": "¿Qué es Topic Tables?",
