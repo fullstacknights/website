@@ -44,10 +44,12 @@ export default function() {
     <Layout>
       <SEO title="About" />
       <GradientBackground className="flex flex-col items-center justify-center text-center px-2">
-        <h2 className="text-h2 font-bold text-white">{t("about.title")}</h2>
-        <h4 className="text-h4 text-white">{t("about.text")}</h4>
+        <h2 className="text-h2 font-bold text-white">{t("about.about-fsn")}</h2>
+        <h4 className="text-h4 text-white">
+          {t("about.fsn-is-a-monthly-meetup")}
+        </h4>
       </GradientBackground>
-      <PageSection title={t("about.questions-title")} className="mt-20">
+      <PageSection title={t("about.a-brief-introduction")} className="mt-20">
         <div className="m-auto w-11/12">
           {QUESTIONS.map(question => (
             <div className="mb-6">
@@ -74,8 +76,8 @@ export default function() {
         </div>
       </PageSection>
       <PageHighlight
-        header={t("about.code-of-conduct-title")}
-        subheader={t("about.code-of-conduct-description")}
+        header={t("about.we-do-not-tolerate-inappropriate-behavior")}
+        subheader={t("about.every-fsn-participant-has-to-accept")}
         url="/code-of-conduct"
         urlTitle={t("about.code-of-conduct")}
       />

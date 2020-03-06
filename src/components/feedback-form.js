@@ -25,7 +25,7 @@ function FeedbackForm() {
         id="subject"
         name="subject"
         className="feedback__input"
-        placeholder={t("feedback.subject-placeholder")}
+        placeholder={t("feedback.hello-fsn")}
         type="text"
       />
       <label htmlFor="thoughts" className="feedback__label">
@@ -35,7 +35,7 @@ function FeedbackForm() {
         id="thoughts"
         name="thoughts"
         className="feedback__input"
-        placeholder={t("feedback.thoughts-placeholder")}
+        placeholder={t("feedback.it-would-be-awesome-if")}
         rows="5"
         type="text"
       />

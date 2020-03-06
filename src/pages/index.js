@@ -49,30 +49,30 @@ function IndexPage() {
         />
       ) : null}
       <PageSection
-        title={t("main-page.main-title")}
-        description={t("main-page.main-description")}
+        title={t("main-page.be-a-part-of-our-events")}
+        description={t("main-page.our-events-are-done-by-the-community")}
       >
         <div className="flex flex-wrap justify-between lg:flex-no-wrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title={t("speakers.call-to-action-title")}
-              description={t("speakers.call-to-action-description")}
+              title={t("main-page.become-a-speaker")}
+              description={t("main-page.we-are-looking-for-speakers")}
               url="/speakers/"
               urlTitle={t("learn-more")}
             />
           </div>
           <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title={t("moderator.call-to-action-title")}
-              description={t("moderator.call-to-action-description")}
+              title={t("main-page.become-a-moderator")}
+              description={t("main-page.we-are-looking-for-moderators")}
               url="/topic-tables/"
               urlTitle={t("learn-more")}
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/3">
             <CallToAction
-              title={t("proposal.call-to-action-title")}
-              description={t("proposal.call-to-action-description")}
+              title={t("proposal.propose-a-topic")}
+              description={t("proposal.interested-in-topic")}
               url="/topic-tables/"
               urlTitle={t("learn-more")}
             />
@@ -81,7 +81,7 @@ function IndexPage() {
       </PageSection>
       <PageSection
         title="Podcast"
-        description={t("podcast.section-description")}
+        description={t("podcast.listen-to-the-founders")}
       >
         <div className="flex flex-col items-center justify-center">
           <img className="w-1/2 lg:w-1/4" src={Podcast} alt="podcast" />
@@ -111,15 +111,15 @@ function IndexPage() {
       </PageSection>
       <PageSection
         title="Feedback"
-        description={t("feedback.call-to-action-description")}
+        description={t("feedback.if-you-have-anything-to-tell-us")}
       >
         <div className="flex flex-col items-center justify-center">
           <FeedbackForm i18n={i18n} />
         </div>
       </PageSection>
       <PageHighlight
-        header={t("main-page.slack-title")}
-        subheader={t("main-page.slack-description")}
+        header={t("main-page.join-the-community")}
+        subheader={t("main-page.ask-questions-get-help")}
         url={SLACK_LINK}
         urlTitle={t("join-us")}
       />
