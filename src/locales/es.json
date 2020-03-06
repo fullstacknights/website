@@ -110,7 +110,7 @@
   "schedule": {
     "schedule": "Horario",
     "we-try-to-be-punctual": "Tratamos de que el evento sea lo más organizado y puntual posible. Abajo puedes confirmar el horario",
-    "get-tickets": "Obtén tu boleto de entrada",
+    "get-tickets": "Obtén tu boleto",
     "make-your-way-to-our-venue": "Make your way to our venue",
     "doors-open": "Puertas abren",
     "check-in": "Registro y confirmación de micrófono abierto",
@@ -146,7 +146,7 @@
     "upcoming-event": "Próximo evento",
     "at": "a las",
     "venue": "Sitio",
-    "get-tickets": "Obtén tu boleto de entrada",
+    "get-tickets": "Obtén tu boleto",
     "line-up": "Apúntate para el próximo evento",
     "while-you-wait": "A lo que llega la hora del próximo evento, revisa nuestro",
     "code-of-conduct": "código de conducta",
