@@ -18,12 +18,12 @@ export default function() {
   const venue = {
     dateTime: format(new Date(CONFIG.event.date), "MMM d"),
     header: "Parallel 18",
-    subheader: "Make your way to our venue"
+    subheader: t("schedule.make-your-way-to-our-venue")
   };
   const welcome = {
     dateTime: "7:00pm",
-    header: "Doors open",
-    subheader: "Check-in and reset your open-mic spot"
+    header: t("schedule.doors-open"),
+    subheader: t("schedule.check-in")
   };
 
   const TOPIC_TABLES_SCHEDULE = [
@@ -31,25 +31,25 @@ export default function() {
     welcome,
     {
       dateTime: "7:15pm",
-      header: "Introduction and kick-off",
-      subheader: "Grab your seat"
+      header: t("schedule.introduction-and-kick-off"),
+      subheader: t("schedule.grab-your-seat")
     },
     {
       dateTime: "7:25pm",
-      header: "Open Mic (6 x 3 min)"
+      header: t("schedule.open-mic-6-x-3")
     },
     {
       dateTime: "7:40pm",
       header: "Topic Tables",
-      subheader: "I'll show you the cool stuff"
+      subheader: t("schedule.enjoy-the-event")
     },
     {
       dateTime: "8:40pm",
-      header: "Wrap-up / Networking"
+      header: t("schedule.wrap-up-networking")
     },
     {
       dateTime: "9:00pm",
-      header: "The end"
+      header: t("schedule.the-end")
     }
   ];
 
@@ -60,8 +60,8 @@ export default function() {
     welcome,
     {
       dateTime: "7:30pm",
-      header: "Introduction and kick-off",
-      subheader: "Grab your seat"
+      header: t("schedule.introduction-and-kick-off"),
+      subheader: t("schedule.grab-your-seat")
     },
     {
       dateTime: "7:40pm",
@@ -70,11 +70,11 @@ export default function() {
     },
     {
       dateTime: "8:10pm",
-      header: "Open Mic (6 x 3 min)"
+      header: t("schedule.open-mic-6-x-3")
     },
     {
       dateTime: "8:25pm",
-      header: "Networking / Break"
+      header: t("schedule.networking-break")
     },
     {
       dateTime: "8:40pm",
@@ -83,11 +83,11 @@ export default function() {
     },
     {
       dateTime: "9:10pm",
-      header: "Wrap-up / Networking"
+      header: t("schedule.wrap-up-networking")
     },
     {
       dateTime: "9:30pm",
-      header: "The end"
+      header: t("schedule.the-end")
     }
   ];
 
