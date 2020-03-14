@@ -1,14 +1,17 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
 import Cross from "../assets/cross.svg";
 import { getSections } from "../constants";
 import styles from "./mobile-menu.module.css";
-
-const sections = getSections();
+import { getLanguageSwitcher } from "../i18n";
 
 function MobileMenu({ isOpen, toggleMenu }) {
+  const { i18n } = useTranslation();
+  const sections = getSections(i18n);
+
   return (
     <div
       className={`fixed top-0 left-0 z-50 w-screen h-screen bg-gradient p-6 ${
@@ -31,6 +34,11 @@ function MobileMenu({ isOpen, toggleMenu }) {
               {section.title}
             </Link>
           ))}
+
+          {getLanguageSwitcher({
+            i18n,
+            classNames: "text-white text-rg uppercase my-4 link"
+          })}
         </div>
       </div>
     </div>

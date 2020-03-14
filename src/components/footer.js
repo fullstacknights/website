@@ -1,4 +1,6 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 import { Link } from "gatsby";
 
 import Facebook from "../assets/facebook-circle.svg";
@@ -21,6 +23,8 @@ function Icon({ url, icon, alt }) {
 }
 
 function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer
       className="flex items-center justify-center py-3 bg-background"
@@ -34,7 +38,7 @@ function Footer() {
           <Icon url={GITHUB_LINK} icon={Github} alt="Github link" />
         </div>
         <Link className="link" to="/code-of-conduct/">
-          Code of Conduct
+          {t("footer.code-of-conduct")}
         </Link>
         <p className="flex-1 text-center mt-4 lg:mt-0 lg:text-right">
           Copyright © Fullstack Nights {new Date().getFullYear()}

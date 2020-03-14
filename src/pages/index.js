@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import {
   SEO,
@@ -20,6 +21,8 @@ import CONFIG from "../config";
 function IndexPage() {
   const { activeEvent, event } = CONFIG;
 
+  const { t, i18n } = useTranslation();
+
   return (
     <Layout>
       <SEO title="Home" />
@@ -34,10 +37,7 @@ function IndexPage() {
           }`}
         >
           <h2 className="text-h2 font-bold text-white">Fullstack Nights</h2>
-          <h4 className="text-h4 text-white">
-            A space for everyone to learn and share their knowledge about code
-            and design.
-          </h4>
+          <h4 className="text-h4 text-white">{t("motto")}</h4>
         </div>
       </GradientBackground>
       {activeEvent ? (
@@ -49,42 +49,44 @@ function IndexPage() {
         />
       ) : null}
       <PageSection
-        title="Be a part of our events"
-        description="Our events are done by the community, for the community. Without your support and participation there would be no us."
+        title={t("main-page.be-a-part-of-our-events")}
+        description={t("main-page.our-events-are-done-by-the-community")}
       >
         <div className="flex flex-wrap justify-between lg:flex-no-wrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title="Become a speaker"
-              description="We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!"
+              title={t("main-page.become-a-speaker")}
+              description={t("main-page.we-are-looking-for-speakers")}
               url="/speakers/"
+              urlTitle={t("learn-more")}
             />
           </div>
           <div className="flex flex-initial  w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
-              title="Become a moderator"
-              description="We're looking for people with knowledge about a particular topic that are willing to moderate a discussion around that topic."
+              title={t("main-page.become-a-moderator")}
+              description={t("main-page.we-are-looking-for-moderators")}
               url="/topic-tables/"
+              urlTitle={t("learn-more")}
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/3">
             <CallToAction
-              title="Propose a topic"
-              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas any way, we'd love to see them!"
+              title={t("proposal.propose-a-topic")}
+              description={t("proposal.interested-in-topic")}
               url="/topic-tables/"
+              urlTitle={t("learn-more")}
             />
           </div>
         </div>
       </PageSection>
       <PageSection
         title="Podcast"
-        description="Listen to the founders of Fullstack Nights geek out about technology
-        and events in the tech world in a relaxed environment."
+        description={t("podcast.listen-to-the-founders")}
       >
         <div className="flex flex-col items-center justify-center">
           <img className="w-1/2 lg:w-1/4" src={Podcast} alt="podcast" />
           <div className="mt-8 text-center">
-            <h4 className="text-lg mb-2">Find us on:</h4>
+            <h4 className="text-lg mb-2">{t("find-us")}:</h4>
             <div className="flex flex-wrap justify-center lg:justify-start">
               <a
                 className="btn btn--apple-podcasts"
@@ -109,17 +111,17 @@ function IndexPage() {
       </PageSection>
       <PageSection
         title="Feedback"
-        description="We weren't kidding about loving community. If you anything to tell us please use the form bellow. ❤️"
+        description={t("feedback.if-you-have-anything-to-tell-us")}
       >
         <div className="flex flex-col items-center justify-center">
-          <FeedbackForm />
+          <FeedbackForm i18n={i18n} />
         </div>
       </PageSection>
       <PageHighlight
-        header="Join the community in Slack"
-        subheader="Ask questions, get help from the community and stay up to date with the latest events."
+        header={t("main-page.join-the-community")}
+        subheader={t("main-page.ask-questions-get-help")}
         url={SLACK_LINK}
-        urlTitle="Join us"
+        urlTitle={t("join-us")}
       />
     </Layout>
   );

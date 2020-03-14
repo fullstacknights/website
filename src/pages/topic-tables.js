@@ -1,4 +1,5 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 import {
   Avatar,
@@ -16,31 +17,30 @@ import MODERATORS from "../past-moderators";
 const FORM_LINK =
   "https://docs.google.com/forms/d/1A6j6REuHBritR4e1NZJdjPZ_qYPni5Jzm-iLpDbP2eQ";
 
-const FAQ = [
-  {
-    question: "What are topic tables?",
-    answer:
-      "Topic Tables is an event that brings together the community to talk about different topics in a relaxed and informal environment. Participants will be able to ask questions, talk about their experience and learn from others through moderated conversations."
-  },
-  {
-    question: "Who should attend to this event?",
-    answer:
-      "Anyone who's interested in technology and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
-  }
-];
-
 export default function() {
+  const { t } = useTranslation();
+
+  const FAQ = [
+    {
+      question: `${t("topic-tables.what-are-topic-tables-question")}`,
+      answer: `${t("topic-tables.what-are-topic-tables-answer")}`
+    },
+    {
+      question: `${t("topic-tables.who-should-attend-question")}`,
+      answer: `${t("topic-tables.who-should-attend-answer")}`
+    }
+  ];
+
   return (
     <Layout>
       <SEO title="Become a moderator" />
       <GradientBackground className="flex flex-col items-center justify-center pt-13 lg:block">
         <div className="flex flex-col text-center lg:mt-18">
           <h2 className="text-h2 font-bold text-white">
-            Chat with the community on Topic Tables!
+            {t("topic-tables.chat-with-the-community")}
           </h2>
           <h4 className="text-h4 text-white mb-8">
-            We're looking for people that are willing to share their experience
-            with the community!
+            {t("topic-tables.we-are-looking-for-people-willing-to-share")}
           </h4>
         </div>
       </GradientBackground>
@@ -48,25 +48,27 @@ export default function() {
         <div className="flex flex-wrap lg:flex-no-wrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
-              title="Moderator"
-              description="Want to propose a topic and help a table have a great conversation? Join us as a moderator! To be a moderator you should have some knowledge of the topic, help guide the conversation at your table and be willing to have fun. 😄"
+              title={t("topic-tables.moderator")}
+              description={t("topic-tables.want-to-propose-a-topic")}
               url={FORM_LINK}
-              urlTitle="Apply"
+              urlTitle={t("topic-tables.apply")}
             />
           </div>
           <div className="flex flex-initial w-full lg:w-1/2">
             <CallToAction
-              title="Topic"
-              description="Interested in having a conversation about a particular topic, but don't feel you're the right fit to moderate or become a speaker? Send us your topic ideas and we'll try to find someone interested in sharing their knowledge on your suggested topic!"
+              title={t("topic-tables.topic")}
+              description={t(
+                "topic-tables.interested-in-having-a-conversation"
+              )}
               url={FORM_LINK}
-              urlTitle="Propose"
+              urlTitle={t("topic-tables.propose")}
             />
           </div>
         </div>
       </div>
       <PageSection
-        title="Frequently Asked Questions"
-        description="We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Facebook or Twitter."
+        title={t("topic-tables.frequently-asked-questions")}
+        description={t("topic-tables.we-have-gathered-a-couple-of-questions")}
       >
         <div className="flex justify-center">
           <div className="w-full lg:w-10/12">
@@ -74,7 +76,7 @@ export default function() {
           </div>
         </div>
       </PageSection>
-      <PageSection title="Past Moderators">
+      <PageSection title={t("topic-tables.past-moderators")}>
         <div className="flex flex-wrap">
           {MODERATORS.map((moderator, index) => (
             <Avatar key={index} name={moderator.name} img={moderator.img} />
@@ -82,10 +84,10 @@ export default function() {
         </div>
       </PageSection>
       <PageHighlight
-        header="Still have questions?"
-        subheader="Let us know if you have any questions about the presentation process. We’re here to help!"
+        header={t("topic-tables.still-have-questions")}
+        subheader={t("topic-tables.let-us-know-if-you-have-questions")}
         url={SLACK_LINK}
-        urlTitle="Contact us"
+        urlTitle={t("topic-tables.contact-us")}
       />
     </Layout>
   );
