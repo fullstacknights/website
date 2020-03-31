@@ -99,12 +99,17 @@ function IndexPage() {
                   Apple Podcasts
                 </div>
               </a>
-              <button class="btn btn--rss">
+              <a
+                class="btn btn--rss"
+                href="https://anchor.fm/s/45a52cc/podcast/rss"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <div className="flex flex-row items-center">
                   <RSS className="mr-2" />
                   RSS Feed
                 </div>
-              </button>
+              </a>
             </div>
           </div>
         </div>
