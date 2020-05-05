@@ -17,3 +17,4 @@ jobs:
         stale-pr-message: 'This pull request has been marked as stale by our fancy bot. CC: @eluciano11 @froi'
         stale-issue-label: 'no-issue-activity'
         stale-pr-label: 'no-pr-activity'
+        days-before-close: -1
