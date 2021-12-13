@@ -14,8 +14,7 @@ import {
 import { SLACK_LINK } from "../constants";
 import PAST_SPEAKERS from "../past-speakers";
 
-const FORM_LINK =
-  "https://docs.google.com/forms/d/1SIL9HvzaQ34F3iHIIsMmDlS5Icoc9XPXTwrsr9_M87U/edit?ts=57ff9dee";
+const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
 export default function() {
   const { t } = useTranslation();
