@@ -10,7 +10,7 @@ const CONFIG = {
     participants: [
       {
         name: "Abdiel Aviles",
-        topic: "TBD",
+        topic: "Beyond Tech: soft skills for the professional software developer",
         img: "/past-speakers/abdiel-aviles.jpeg",
         links: [{ network: "github", url: "https://github.com/abdielou" }]
       },
