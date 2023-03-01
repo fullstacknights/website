@@ -1,6 +1,7 @@
 import React from "react";
 
 import Twitter from "../assets/twitter.inline.svg";
+import GitHub from "../assets/github.inline.svg";
 
 import styles from "./avatar.module.css";
 
@@ -8,6 +9,8 @@ function getNetworkIcon(network) {
   switch (network) {
     case "twitter":
       return <Twitter />;
+    case "github":
+      return <GitHub />;
     default:
       return;
   }
