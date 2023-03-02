@@ -46,7 +46,7 @@ export default function() {
       <GradientBackground className="flex flex-col items-center justify-center text-center px-2">
         <h2 className="text-h2 font-bold text-white">{t("about.about-fsn")}</h2>
         <h4 className="text-h4 text-white">
-          {t("about.fsn-is-a-monthly-meetup")}
+          {t("about.fsn-is-a-recurring-meetup")}
         </h4>
       </GradientBackground>
       <PageSection title={t("about.a-brief-introduction")} className="mt-20">

@@ -35,10 +35,10 @@
   },
   "about": {
     "about-fsn": "Sobre FSN",
-    "fsn-is-a-monthly-meetup": "Fullstack Nights es un evento organizado mensualmente, donde personas con interés en programación y diseño pueden compartir su conocimiento en un ambiente informal.",
+    "fsn-is-a-recurring-meetup": "Fullstack Nights es un evento organizado recurrentemente, donde personas con interés en programación y diseño pueden compartir su conocimiento en un ambiente informal.",
     "a-brief-introduction": "Una breve introducción a FSN",
     "what-is-fsn-question": "¿Qué es Fullstack Nights?",
-    "what-is-fsn-answer": "Fullstack Nights es un evento estilo \"meetup\" llevado a cabo mensualmente para personas con interés en aprender y compartir su conocimiento en un espacio informal y relajado.",
+    "what-is-fsn-answer": "Fullstack Nights es un evento estilo \"meetup\" llevado a cabo recurrentemente para personas con interés en aprender y compartir su conocimiento en un espacio informal y relajado.",
     "what-is-the-format-question": "¿Cuál es el formato del evento?",
     "what-is-the-format-answer-line-1": "¡Buena pregunta! Actualmente tenemos dos tipos de eventos: FSN Speakers and FSN Topic Tables.",
     "what-is-the-format-answer-line-2": "FSN Speakers es un evento que consiste en dos charlas de 20 minutos cada una, seguidas ambas por unos minutos de micrófono abierto, y luego un tiempo para socializar. Los tópicos de charlas previas han variado desde introducciones a frameworks de programación hasta ideas sobre cómo mejorar la experiencia de los usuarios al momento de diseñar eventos.",
