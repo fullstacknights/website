@@ -16,7 +16,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Percy Test
-        uses: percy/snapshot-action@v0.1.0
+        run: npx percy snapshot _site/
         with:
           build-directory: "public/"
         env:
