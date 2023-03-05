@@ -1,16 +1,16 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "fsn-website",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A space for everyone to learn and share their knowledge about code and design",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "FSN Team",
   "dependencies": {
     "date-fns": "^2.7.0",
     "gatsby": "^3.15.0",
-    "gatsby-image": "^3.0.0",
     "gatsby-plugin-manifest": "^3.0.0",
     "gatsby-plugin-postcss": "^4.14.0",
     "gatsby-plugin-react-helmet": "^4.14.0",
+    "gatsby-plugin-image": "^1.0.0",
     "gatsby-plugin-sharp": "^3.0.0",
     "gatsby-source-filesystem": "^3.0.0",
     "gatsby-transformer-sharp": "^3.0.0",
@@ -44,12 +44,5 @@
     "lint": "eslint src",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }
