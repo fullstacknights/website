@@ -52,7 +52,7 @@ function UpcomingEvent({ participants, type, date, venue }) {
           {t("upcoming-event.line-up")}
         </h4>
         <div
-          className={`flex flex-wrap justify-center mt-6 mb-8 lg:flex-no-wrap`}
+          className={`flex flex-wrap justify-center mt-6 mb-8 lg:flex-nowrap`}
         >
           {participants.map((participant, index) => (
             <ProfileCard

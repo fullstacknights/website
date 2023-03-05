@@ -42,7 +42,7 @@ function Navbar({ toggleMenu }) {
       }`}
     >
       <div className="flex justify-between w-11/12 max-w-6xl overflow-x-auto">
-        <Link className="flex flex-row flex-no-wrap items-center" to="/">
+        <Link className="flex flex-row flex-nowrap items-center" to="/">
           <img className={styles.logo} src={Logo} alt="Fullstack Nights Logo" />
         </Link>
         <div className={`hidden lg:flex items-center ${styles.linksWrapper}`}>

@@ -52,7 +52,7 @@ function IndexPage() {
         title={t("main-page.be-a-part-of-our-events")}
         description={t("main-page.our-events-are-done-by-the-community")}
       >
-        <div className="flex flex-wrap justify-between lg:flex-no-wrap">
+        <div className="flex flex-wrap justify-between lg:flex-nowrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title={t("main-page.become-a-speaker")}

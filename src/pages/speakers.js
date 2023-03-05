@@ -65,7 +65,7 @@ export default function Speakers() {
         title={t("speakers.we-will-help-polish-your-talk")}
         description={t("speakers.everyone-has-valuable-knowledge-to-share")}
       >
-        <div className="flex flex-wrap lg:flex-no-wrap">
+        <div className="flex flex-wrap lg:flex-nowrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title={t("speakers.topic-scoping")}
