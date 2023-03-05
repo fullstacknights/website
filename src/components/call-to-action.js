@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
 import Card from "./card";
-import styles from "./call-to-action.module.css";
+import * as styles from "./call-to-action.module.css";
 
 function Division() {
   return <div className={`mt-3 bg-primary ${styles.division}`}></div>;

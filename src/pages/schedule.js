@@ -12,7 +12,7 @@ import {
 } from "../components/index";
 import CONFIG from "../config";
 
-export default function() {
+export default function Schedule() {
   const { t } = useTranslation();
 
   const venue = {

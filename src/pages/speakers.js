@@ -16,7 +16,7 @@ import PAST_SPEAKERS from "../past-speakers";
 
 const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
-export default function() {
+export default function Speakers() {
   const { t } = useTranslation();
 
   const FAQ = [

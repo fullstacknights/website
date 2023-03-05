@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "gatsby";
 
-import styles from "./page-highlight.module.css";
+import * as styles from "./page-highlight.module.css";
 
 function PageHighlight({ header, subheader, url, urlTitle }) {
   let isExternalUrl = url.includes("https");

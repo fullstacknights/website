@@ -7,7 +7,7 @@ import Facebook from "../assets/facebook-circle.svg";
 import Twitter from "../assets/twitter-circle.svg";
 import YouTube from "../assets/youtube-circle.svg";
 import Github from "../assets/github-circle.svg";
-import styles from "./footer.module.css";
+import * as styles from "./footer.module.css";
 
 const YOUTUBE_LINK = "https://www.youtube.com/channel/UCiJwjxdD9XIjRpV__kW2wsw";
 const FACEBOOK_LINK = "https://www.facebook.com/FullstackNights";

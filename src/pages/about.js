@@ -11,7 +11,7 @@ import {
 } from "../components/index.js";
 import { ORGANIZERS, FOUNDERS } from "../constants";
 
-export default function() {
+export default function About() {
   const { t } = useTranslation();
 
   const QUESTIONS = [

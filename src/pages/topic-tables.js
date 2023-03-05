@@ -16,7 +16,7 @@ import MODERATORS from "../past-moderators";
 
 const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
-export default function() {
+export default function TopicTables() {
   const { t } = useTranslation();
 
   const FAQ = [

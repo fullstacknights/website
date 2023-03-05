@@ -7,7 +7,7 @@ import throttle from "lodash.throttle";
 import Logo from "../images/logo.png";
 import Menu from "../assets/menu.svg";
 import { getSections } from "../constants";
-import styles from "./navbar.module.css";
+import * as styles from "./navbar.module.css";
 
 import { getLanguageSwitcher } from "../i18n";
 

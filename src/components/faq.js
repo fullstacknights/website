@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from "react";
 
 import Question from "./question";
-import styles from "./faq.module.css";
+import * as styles from "./faq.module.css";
 
 function FAQList({ list }) {
   const [opened, setOpened] = useState();

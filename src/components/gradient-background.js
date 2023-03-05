@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import styles from "./gradient-background.module.css";
+import * as styles from "./gradient-background.module.css";
 
 function GradientBackground({ children, className }) {
   return (
