@@ -16,7 +16,7 @@ import PAST_SPEAKERS from "../past-speakers";
 
 const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
-export default function() {
+export default function Speakers() {
   const { t } = useTranslation();
 
   const FAQ = [
@@ -65,7 +65,7 @@ export default function() {
         title={t("speakers.we-will-help-polish-your-talk")}
         description={t("speakers.everyone-has-valuable-knowledge-to-share")}
       >
-        <div className="flex flex-wrap lg:flex-no-wrap">
+        <div className="flex flex-wrap lg:flex-nowrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
             <CallToAction
               title={t("speakers.topic-scoping")}

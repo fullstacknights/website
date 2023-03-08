@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./timeline.module.css";
+import * as styles from "./timeline.module.css";
 
 function Timeline({ events }) {
   return (

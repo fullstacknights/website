@@ -5,15 +5,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
       - name: Install
-        run: yarn
+        run: npm ci
       - name: Lint
         run: npm run lint
       - name: Build
         run: npm run build
       - name: Percy Test
-        uses: percy/snapshot-action@v0.1.0
+        run: npx percy snapshot _site/
         with:
           build-directory: "public/"
         env:

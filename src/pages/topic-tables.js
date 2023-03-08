@@ -16,7 +16,7 @@ import MODERATORS from "../past-moderators";
 
 const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
-export default function() {
+export default function TopicTables() {
   const { t } = useTranslation();
 
   const FAQ = [
@@ -44,7 +44,7 @@ export default function() {
         </div>
       </GradientBackground>
       <div className="w-11/12 m-auto mb-20 mt-20 lg:w-2/3 lg:-mt-52 max-w-6xl">
-        <div className="flex flex-wrap lg:flex-no-wrap">
+        <div className="flex flex-wrap lg:flex-nowrap">
           <div className="flex flex-initial w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
               title={t("topic-tables.moderator")}

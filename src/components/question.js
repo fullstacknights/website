@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 import { Card } from "../components/index";
 import Chevron from "../assets/chevron.svg";
-import styles from "./question.module.css";
+import * as styles from "./question.module.css";
 
 function Question({ isOpened, question, answer, id, onClick }) {
   const handleClick = () => {

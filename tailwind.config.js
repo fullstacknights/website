@@ -1,14 +1,15 @@
 module.exports = {
+  content: ["./src/**/*.js"],
   theme: {
     colors: {
       brand: "#31d7fb",
-      primary: { default: "#0282f8", hover: "#015aad", pressed: "#00407b" },
+      primary: { DEFAULT: "#0282f8", hover: "#015aad", pressed: "#00407b" },
       background: "#f3f5f8",
-      white: { default: "#ffffff", hover: "#b2b2b2" },
+      white: { DEFAULT: "#ffffff", hover: "#b2b2b2" },
       black: "#000000"
     },
     boxShadow: {
-      default: "0 1px 3px 0 rgba(0, 0, 0, 0.5)",
+      DEFAULT: "0 1px 3px 0 rgba(0, 0, 0, 0.5)",
       lg: "0 2px 3px 0 rgba(0, 0, 0, 0.5)"
     },
     spacing: {
@@ -47,12 +48,11 @@ module.exports = {
       h4: "24px"
     },
     borderWidth: {
-      default: "5px"
+      DEFAULT: "5px"
     },
     borderRadius: {
-      default: "6px"
+      DEFAULT: "6px"
     }
   },
-  variants: {},
   plugins: []
 };

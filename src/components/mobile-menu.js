@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 
 import Cross from "../assets/cross.svg";
 import { getSections } from "../constants";
-import styles from "./mobile-menu.module.css";
+import * as styles from "./mobile-menu.module.css";
 import { getLanguageSwitcher } from "../i18n";
 
 function MobileMenu({ isOpen, toggleMenu }) {

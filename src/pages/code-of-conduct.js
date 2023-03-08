@@ -11,7 +11,7 @@ import {
 
 import { ORGANIZERS } from "../constants";
 
-export default function() {
+export default function CodeOfConduct() {
   const { t } = useTranslation();
 
   return (

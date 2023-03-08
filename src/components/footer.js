@@ -7,7 +7,7 @@ import Facebook from "../assets/facebook-circle.svg";
 import Twitter from "../assets/twitter-circle.svg";
 import YouTube from "../assets/youtube-circle.svg";
 import Github from "../assets/github-circle.svg";
-import styles from "./footer.module.css";
+import * as styles from "./footer.module.css";
 
 const YOUTUBE_LINK = "https://www.youtube.com/channel/UCiJwjxdD9XIjRpV__kW2wsw";
 const FACEBOOK_LINK = "https://www.facebook.com/FullstackNights";
@@ -30,6 +30,12 @@ function Footer() {
       className="flex items-center justify-center py-3 bg-background"
       style={{ borderTop: "2px solid rgba(207,215,223,.25)" }}
     >
+      <a href="https://www.netlify.com" className="px-2">
+        <img
+          src="https://www.netlify.com/v3/img/components/netlify-color-accent.svg"
+          alt="Deploys by Netlify"
+        />
+      </a>
       <div className="flex flex-wrap items-center justify-between w-11/12 max-w-6xl">
         <div className="flex items-center">
           <Icon url={FACEBOOK_LINK} icon={Facebook} alt="Facebook link" />

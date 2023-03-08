@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Card from "./card";
-import styles from "./profile-card.module.css";
+import * as styles from "./profile-card.module.css";
 import BrandLogo from "../assets/brand-logo.svg";
 import GitHub from "../assets/github.svg";
 import Twitter from "../assets/twitter.svg";

@@ -6,7 +6,6 @@ import format from "date-fns/format";
 
 import Card from "./card";
 import ProfileCard from "./profile-card";
-import styles from "./upcoming-event.module.css";
 
 const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
 
@@ -53,7 +52,7 @@ function UpcomingEvent({ participants, type, date, venue }) {
           {t("upcoming-event.line-up")}
         </h4>
         <div
-          className={`flex flex-wrap justify-center mt-6 mb-8 ${styles.profileContainer} lg:flex-no-wrap`}
+          className={`flex flex-wrap justify-center mt-6 mb-8 lg:flex-nowrap`}
         >
           {participants.map((participant, index) => (
             <ProfileCard

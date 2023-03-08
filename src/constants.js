@@ -11,7 +11,7 @@ export const ORGANIZERS = [
   {
     name: "Raúl Negrón",
     img: "/organizers/raul-negron.jpeg",
-    social: [{ network: "twitter", link: "https://twitter.com/rucury" }]
+    social: [{ network: "github", link: "https://github.com/rnegron" }]
   },
   {
     name: "Ricardo Mercado",
