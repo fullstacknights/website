@@ -22,7 +22,7 @@
     "react-i18next": "^17.0.6"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "@fullhuman/postcss-purgecss": "^8.0.0",
     "autoprefixer": "^10.5.0",
     "gatsby-plugin-react-svg": "^3.3.0",
     "oxlint": "^1.63.0",
