@@ -16,7 +16,6 @@ export default function Schedule() {
 
   return (
     <Layout>
-      <SEO title="Schedule" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
         <h2 className="text-h2 font-bold text-white">
           {t("schedule.schedule")}
@@ -43,3 +42,5 @@ export default function Schedule() {
     </Layout>
   );
 }
+
+export const Head = () => <SEO title="Schedule" />;
