@@ -2,7 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import { Link } from "gatsby";
-import format from "date-fns/format";
+import { format } from "date-fns";
 
 import Card from "./card";
 import ProfileCard from "./profile-card";

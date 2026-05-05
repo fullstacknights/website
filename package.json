@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "FSN Team",
   "dependencies": {
-    "date-fns": "^2.29.3",
+    "date-fns": "^4.1.0",
     "gatsby": "^5.16.1",
     "gatsby-plugin-image": "^3.16.0",
     "gatsby-plugin-manifest": "^5.16.0",
