@@ -51,6 +51,4 @@ i18next
     }
   });
 
-i18next.languages = ["en", "es"];
-
 export default i18next;
