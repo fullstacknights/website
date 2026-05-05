@@ -42,7 +42,7 @@ function ProfileCard({ name, img, title, links }) {
       <div
         className={`${styles.socialNetworkContainer} flex items-center mt-4`}
       >
-        {links.map(link => (
+        {links.map((link) => (
           <a href={link.url} target="_blank" rel="noopener noreferrer">
             <img
               className={

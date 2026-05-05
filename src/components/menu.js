@@ -6,7 +6,7 @@ import Navbar from "./navbar";
 function Menu() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   const toggleMenu = useCallback(
-    function() {
+    function () {
       setShowMobileMenu(!showMobileMenu);
     },
     [showMobileMenu]

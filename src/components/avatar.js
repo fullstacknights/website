@@ -15,13 +15,13 @@ function getNetworkIcon(network) {
       return;
   }
 }
-export default function({ img, name, social = [] }) {
+export default function ({ img, name, social = [] }) {
   return (
     <div className={styles.container}>
       <img className={`avatar m-auto ${styles.img}`} src={img} alt={name} />
       <p className="mt-3">{name}</p>
       <div className="flex justify-center">
-        {social.map(s => {
+        {social.map((s) => {
           return (
             <a
               key={s.link}
