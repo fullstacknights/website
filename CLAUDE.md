@@ -4,16 +4,16 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
-Node version is pinned to `18.14.2` (see `.nvmrc`). Use `nvm use` before running anything.
+Node version is pinned via `.nvmrc` (currently `22.22.2`, lts/jod). Use `nvm use` before running anything.
 
 - `npm run develop` — start the Gatsby dev server (`gatsby develop`); also aliased as `npm start`
 - `npm run build` — production build into `public/`
 - `npm run serve` — serve the production build
 - `npm run clean` — `gatsby clean` (run this when you hit Gatsby cache weirdness)
-- `npm run lint` — ESLint over `src/`
-- `npm run format` — Prettier over `**/*.{js,jsx,json,md}`
+- `npm run lint` — `oxlint src/` (zero-config; replaced ESLint)
+- `npm run format` — Prettier 3 over `**/*.{js,jsx,json,md}`
 
-There is no unit test runner — the `test` script is a placeholder. CI (`.github/workflows/ci.yml`) runs `lint`, `build`, and a Percy visual snapshot step (requires `PERCY_TOKEN`). Note: the workflow's Percy command points at `_site/` but the build output is `public/`; if Percy fails, that mismatch is the reason.
+There is no unit test runner — the `test` script is a placeholder. CI (`.github/workflows/ci.yml`) runs `lint`, `build`, and a Percy visual snapshot step against `public/` (requires `PERCY_TOKEN`).
 
 ## Architecture
 
@@ -36,7 +36,18 @@ i18next is initialized in `gatsby-browser.js`. Languages are detected via `i18ne
 
 - Barrel re-export from `src/components/index.js` — import shared components from `"../components/index"`.
 - Each component pairs `foo.js` with an optional `foo.module.css` (CSS Modules). Tailwind utility classes are used inline; `.module.css` is reserved for things Tailwind can't express.
-- `Layout` wraps every page with `<Menu>` + `<main>` + `<Footer>`. Pages should always render inside `<Layout>` and include `<SEO title="..." />`.
+- `Layout` wraps every page with `<Menu>` + `<main>` + `<Footer>`. Pages render inside `<Layout>` in the page body.
+
+### SEO / `<head>` injection
+
+This project uses **Gatsby's built-in [Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/)** — `react-helmet` was removed. Each page in `src/pages/` exports a top-level `Head` component **at module scope**, not inside the page's JSX:
+
+```js
+export default function MyPage() { /* ... */ }
+export const Head = () => <SEO title="My Page" />;
+```
+
+`src/components/seo.js` returns a fragment of plain `<title>`, `<meta>`, and `<html lang>` tags (no `<Helmet>` wrapper). It uses `useStaticQuery` to read site metadata. **Adding a new page means adding the `Head` export** — without it, that page silently loses its title and meta tags.
 
 ### SVG handling
 
