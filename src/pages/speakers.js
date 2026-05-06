@@ -48,7 +48,6 @@ export default function Speakers() {
 
   return (
     <Layout>
-      <SEO title="Become a speaker" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
         <h2 className="text-h2 font-bold text-white">
           {t("speakers.give-a-talk-at-fsn")}
@@ -120,3 +119,5 @@ export default function Speakers() {
     </Layout>
   );
 }
+
+export const Head = () => <SEO title="Become a speaker" />;

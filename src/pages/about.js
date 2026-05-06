@@ -42,7 +42,6 @@ export default function About() {
 
   return (
     <Layout>
-      <SEO title="About" />
       <GradientBackground className="flex flex-col items-center justify-center text-center px-2">
         <h2 className="text-h2 font-bold text-white">{t("about.about-fsn")}</h2>
         <h4 className="text-h4 text-white">
@@ -51,7 +50,7 @@ export default function About() {
       </GradientBackground>
       <PageSection title={t("about.a-brief-introduction")} className="mt-20">
         <div className="m-auto w-11/12">
-          {QUESTIONS.map(question => (
+          {QUESTIONS.map((question) => (
             <div className="mb-6">
               <h4 className="text-h4 font-extrabold mb-4">
                 {question.question}
@@ -84,3 +83,5 @@ export default function About() {
     </Layout>
   );
 }
+
+export const Head = () => <SEO title="About" />;

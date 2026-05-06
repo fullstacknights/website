@@ -16,7 +16,6 @@ export default function CodeOfConduct() {
 
   return (
     <Layout>
-      <SEO title="Code of Conduct" />
       <GradientBackground className="flex flex-col items-center justify-center text-center">
         <h2 className="text-h2 font-bold text-white">
           {t("code-of-conduct.section-title")}
@@ -70,3 +69,5 @@ export default function CodeOfConduct() {
     </Layout>
   );
 }
+
+export const Head = () => <SEO title="Code of Conduct" />;

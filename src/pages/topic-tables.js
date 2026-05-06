@@ -32,7 +32,6 @@ export default function TopicTables() {
 
   return (
     <Layout>
-      <SEO title="Become a moderator" />
       <GradientBackground className="flex flex-col items-center justify-center pt-13 lg:block">
         <div className="flex flex-col text-center lg:mt-18">
           <h2 className="text-h2 font-bold text-white">
@@ -91,3 +90,5 @@ export default function TopicTables() {
     </Layout>
   );
 }
+
+export const Head = () => <SEO title="Become a moderator" />;

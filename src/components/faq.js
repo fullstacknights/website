@@ -6,7 +6,7 @@ import * as styles from "./faq.module.css";
 function FAQList({ list }) {
   const [opened, setOpened] = useState();
   const toggleOpened = useCallback(
-    id => {
+    (id) => {
       if (id === opened) {
         setOpened();
       } else {

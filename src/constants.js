@@ -63,5 +63,5 @@ export function getSections(i18n) {
     return SECTIONS;
   }
 
-  return SECTIONS.filter(section => section.to !== "/schedule/");
+  return SECTIONS.filter((section) => section.to !== "/schedule/");
 }

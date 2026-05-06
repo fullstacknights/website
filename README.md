@@ -1,20 +1,21 @@
-<p align="center">
-  <a href="https://fullstacknights.com/">
-   <svg width="86" height="75" xmlns="http://www.w3.org/2000/svg"><g fill-rule="nonzero" fill="none"><path d="M.07 37.777l18.323 31.839a.78.78 0 001.066.287.78.78 0 00.285-.287l8.12-14.082a.807.807 0 000-.781L18.153 37.89a.803.803 0 010-.78l9.713-16.863a.803.803 0 000-.78L19.758 5.385a.779.779 0 00-1.351 0L.07 37.223a.59.59 0 000 .554z" fill="#31D7FB"/><path d="M55.235 37.223a.559.559 0 010 .554L41.737 61.28l-7.47 12.94a.515.515 0 00.186.71c.08.046.169.07.26.07h29.336a.774.774 0 00.672-.39l21.222-36.833a.549.549 0 000-.554L64.721.39a.775.775 0 00-.672-.39H34.713a.514.514 0 00-.524.52c0 .091.024.181.07.26l5.32 9.223 15.656 27.22z" fill="#0282F8"/></g></svg>
-  </a>
-</p>
-<h1 align="center">
-  Fullstack Nights Website
-</h1>
+<div align="center">
 
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-## 🎓 Learning Gatsby
+<img src="src/images/logo.png" alt="Fullstack Nights" width="320" />
 
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+**Charlas sobre tecnología y diseño en un ambiente informal.**
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+[![CI](https://github.com/fullstacknights/website/actions/workflows/ci.yml/badge.svg)](https://github.com/fullstacknights/website/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/github/license/fullstacknights/website?color=blue)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%E2%89%A522-339933?logo=node.js&logoColor=white)](.nvmrc)
+[![Gatsby](https://img.shields.io/badge/Gatsby-5-663399?logo=gatsby&logoColor=white)](https://www.gatsbyjs.com/)
+[![Code style: Prettier](https://img.shields.io/badge/code_style-prettier-F7B93E?logo=prettier&logoColor=black)](https://prettier.io/)
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+</div>
 
+## Quick start
 
-<!-- AUTO-GENERATED-CONTENT:END -->
+```sh
+nvm use            # picks up Node version from .nvmrc
+npm install
+npm run develop    # http://localhost:8000
+```

@@ -8,7 +8,6 @@ const NotFoundPage = () => {
 
   return (
     <Layout>
-      <SEO title="404: Not found" />
       <GradientBackground className="flex flex-col items-center justify-center pt-13 lg:block">
         <div className="flex flex-col text-center mt-10 lg:mt-20">
           <h2 className="text-h2 font-bold text-white">{t("404.not-found")}</h2>
@@ -31,3 +30,5 @@ const NotFoundPage = () => {
 };
 
 export default NotFoundPage;
+
+export const Head = () => <SEO title="404: Not found" />;

@@ -25,7 +25,6 @@ function IndexPage() {
 
   return (
     <Layout>
-      <SEO title="Home" />
       <GradientBackground
         className={`flex flex-col items-center justify-center pt-13 ${
           activeEvent ? "lg:block" : "mb-20"
@@ -133,3 +132,5 @@ function IndexPage() {
 }
 
 export default IndexPage;
+
+export const Head = () => <SEO title="Home" />;
