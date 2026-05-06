@@ -1,8 +1,12 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+const LUMA_CALENDAR_ID = "cal-xorZLhCJO1uKH5s";
+
 function LumaEvents() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const lang = i18n.language?.startsWith("es") ? "es" : "en";
+  const src = `https://luma.com/embed/calendar/${LUMA_CALENDAR_ID}/events?lang=${lang}`;
 
   return (
     <section className="mb-20 px-4">
@@ -11,8 +15,9 @@ function LumaEvents() {
           {t("upcoming-event.upcoming-events")}
         </h3>
         <iframe
+          key={lang}
           title="Fullstack Nights events on Luma"
-          src="https://luma.com/embed/calendar/cal-xorZLhCJO1uKH5s/events"
+          src={src}
           width="600"
           height="450"
           frameBorder="0"
