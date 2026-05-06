@@ -19,5 +19,3 @@ nvm use            # picks up Node version from .nvmrc
 npm install
 npm run develop    # http://localhost:8000
 ```
-
-See [`CLAUDE.md`](CLAUDE.md) for architecture notes and the full command list.
