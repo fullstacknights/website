@@ -16,8 +16,8 @@ jobs:
       - uses: actions/stale@v9
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          stale-issue-message: "This issue has been marked as stale by our fancy bot. CC: @eluciano11 @froi"
-          stale-pr-message: "This pull request has been marked as stale by our fancy bot. CC: @eluciano11 @froi"
+          stale-issue-message: "This issue has been marked as stale by our fancy bot. CC: @eluciano11 @rnegron"
+          stale-pr-message: "This pull request has been marked as stale by our fancy bot. CC: @eluciano11 @rnegron"
           stale-issue-label: "no-issue-activity"
           stale-pr-label: "no-pr-activity"
           days-before-close: -1
