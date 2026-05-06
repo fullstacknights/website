@@ -4,6 +4,7 @@ import { useTranslation } from "react-i18next";
 import {
   SEO,
   Layout,
+  LumaEvents,
   PageSection,
   CallToAction,
   PageHighlight,
@@ -46,7 +47,9 @@ function IndexPage() {
           venue={event.venue}
           participants={event.participants}
         />
-      ) : null}
+      ) : (
+        <LumaEvents />
+      )}
       <PageSection
         title={t("main-page.be-a-part-of-our-events")}
         description={t("main-page.our-events-are-done-by-the-community")}
