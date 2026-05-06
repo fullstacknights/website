@@ -5,6 +5,7 @@ import FAQList from "./faq";
 import GradientBackground from "./gradient-background";
 import Image from "./image";
 import Layout from "./layout";
+import LumaEvents from "./luma-events";
 import PageHighlight from "./page-highlight";
 import PageSection from "./page-section";
 import ProfileCard from "./profile-card";
@@ -23,6 +24,7 @@ export {
   GradientBackground,
   Image,
   Layout,
+  LumaEvents,
   PageHighlight,
   PageSection,
   ProfileCard,

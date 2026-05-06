@@ -15,6 +15,6 @@ jobs:
     steps:
       - uses: actions/first-interaction@v3
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
-          issue-message: "Gracias por tu interes en Fullstack Nights y por hacer este GitHub Issue! Pronto estaremos en contacto."
-          pr-message: "Gracias por tu interes en Fullstack Nights y por hacer este Pull Request! Pronto estaremos en contacto."
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          issue_message: "Gracias por tu interes en Fullstack Nights y por hacer este GitHub Issue! Pronto estaremos en contacto."
+          pr_message: "Gracias por tu interes en Fullstack Nights y por hacer este Pull Request! Pronto estaremos en contacto."
