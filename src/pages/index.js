@@ -10,7 +10,8 @@ import {
   PageHighlight,
   UpcomingEvent,
   GradientBackground,
-  FeedbackForm
+  FeedbackForm,
+  Sponsors
 } from "../components/index";
 
 import ApplePodcasts from "../assets/apple-podcasts.inline.svg";
@@ -50,6 +51,7 @@ function IndexPage() {
       ) : (
         <LumaEvents />
       )}
+      {activeEvent && <Sponsors sponsors={event.sponsors} />}
       <PageSection
         title={t("main-page.be-a-part-of-our-events")}
         description={t("main-page.our-events-are-done-by-the-community")}

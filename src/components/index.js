@@ -10,6 +10,7 @@ import PageHighlight from "./page-highlight";
 import PageSection from "./page-section";
 import ProfileCard from "./profile-card";
 import Question from "./question";
+import Sponsors from "./sponsors";
 import SEO from "./seo";
 import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
@@ -29,6 +30,7 @@ export {
   PageSection,
   ProfileCard,
   Question,
+  Sponsors,
   SEO,
   Timeline,
   UpcomingEvent,

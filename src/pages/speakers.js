@@ -64,23 +64,11 @@ export default function Speakers() {
         title={t("speakers.we-will-help-polish-your-talk")}
         description={t("speakers.everyone-has-valuable-knowledge-to-share")}
       >
-        <div className="flex flex-wrap lg:flex-nowrap">
-          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+        <div className="flex justify-center">
+          <div className="flex flex-initial w-full lg:w-1/2">
             <CallToAction
               title={t("speakers.topic-scoping")}
               description={t("speakers.we-will-research-your-topic")}
-            />
-          </div>
-          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
-            <CallToAction
-              title={t("speakers.talk-rehearsal")}
-              description={t("speakers.we-will-do-a-dry-run")}
-            />
-          </div>
-          <div className="flex flex-initial w-full lg:w-1/3 lg:mr-4">
-            <CallToAction
-              title={t("speakers.slides-evaluation")}
-              description={t("speakers.we-will-evaluate-the-content")}
             />
           </div>
         </div>

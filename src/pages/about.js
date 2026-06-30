@@ -9,7 +9,7 @@ import {
   PageHighlight,
   SEO
 } from "../components/index.js";
-import { ORGANIZERS, FOUNDERS } from "../constants";
+import { ORGANIZERS, PAST_ORGANIZERS, FOUNDERS } from "../constants";
 
 export default function About() {
   const { t } = useTranslation();
@@ -63,6 +63,13 @@ export default function About() {
       <PageSection title={t("about.event-organizers")}>
         <div className="flex flex-wrap">
           {ORGANIZERS.map((organizer, index) => (
+            <Avatar key={index} {...organizer} />
+          ))}
+        </div>
+      </PageSection>
+      <PageSection title={t("about.past-organizers")}>
+        <div className="flex flex-wrap">
+          {PAST_ORGANIZERS.map((organizer, index) => (
             <Avatar key={index} {...organizer} />
           ))}
         </div>
