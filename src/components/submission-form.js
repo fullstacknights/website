@@ -95,6 +95,34 @@ function SubmissionForm() {
 
       <p className="text-rg text-primary mb-4">* {t("submission.required")}</p>
 
+      <fieldset className="mb-3">
+        <legend className="feedback__label">{t("submission.intent")} *</legend>
+        <Radio
+          name="intent"
+          value="Present a talk"
+          label={t("submission.intent-talk")}
+          required
+          checked={intent === "Present a talk"}
+          onChange={onIntentChange}
+        />
+        <Radio
+          name="intent"
+          value="Host a topic table"
+          label={t("submission.intent-topic-table")}
+          required
+          checked={intent === "Host a topic table"}
+          onChange={onIntentChange}
+        />
+        <Radio
+          name="intent"
+          value="Propose a topic"
+          label={t("submission.intent-propose")}
+          required
+          checked={intent === "Propose a topic"}
+          onChange={onIntentChange}
+        />
+      </fieldset>
+
       <label htmlFor="name" className="feedback__label">
         {t("submission.name")} *
       </label>
@@ -161,34 +189,6 @@ function SubmissionForm() {
         required
         className="feedback__input"
       />
-
-      <fieldset className="mb-3">
-        <legend className="feedback__label">{t("submission.intent")} *</legend>
-        <Radio
-          name="intent"
-          value="Present a talk"
-          label={t("submission.intent-talk")}
-          required
-          checked={intent === "Present a talk"}
-          onChange={onIntentChange}
-        />
-        <Radio
-          name="intent"
-          value="Host a topic table"
-          label={t("submission.intent-topic-table")}
-          required
-          checked={intent === "Host a topic table"}
-          onChange={onIntentChange}
-        />
-        <Radio
-          name="intent"
-          value="Propose a topic"
-          label={t("submission.intent-propose")}
-          required
-          checked={intent === "Propose a topic"}
-          onChange={onIntentChange}
-        />
-      </fieldset>
 
       <label htmlFor="on-behalf-email" className="feedback__label">
         {t("submission.on-behalf")}
