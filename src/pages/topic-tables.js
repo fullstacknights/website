@@ -8,8 +8,10 @@ import {
   PageSection,
   CallToAction,
   FAQList,
+  PageHighlight,
   SEO
 } from "../components/index";
+import { DISCORD_LINK } from "../constants";
 import MODERATORS from "../past-moderators";
 
 export default function TopicTables() {
@@ -77,6 +79,12 @@ export default function TopicTables() {
           ))}
         </div>
       </PageSection>
+      <PageHighlight
+        header={t("topic-tables.still-have-questions")}
+        subheader={t("topic-tables.let-us-know-if-you-have-questions")}
+        url={DISCORD_LINK}
+        urlTitle={t("topic-tables.contact-us")}
+      />
     </Layout>
   );
 }

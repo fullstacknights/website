@@ -17,6 +17,7 @@ import {
 import ApplePodcasts from "../assets/apple-podcasts.inline.svg";
 import Podcast from "../assets/podcast.svg";
 import RSS from "../assets/rss.inline.svg";
+import { DISCORD_LINK } from "../constants";
 import CONFIG from "../config";
 
 function IndexPage() {
@@ -129,8 +130,16 @@ function IndexPage() {
         title={t("main-page.join-the-community")}
         description={t("main-page.ask-questions-get-help")}
       >
-        <div className="flex justify-center">
+        <div className="flex flex-col items-center justify-center">
           <DiscordWidget />
+          <a
+            className="btn btn--primary mt-6"
+            href={DISCORD_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t("join-us")}
+          </a>
         </div>
       </PageSection>
     </Layout>

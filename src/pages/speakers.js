@@ -9,8 +9,10 @@ import {
   PageSection,
   CallToAction,
   FAQList,
+  PageHighlight,
   SEO
 } from "../components/index";
+import { DISCORD_LINK } from "../constants";
 import PAST_SPEAKERS from "../past-speakers";
 
 export default function Speakers() {
@@ -111,6 +113,12 @@ export default function Speakers() {
           </Link>
         </div>
       </PageSection>
+      <PageHighlight
+        header={t("speakers.join-the-community")}
+        subheader={t("speakers.ask-questions-get-help")}
+        url={DISCORD_LINK}
+        urlTitle={t("join-us")}
+      />
     </Layout>
   );
 }

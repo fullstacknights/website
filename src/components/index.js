@@ -16,6 +16,7 @@ import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
 import Form from "./form";
 import FeedbackForm from "./feedback-form";
+import NetlifyHoneypot from "./netlify-honeypot";
 import SubmissionForm from "./submission-form";
 import DiscordWidget from "./discord-widget";
 
@@ -38,6 +39,7 @@ export {
   UpcomingEvent,
   Form,
   FeedbackForm,
+  NetlifyHoneypot,
   SubmissionForm,
   DiscordWidget
 };

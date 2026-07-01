@@ -10,6 +10,7 @@ function DiscordWidget() {
       src={`https://discord.com/widget?id=${SERVER_ID}&theme=dark`}
       width="350"
       height="500"
+      loading="lazy"
       allowTransparency="true"
       frameBorder="0"
       className="max-w-full rounded shadow"

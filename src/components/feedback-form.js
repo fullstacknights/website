@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 
 import Form from "./form";
+import NetlifyHoneypot from "./netlify-honeypot";
 
 const additionalFormAttr = {
   name: "feedback",
@@ -19,13 +20,7 @@ function FeedbackForm() {
       additionalFormAttr={additionalFormAttr}
       submitText={t("submit")}
     >
-      <input type="hidden" name="form-name" value="feedback" />
-      <p className="hidden">
-        <label>
-          {t("submission.bot-field")}
-          <input name="bot-field" />
-        </label>
-      </p>
+      <NetlifyHoneypot formName="feedback" />
       <label htmlFor="subject" className="feedback__label">
         {t("subject")}
       </label>
