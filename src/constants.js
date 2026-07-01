@@ -1,6 +1,6 @@
 import CONFIG from "./config";
 
-export const SLACK_LINK = "https://sopr-slack.herokuapp.com/";
+export const DISCORD_LINK = "https://discord.gg/5MTV7Kmwn5";
 
 export const ORGANIZERS = [
   {
@@ -11,8 +11,21 @@ export const ORGANIZERS = [
   {
     name: "Raúl Negrón",
     img: "/organizers/raul-negron.jpeg",
-    social: [{ network: "github", link: "https://github.com/rnegron" }]
+    social: [{ network: "website", link: "https://raulnegron.me" }]
   },
+  {
+    name: "Christian Rodríguez",
+    img: "/organizers/christian-rodriguez.jpeg",
+    social: [{ network: "website", link: "https://chrisrodz.io/en" }]
+  },
+  {
+    name: "Giovanni Collazo",
+    img: "/founders/giovanni-collazo.jpeg",
+    social: [{ network: "twitter", link: "https://twitter.com/gcollazo" }]
+  }
+];
+
+export const PAST_ORGANIZERS = [
   {
     name: "Ricardo Mercado",
     img: "/organizers/ricardo-mercado.jpeg",

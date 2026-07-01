@@ -5,13 +5,14 @@ import Card from "./card";
 import * as styles from "./profile-card.module.css";
 import BrandLogo from "../assets/brand-logo.svg";
 import GitHub from "../assets/github.svg";
-import Twitter from "../assets/twitter.svg";
+import X from "../assets/x-white.svg";
 import Dribbble from "../assets/dribbble.svg";
 
 function getNetworkIcon(network) {
   switch (network) {
     case "twitter":
-      return Twitter;
+    case "x":
+      return X;
     case "github":
       return GitHub;
     case "dribbble":
@@ -45,11 +46,7 @@ function ProfileCard({ name, img, title, links }) {
         {links.map((link) => (
           <a href={link.url} target="_blank" rel="noopener noreferrer">
             <img
-              className={
-                link.network === "twitter"
-                  ? styles.socialNetworkTwitter
-                  : styles.socialNetwork
-              }
+              className={styles.socialNetwork}
               src={getNetworkIcon(link.network)}
               alt={link.network}
             />

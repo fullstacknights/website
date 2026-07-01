@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby";
 import { useTranslation } from "react-i18next";
 
 import {
@@ -11,10 +12,8 @@ import {
   PageHighlight,
   SEO
 } from "../components/index";
-import { SLACK_LINK } from "../constants";
+import { DISCORD_LINK } from "../constants";
 import PAST_SPEAKERS from "../past-speakers";
-
-const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
 export default function Speakers() {
   const { t } = useTranslation();
@@ -27,6 +26,10 @@ export default function Speakers() {
     {
       question: `${t("speakers.how-much-time-do-i-have-question")}`,
       answer: `${t("speakers.how-much-time-do-i-have-answer")}`
+    },
+    {
+      question: `${t("speakers.do-i-need-slides-question")}`,
+      answer: `${t("speakers.do-i-need-slides-answer")}`
     },
     {
       question: `${t("speakers.can-i-speak-about-new-tech-question")}`,
@@ -43,6 +46,18 @@ export default function Speakers() {
     {
       question: `${t("speakers.who-should-attend-this-event-question")}`,
       answer: `${t("speakers.who-should-attend-this-event-answer")}`
+    },
+    {
+      question: `${t("speakers.how-much-does-it-cost-question")}`,
+      answer: `${t("speakers.how-much-does-it-cost-answer")}`
+    },
+    {
+      question: `${t("speakers.what-language-question")}`,
+      answer: `${t("speakers.what-language-answer")}`
+    },
+    {
+      question: `${t("speakers.will-my-talk-be-recorded-question")}`,
+      answer: `${t("speakers.will-my-talk-be-recorded-answer")}`
     }
   ];
 
@@ -55,32 +70,26 @@ export default function Speakers() {
         <h4 className="text-h4 text-white mb-8">
           {t("speakers.we-are-looking-for-speakers")}
         </h4>
-        <a href={FORM_LINK} className="btn btn--primary mb-3">
+        <Link to="/submit/?type=talk" className="btn btn--primary mb-3">
           {t("speakers.submit-your-proposal")}
-        </a>
+        </Link>
       </GradientBackground>
       <PageSection
         className="mt-20"
         title={t("speakers.we-will-help-polish-your-talk")}
         description={t("speakers.everyone-has-valuable-knowledge-to-share")}
       >
-        <div className="flex flex-wrap lg:flex-nowrap">
-          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+        <div className="flex flex-wrap justify-center lg:flex-nowrap">
+          <div className="flex flex-initial w-full mb-4 lg:w-1/2 lg:mr-4 lg:mb-0">
             <CallToAction
               title={t("speakers.topic-scoping")}
               description={t("speakers.we-will-research-your-topic")}
             />
           </div>
-          <div className="flex flex-initial w-full mb-4 lg:w-1/3 lg:mr-4 lg:mb-0">
+          <div className="flex flex-initial w-full lg:w-1/2">
             <CallToAction
-              title={t("speakers.talk-rehearsal")}
-              description={t("speakers.we-will-do-a-dry-run")}
-            />
-          </div>
-          <div className="flex flex-initial w-full lg:w-1/3 lg:mr-4">
-            <CallToAction
-              title={t("speakers.slides-evaluation")}
-              description={t("speakers.we-will-evaluate-the-content")}
+              title={t("speakers.quality-check")}
+              description={t("speakers.we-may-request-materials")}
             />
           </div>
         </div>
@@ -105,15 +114,15 @@ export default function Speakers() {
           <h4 className="text-h4 font-semibold mb-4">
             {t("speakers.ready-to-become-a-speaker")}
           </h4>
-          <a href={FORM_LINK} className="btn btn--primary mb-3">
+          <Link to="/submit/?type=talk" className="btn btn--primary mb-3">
             {t("speakers.submit-your-proposal")}
-          </a>
+          </Link>
         </div>
       </PageSection>
       <PageHighlight
         header={t("speakers.join-the-community")}
         subheader={t("speakers.ask-questions-get-help")}
-        url={SLACK_LINK}
+        url={DISCORD_LINK}
         urlTitle={t("join-us")}
       />
     </Layout>

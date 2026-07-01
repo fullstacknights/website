@@ -10,11 +10,15 @@ import PageHighlight from "./page-highlight";
 import PageSection from "./page-section";
 import ProfileCard from "./profile-card";
 import Question from "./question";
+import Sponsors from "./sponsors";
 import SEO from "./seo";
 import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
 import Form from "./form";
 import FeedbackForm from "./feedback-form";
+import NetlifyHoneypot from "./netlify-honeypot";
+import SubmissionForm from "./submission-form";
+import DiscordWidget from "./discord-widget";
 
 export {
   Avatar,
@@ -29,9 +33,13 @@ export {
   PageSection,
   ProfileCard,
   Question,
+  Sponsors,
   SEO,
   Timeline,
   UpcomingEvent,
   Form,
-  FeedbackForm
+  FeedbackForm,
+  NetlifyHoneypot,
+  SubmissionForm,
+  DiscordWidget
 };

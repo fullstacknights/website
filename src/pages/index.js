@@ -7,16 +7,17 @@ import {
   LumaEvents,
   PageSection,
   CallToAction,
-  PageHighlight,
   UpcomingEvent,
   GradientBackground,
-  FeedbackForm
+  FeedbackForm,
+  Sponsors,
+  DiscordWidget
 } from "../components/index";
 
 import ApplePodcasts from "../assets/apple-podcasts.inline.svg";
 import Podcast from "../assets/podcast.svg";
 import RSS from "../assets/rss.inline.svg";
-import { SLACK_LINK } from "../constants";
+import { DISCORD_LINK } from "../constants";
 import CONFIG from "../config";
 
 function IndexPage() {
@@ -50,6 +51,7 @@ function IndexPage() {
       ) : (
         <LumaEvents />
       )}
+      {activeEvent && <Sponsors sponsors={event.sponsors} />}
       <PageSection
         title={t("main-page.be-a-part-of-our-events")}
         description={t("main-page.our-events-are-done-by-the-community")}
@@ -124,12 +126,22 @@ function IndexPage() {
           <FeedbackForm i18n={i18n} />
         </div>
       </PageSection>
-      <PageHighlight
-        header={t("main-page.join-the-community")}
-        subheader={t("main-page.ask-questions-get-help")}
-        url={SLACK_LINK}
-        urlTitle={t("join-us")}
-      />
+      <PageSection
+        title={t("main-page.join-the-community")}
+        description={t("main-page.ask-questions-get-help")}
+      >
+        <div className="flex flex-col items-center justify-center">
+          <DiscordWidget />
+          <a
+            className="btn btn--primary mt-6"
+            href={DISCORD_LINK}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t("join-us")}
+          </a>
+        </div>
+      </PageSection>
     </Layout>
   );
 }
