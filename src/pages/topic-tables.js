@@ -46,7 +46,7 @@ export default function TopicTables() {
             <CallToAction
               title={t("topic-tables.moderator")}
               description={t("topic-tables.want-to-propose-a-topic")}
-              url="/submit/"
+              url="/submit/?type=table"
               urlTitle={t("topic-tables.apply")}
             />
           </div>
@@ -56,7 +56,7 @@ export default function TopicTables() {
               description={t(
                 "topic-tables.interested-in-having-a-conversation"
               )}
-              url="/submit/"
+              url="/submit/?type=propose"
               urlTitle={t("topic-tables.propose")}
             />
           </div>

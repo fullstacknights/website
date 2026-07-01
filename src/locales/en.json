@@ -170,7 +170,7 @@
   },
   "submission": {
     "title": "Submit your topic",
-    "subtitle": "Propose a talk or a topic table for Fullstack Nights.",
+    "subtitle": "Propose a talk, host a topic table, or suggest a topic for Fullstack Nights.",
     "required": "Indicates a required question",
     "name": "What's your name?",
     "email": "Your email",
@@ -183,6 +183,7 @@
     "intent": "I would like to...",
     "intent-talk": "Present a talk",
     "intent-topic-table": "Host a topic table",
+    "intent-propose": "Propose a topic for the community",
     "on-behalf": "Submitting for someone else? Add their email",
     "on-behalf-placeholder": "their@email.com",
     "thank-you-title": "Thanks for your submission!",

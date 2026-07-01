@@ -170,7 +170,7 @@
   },
   "submission": {
     "title": "Envía tu tema",
-    "subtitle": "Propón una charla o una mesa de Topic Tables para Fullstack Nights.",
+    "subtitle": "Propón una charla, modera una mesa de Topic Tables o sugiere un tema para Fullstack Nights.",
     "required": "Indica una pregunta requerida",
     "name": "¿Cuál es tu nombre?",
     "email": "Tu correo electrónico",
@@ -183,6 +183,7 @@
     "intent": "Me gustaría...",
     "intent-talk": "Presentar una charla",
     "intent-topic-table": "Moderar una mesa de Topic Tables",
+    "intent-propose": "Proponer un tema para la comunidad",
     "on-behalf": "¿Lo llenas por otra persona? Añade su correo",
     "on-behalf-placeholder": "su@correo.com",
     "thank-you-title": "¡Gracias por tu propuesta!",

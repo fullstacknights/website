@@ -70,7 +70,7 @@ export default function Speakers() {
         <h4 className="text-h4 text-white mb-8">
           {t("speakers.we-are-looking-for-speakers")}
         </h4>
-        <Link to="/submit/" className="btn btn--primary mb-3">
+        <Link to="/submit/?type=talk" className="btn btn--primary mb-3">
           {t("speakers.submit-your-proposal")}
         </Link>
       </GradientBackground>
@@ -114,7 +114,7 @@ export default function Speakers() {
           <h4 className="text-h4 font-semibold mb-4">
             {t("speakers.ready-to-become-a-speaker")}
           </h4>
-          <Link to="/submit/" className="btn btn--primary mb-3">
+          <Link to="/submit/?type=talk" className="btn btn--primary mb-3">
             {t("speakers.submit-your-proposal")}
           </Link>
         </div>

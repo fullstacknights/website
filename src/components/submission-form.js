@@ -5,7 +5,14 @@ import NetlifyHoneypot from "./netlify-honeypot";
 
 const FORM_NAME = "speaker-submission";
 
-function Radio({ name, value, label, required, onChange }) {
+// Maps the ?type= query param (set by each page's CTA) to a pre-selected intent.
+const INTENT_BY_TYPE = {
+  talk: "Present a talk",
+  table: "Host a topic table",
+  propose: "Propose a topic"
+};
+
+function Radio({ name, value, label, required, checked, onChange }) {
   return (
     <label className="flex items-center mb-2 cursor-pointer">
       <input
@@ -13,6 +20,7 @@ function Radio({ name, value, label, required, onChange }) {
         name={name}
         value={value}
         required={required}
+        checked={checked}
         onChange={onChange}
         className="mr-2"
       />
@@ -24,6 +32,7 @@ function Radio({ name, value, label, required, onChange }) {
 function SubmissionForm() {
   const { t } = useTranslation();
   const [area, setArea] = useState("");
+  const [intent, setIntent] = useState("");
   const [status, setStatus] = useState("idle");
   const successRef = useRef(null);
 
@@ -34,7 +43,15 @@ function SubmissionForm() {
     }
   }, [status]);
 
+  // Pre-select the intent based on which CTA the visitor arrived from. Done in
+  // an effect (not initial state) so it doesn't fight server-side hydration.
+  useEffect(() => {
+    const type = new URLSearchParams(window.location.search).get("type");
+    if (INTENT_BY_TYPE[type]) setIntent(INTENT_BY_TYPE[type]);
+  }, []);
+
   const onAreaChange = (event) => setArea(event.target.value);
+  const onIntentChange = (event) => setIntent(event.target.value);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -152,12 +169,24 @@ function SubmissionForm() {
           value="Present a talk"
           label={t("submission.intent-talk")}
           required
+          checked={intent === "Present a talk"}
+          onChange={onIntentChange}
         />
         <Radio
           name="intent"
           value="Host a topic table"
           label={t("submission.intent-topic-table")}
           required
+          checked={intent === "Host a topic table"}
+          onChange={onIntentChange}
+        />
+        <Radio
+          name="intent"
+          value="Propose a topic"
+          label={t("submission.intent-propose")}
+          required
+          checked={intent === "Propose a topic"}
+          onChange={onIntentChange}
         />
       </fieldset>
 
