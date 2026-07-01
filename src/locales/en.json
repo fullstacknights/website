@@ -67,9 +67,11 @@
     "ask-questions-get-help": "Ask questions, get help from the community and stay up to date with the latest events.",
 
     "we-will-help-polish-your-talk": "How it works",
-    "everyone-has-valuable-knowledge-to-share": "Everyone has valuable knowledge to share, and we keep the process simple. Just submit your topic and we'll get back to you. No slides required.",
+    "everyone-has-valuable-knowledge-to-share": "Everyone has valuable knowledge to share, and we keep the process simple. Submit your topic and we'll take it from there.",
     "topic-scoping": "Topic scoping",
     "we-will-research-your-topic": "Submit your topic and our team will review it. If we find it to be too broad, we'll work with you to narrow it down and confirm your spot. That's it.",
+    "quality-check": "Quality check",
+    "we-may-request-materials": "To keep our talks high-quality, we may occasionally ask to see your slides or a short outline of your talk (a script or bullet points). This is at our discretion and not always required.",
     "frequently-asked-questions": "Frequently Asked Questions",
     "we-have-gathered-a-couple-of-questions": "We’ve gathered a couple of questions that are frequently asked by people. Feel free to check them out and if you have other question reach out on Discord or X.",
     "what-can-i-speak-about-question": "What can I speak about?",
@@ -96,7 +98,7 @@
   "code-of-conduct": {
     "section-title": "Code of conduct",
     "short-version-title": "Short version",
-    "short-version-description": "Our conference is dedicated to offering a welcoming experience for everyone, regardless of their gender, sexual orientation, ability, appearance, ethnicity or religion. We do not tolerate abuses towards the participants of the conference in any form. Sexual language and/or sexualized images are not appropriate for any aspect of the conference, including talks, workshops, gatherings, Twitter or any other online medium associated to the event. Conference participants who violate these rules could be sanctioned or expelled from the conference without any reimbursement, at the discretion of the conference organizers.",
+    "short-version-description": "Our conference is dedicated to offering a welcoming experience for everyone, regardless of their gender, sexual orientation, ability, appearance, ethnicity or religion. We do not tolerate abuses towards the participants of the conference in any form. Sexual language and/or sexualized images are not appropriate for any aspect of the conference, including talks, workshops, gatherings, Discord, X or any other online medium associated to the event. Conference participants who violate these rules could be sanctioned or expelled from the conference without any reimbursement, at the discretion of the conference organizers.",
     "long-version-title": "Long version",
     "long-version-description-paragraph-1": "Examples of abuses are: offensive comments regarding gender, sexual orientation, ability, appearance, ethnicity or religion, sexual images in public spaces, intimidation, harassment, recording or photographing abuses, continued interruptions of the conference talks or other events, inappropriate physical contact and sexual harassment.",
     "long-version-description-paragraph-2": "We expect participants who are made aware of their abusive behavior to immediately comply and stop said behavior.",
@@ -106,7 +108,7 @@
     "long-version-description-paragraph-6": "The conference personnel will gladly help participants in contacting the security personnel of the event location or the local authorities, provide escort out of the conference, or otherwise assist those who are the victims of abuse in any way so that they can feel comfortable during the event. We value your assistance.",
     "long-version-description-paragraph-7": "We hope that participants follow these rules and regulations in the conference, workshops and any other social event related to the conference.",
     "need-help-title": "Need help?",
-    "need-help-description": "Contact one of the organizers through Twitter or personally."
+    "need-help-description": "Contact one of the organizers on Discord (the @Organizer role) or in person."
   },
   "404": {
     "not-found": "NOT FOUND",

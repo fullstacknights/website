@@ -67,9 +67,11 @@
     "ask-questions-get-help": "Haz preguntas, obtén ayuda y mantente al tanto de los eventos más recientes.",
 
     "we-will-help-polish-your-talk": "Cómo funciona",
-    "everyone-has-valuable-knowledge-to-share": "Toda persona tiene conocimiento valioso que aportar a la comunidad, y mantenemos el proceso sencillo. Solo envíanos tu tema y te responderemos. No necesitas slides.",
+    "everyone-has-valuable-knowledge-to-share": "Toda persona tiene conocimiento valioso que aportar a la comunidad, y mantenemos el proceso sencillo. Envíanos tu tema y nosotros nos encargamos del resto.",
     "topic-scoping": "Alcance del tema",
     "we-will-research-your-topic": "Envíanos tu tema y nuestro personal lo revisará. Si lo encontramos demasiado amplio, trabajaremos contigo para limitarlo y confirmar tu espacio. Eso es todo.",
+    "quality-check": "Control de calidad",
+    "we-may-request-materials": "Para mantener la calidad de las charlas, en algunos casos podríamos pedirte ver tus slides o un breve resumen de tu charla (un guion o puntos clave). Es a nuestra discreción y no siempre es requerido.",
     "frequently-asked-questions": "Preguntas Frecuentes",
     "we-have-gathered-a-couple-of-questions": "Hemos recopilado algunas de las preguntas que nos han hecho con frecuencia. Si tienes alguna otra pregunta, en confianza nos puedes escribir por Discord o X.",
     "what-can-i-speak-about-question": "¿Sobre qué puedo hablar?",
@@ -96,7 +98,7 @@
   "code-of-conduct": {
     "section-title": "Código de conducta",
     "short-version-title": "Versión corta",
-    "short-version-description": "Nuestra conferencia está dedicada a ofrecer una experiencia acogedora para toda persona, independientemente de su género, orientación sexual, habilidad física, apariencia, etnia o creencia religiosa. No toleramos los abusos hacia los participantes de nuestra conferencia de ninguna forma. El lenguaje sexual y/o las imágenes sexualizadas no son apropiadas para ningún aspecto de la conferencia, incluyendo charlas, talleres, reuniones, en Twitter o cualquier otro medio asociado al evento. Cualquier participante de la conferencia que viole estas reglas podría ser sancionado o expulsado de la conferencia sin ningún reembolso, a discreción del personal organizador de la conferencia.",
+    "short-version-description": "Nuestra conferencia está dedicada a ofrecer una experiencia acogedora para toda persona, independientemente de su género, orientación sexual, habilidad física, apariencia, etnia o creencia religiosa. No toleramos los abusos hacia los participantes de nuestra conferencia de ninguna forma. El lenguaje sexual y/o las imágenes sexualizadas no son apropiadas para ningún aspecto de la conferencia, incluyendo charlas, talleres, reuniones, Discord, X o cualquier otro medio asociado al evento. Cualquier participante de la conferencia que viole estas reglas podría ser sancionado o expulsado de la conferencia sin ningún reembolso, a discreción del personal organizador de la conferencia.",
     "long-version-title": "Versión larga",
     "long-version-description-paragraph-1": "Algunos ejemplos de conducta abusiva lo son: comentarios ofensivos relacionados con género, orientación sexual, habilidad física, apariencia, etnia o creencia religosa. También prohibimos imágenes sexuales en los espacios públicos, intimidación, acoso (incluyendo grabaciones o fotografías no deseadas), interrupciones continuas de las charlas o cualquier otro evento, contacto físico inapropiado y cualquier tipo de acoso sexual.",
     "long-version-description-paragraph-2": "Esperamos que cualquier participante a quien se le señale un comportamiento abusivo inmediatamente detenga dicho comportamiento.",
@@ -106,7 +108,7 @@
     "long-version-description-paragraph-6": "El equipo de la conferencia con gusto te ayudará a contactar al personal de seguridad o a las autoridades pertinentes, a proveer escolta hacia afuera de los predios del evento, o a asistir a víctimas de abuso en cualquier manera que ayude a proveer un ambiente seguro durante el evento. Valoramos su asistencia.",
     "long-version-description-paragraph-7": "Esperamos que los participantes respeten estas reglas y regulaciones en la conferencia, en talleres y en cualquier otro evento social relacionado con la conferencia.",
     "need-help-title": "¿Necesitas ayuda?",
-    "need-help-description": "En confianza puedes contactar a cualquier personal del evento, tanto por Twitter como en persona."
+    "need-help-description": "En confianza puedes contactar a cualquier organizador en Discord (el rol @Organizer) o en persona."
   },
   "404": {
     "not-found": "NO EXISTE",
