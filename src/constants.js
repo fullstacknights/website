@@ -1,7 +1,6 @@
 import CONFIG from "./config";
 
-export const SLACK_LINK =
-  "https://startupsofpr.slack.com/archives/C03K913B6";
+export const DISCORD_LINK = "https://discord.gg/4CQhNQpVQG";
 
 export const ORGANIZERS = [
   {
@@ -12,12 +11,12 @@ export const ORGANIZERS = [
   {
     name: "Raúl Negrón",
     img: "/organizers/raul-negron.jpeg",
-    social: [{ network: "github", link: "https://github.com/rnegron" }]
+    social: [{ network: "website", link: "https://raulnegron.me" }]
   },
   {
     name: "Christian Rodríguez",
-    img: "/past-speakers/empty-avatar.png",
-    social: []
+    img: "/organizers/christian-rodriguez.jpeg",
+    social: [{ network: "website", link: "https://chrisrodz.io/en" }]
   },
   {
     name: "Giovanni Collazo",

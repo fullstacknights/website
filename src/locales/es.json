@@ -14,7 +14,7 @@
   "main-page": {
     "be-a-part-of-our-events": "Forma parte de los eventos",
     "our-events-are-done-by-the-community": "Nuestros eventos son hechos por la comunidad, para la comunidad. Sin su apoyo y participación, no seriamos quienes somos.",
-    "join-the-community": "Únete a la comunidad en Slack",
+    "join-the-community": "Únete a la comunidad en Discord",
     "ask-questions-get-help": "Haz preguntas, obtén ayuda y mantente al tanto de los eventos más recientes.",
     "become-a-speaker": "Conviértete en speaker",
     "we-are-looking-for-speakers": "Buscamos personas que estén dispuestas a compartir su experiencia con la comunidad a través de charlas. ¡Si eres principiante, también puedes aplicar!",
@@ -49,7 +49,7 @@
     "why-are-we-doing-this-answer-line-1": "La respuesta corta: amamos a la comunidad ❤️. Desde el comienzo, nuestra meta fue unir a las distintas comunidades que trabajan alrededor de tecnología/startups y brindarles valor. Desde nuestro punto de vista, compartir nuestras experiencias entre las distintas diciplinas sirve para fortalecer a toda la comunidad en general.",
     "why-are-we-doing-this-answer-line-2": "También, queremos conocer a personas nuevas y proveer un espacio seguro en donde colaborar y crecer. Esperamos que nos acompañes en esta aventura.",
     "how-can-i-get-involved-question": "¿Cómo puedo involucrarme?",
-    "how-can-i-get-involved-answer": "Hay varias formas. Puedes aplicar para ser speaker o para moderar una mesa de Topic Tables. Podrías proponer un tópico para futuros eventos. También puedes unirte a nuestra comunidad en Slack",
+    "how-can-i-get-involved-answer": "Hay varias formas. Puedes aplicar para ser speaker o para moderar una mesa de Topic Tables. Podrías proponer un tópico para futuros eventos. También puedes unirte a nuestra comunidad en Discord",
     "event-organizers": "Personal que organiza el evento",
     "past-organizers": "Personal que organizó en el pasado",
     "founders": "Fundadores",
@@ -63,7 +63,7 @@
     "submit-your-proposal": "Envía tu propuesta",
     "past-speakers": "Fullstack Nights Speakers anteriores",
     "ready-to-become-a-speaker": "¡Se parte de esta lista!",
-    "join-the-community": "Únete a la comunidad en Slack",
+    "join-the-community": "Únete a la comunidad en Discord",
     "ask-questions-get-help": "Haz preguntas, obtén ayuda y mantente al tanto de los eventos más recientes.",
 
     "we-will-help-polish-your-talk": "Cómo funciona",
@@ -76,6 +76,8 @@
     "what-can-i-speak-about-answer": "Puedes hablar sobre lenguajes de programación, frameworks, herramientas, bases de datos, infraestructura, diseño de emails, interfaces de usuarios, experiencia de usuario, prototipos, agentes de IA y flujos de trabajo con agentes, y cualquier otro tema o experiencia que crees pueda añadir valor a la comunidad.",
     "how-much-time-do-i-have-question": "¿Cuánto tiempo tengo para dar mi charla?",
     "how-much-time-do-i-have-answer": "Tendrás 15 minutos para dar la charla. Luego de que la charla culmine habrán 5 minutos de preguntas.",
+    "do-i-need-slides-question": "¿Necesito slides?",
+    "do-i-need-slides-answer": "Idealmente sí, pero no son requeridos. Los slides pueden ayudar a contar tu historia, pero lo más importante es una charla clara y bien estructurada. Usa lo que mejor te ayude a compartir tu idea.",
     "can-i-speak-about-new-tech-question": "Recientemente aprendí sobre una tecnología nueva, ¿aún así puedo hablar sobre ella?",
     "can-i-speak-about-new-tech-answer": "¡Claro! Cuando apenas aprendemos sobre algún tema tenemos una perspectiva única comparada a una persona experta. ¡No te descartes y solicita para ser speaker!",
     "can-i-recommend-someone-question": "¿Puedo recomendar a alguien para que dé una charla?",
@@ -83,7 +85,13 @@
     "should-i-apply-question": "Nunca he dado una charla en público, ¿comoquiera debo solicitar a ser speaker?",
     "should-i-apply-answer": "¡Sí, deberías solicitar! El personal de FSN está aqui para ayudarte a presentar la mejor charla posible. Comparte tu tema y te daremos feedback y orientación en el camino.",
     "who-should-attend-this-event-question": "¿Quién debería asistir a este evento?",
-    "who-should-attend-this-event-answer": "Cualquier persona que tenga interés en programación y diseño. No importa si eres estudiante, principiante o una persona experta. Hay espacio para que todo participante aprenda y crezca."
+    "who-should-attend-this-event-answer": "Cualquier persona que tenga interés en programación y diseño. No importa si eres estudiante, principiante o una persona experta. Hay espacio para que todo participante aprenda y crezca.",
+    "how-much-does-it-cost-question": "¿Cuánto cuesta asistir?",
+    "how-much-does-it-cost-answer": "Nada. Los eventos de Fullstack Nights son gratuitos y abiertos a la comunidad. Solo consigue tu boleto para que podamos planificar el espacio.",
+    "what-language-question": "¿En qué idioma debe ser mi charla?",
+    "what-language-answer": "En inglés o español, el que prefieras. Nuestra comunidad es bilingüe y ambos son bienvenidos.",
+    "will-my-talk-be-recorded-question": "¿Grabarán mi charla?",
+    "will-my-talk-be-recorded-answer": "A veces grabamos las charlas y las compartimos en nuestro canal de YouTube. Si prefieres que no te graben, déjanoslo saber y lo respetaremos."
   },
   "code-of-conduct": {
     "section-title": "Código de conducta",
@@ -157,5 +165,27 @@
   "sponsors": {
     "title": "Patrocinadores",
     "thanks-to-our-sponsors": "Gracias a los patrocinadores que hacen este evento posible."
+  },
+  "submission": {
+    "title": "Envía tu tema",
+    "subtitle": "Propón una charla o una mesa de Topic Tables para Fullstack Nights.",
+    "required": "Indica una pregunta requerida",
+    "name": "¿Cuál es tu nombre?",
+    "email": "Tu correo electrónico",
+    "topic-area": "¿Sobre qué trata tu tema?",
+    "topic-area-design": "Diseño",
+    "topic-area-code": "Código",
+    "topic-area-other": "Otro",
+    "topic-area-other-placeholder": "Dinos el área",
+    "description": "Danos una breve descripción de tu tema",
+    "intent": "Me gustaría...",
+    "intent-talk": "Presentar una charla",
+    "intent-topic-table": "Moderar una mesa de Topic Tables",
+    "on-behalf": "¿Lo llenas por otra persona? Añade su correo",
+    "on-behalf-placeholder": "su@correo.com",
+    "thank-you-title": "¡Gracias por tu propuesta!",
+    "thank-you-body": "Recibimos tu tema y un miembro del equipo de FSN te contactará pronto.",
+    "error": "Algo salió mal. Inténtalo de nuevo o escríbenos por Discord.",
+    "bot-field": "No llenes esto si eres humano:"
   }
 }

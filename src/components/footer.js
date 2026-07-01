@@ -3,15 +3,13 @@ import { useTranslation } from "react-i18next";
 
 import { Link } from "gatsby";
 
-import Facebook from "../assets/facebook-circle.svg";
-import Twitter from "../assets/twitter-circle.svg";
+import X from "../assets/x-circle.svg";
 import YouTube from "../assets/youtube-circle.svg";
 import Github from "../assets/github-circle.svg";
 import * as styles from "./footer.module.css";
 
 const YOUTUBE_LINK = "https://www.youtube.com/channel/UCiJwjxdD9XIjRpV__kW2wsw";
-const FACEBOOK_LINK = "https://www.facebook.com/FullstackNights";
-const TWITTER_LINK = "https://twitter.com/fullstacknights";
+const X_LINK = "https://x.com/fullstacknights";
 const GITHUB_LINK = "https://github.com/fullstacknights";
 
 function Icon({ url, icon, alt }) {
@@ -38,8 +36,7 @@ function Footer() {
       </a>
       <div className="flex flex-wrap items-center justify-between w-11/12 max-w-6xl">
         <div className="flex items-center">
-          <Icon url={FACEBOOK_LINK} icon={Facebook} alt="Facebook link" />
-          <Icon url={TWITTER_LINK} icon={Twitter} alt="Twitter link" />
+          <Icon url={X_LINK} icon={X} alt="X link" />
           <Icon url={YOUTUBE_LINK} icon={YouTube} alt="YouTube link" />
           <Icon url={GITHUB_LINK} icon={Github} alt="Github link" />
         </div>

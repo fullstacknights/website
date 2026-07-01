@@ -4,8 +4,10 @@ import { useTranslation } from "react-i18next";
 import Form from "./form";
 
 const additionalFormAttr = {
+  name: "feedback",
+  method: "post",
   "data-netlify": "true",
-  method: "post"
+  "data-netlify-honeypot": "bot-field"
 };
 
 function FeedbackForm() {
@@ -17,7 +19,13 @@ function FeedbackForm() {
       additionalFormAttr={additionalFormAttr}
       submitText={t("submit")}
     >
-      <input type="hidden" netlify-honeypot="bot-field" />
+      <input type="hidden" name="form-name" value="feedback" />
+      <p className="hidden">
+        <label>
+          {t("submission.bot-field")}
+          <input name="bot-field" />
+        </label>
+      </p>
       <label htmlFor="subject" className="feedback__label">
         {t("subject")}
       </label>

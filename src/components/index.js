@@ -16,6 +16,8 @@ import Timeline from "./timeline";
 import UpcomingEvent from "./upcoming-event";
 import Form from "./form";
 import FeedbackForm from "./feedback-form";
+import SubmissionForm from "./submission-form";
+import DiscordWidget from "./discord-widget";
 
 export {
   Avatar,
@@ -35,5 +37,7 @@ export {
   Timeline,
   UpcomingEvent,
   Form,
-  FeedbackForm
+  FeedbackForm,
+  SubmissionForm,
+  DiscordWidget
 };

@@ -1,16 +1,23 @@
 import React from "react";
 
-import Twitter from "../assets/twitter.inline.svg";
+import X from "../assets/x.inline.svg";
+import Bluesky from "../assets/bluesky.inline.svg";
 import GitHub from "../assets/github.inline.svg";
+import Website from "../assets/website.inline.svg";
 
 import * as styles from "./avatar.module.css";
 
 function getNetworkIcon(network) {
   switch (network) {
     case "twitter":
-      return <Twitter />;
+    case "x":
+      return <X />;
+    case "bluesky":
+      return <Bluesky />;
     case "github":
       return <GitHub />;
+    case "website":
+      return <Website />;
     default:
       return;
   }

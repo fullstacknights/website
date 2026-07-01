@@ -8,13 +8,9 @@ import {
   PageSection,
   CallToAction,
   FAQList,
-  PageHighlight,
   SEO
 } from "../components/index";
-import { SLACK_LINK } from "../constants";
 import MODERATORS from "../past-moderators";
-
-const FORM_LINK = "https://forms.gle/tMo2Y5Bg8wktk21C7";
 
 export default function TopicTables() {
   const { t } = useTranslation();
@@ -48,7 +44,7 @@ export default function TopicTables() {
             <CallToAction
               title={t("topic-tables.moderator")}
               description={t("topic-tables.want-to-propose-a-topic")}
-              url={FORM_LINK}
+              url="/submit/"
               urlTitle={t("topic-tables.apply")}
             />
           </div>
@@ -58,7 +54,7 @@ export default function TopicTables() {
               description={t(
                 "topic-tables.interested-in-having-a-conversation"
               )}
-              url={FORM_LINK}
+              url="/submit/"
               urlTitle={t("topic-tables.propose")}
             />
           </div>
@@ -81,12 +77,6 @@ export default function TopicTables() {
           ))}
         </div>
       </PageSection>
-      <PageHighlight
-        header={t("topic-tables.still-have-questions")}
-        subheader={t("topic-tables.let-us-know-if-you-have-questions")}
-        url={SLACK_LINK}
-        urlTitle={t("topic-tables.contact-us")}
-      />
     </Layout>
   );
 }

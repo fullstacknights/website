@@ -109,7 +109,7 @@ const PAST_SPEAKERS = [
   {
     name: "Christian Rodríguez",
     link: "",
-    img: "/past-speakers/christian-rodriguez.jpeg"
+    img: "/organizers/christian-rodriguez.jpeg"
   },
   {
     name: "Raúl Negrón",

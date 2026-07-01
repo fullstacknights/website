@@ -14,7 +14,7 @@
   "main-page": {
     "be-a-part-of-our-events": "Be a part of our events",
     "our-events-are-done-by-the-community": "Our events are done by the community, for the community. Without your support and participation there would be no us.",
-    "join-the-community": "Join the community in Slack",
+    "join-the-community": "Join the community in Discord",
     "ask-questions-get-help": "Ask questions, get help from the community and stay up to date with the latest events.",
     "become-a-speaker": "Become a speaker",
     "we-are-looking-for-speakers": "We're looking for people who are willing to share their experiences with the community through talks. You don't have to be an expert in order to be a speaker!",
@@ -49,7 +49,7 @@
     "why-are-we-doing-this-answer-line-1": "The simple answer is: we ❤️ community. From the start, our goal has been to provide value and bring together the different communities working around tech and startups. From our point of view, sharing our experiences across disciplines makes the overall community stronger.",
     "why-are-we-doing-this-answer-line-2": "We also wanted to meet people and provide a safe place where people can network and grow. We hope you'll join us in this journey.",
     "how-can-i-get-involved-question": "How can I get involved?",
-    "how-can-i-get-involved-answer": "There's a number of ways. You can become a speaker or topic table moderator, you can propose a topic, or you can join our Slack community.",
+    "how-can-i-get-involved-answer": "There's a number of ways. You can become a speaker or topic table moderator, you can propose a topic, or you can join our Discord community.",
     "event-organizers": "Event organizers",
     "past-organizers": "Past organizers",
     "founders": "Founders",
@@ -63,7 +63,7 @@
     "submit-your-proposal": "Submit your proposal",
     "past-speakers": "Past Fullstack Nights Speakers",
     "ready-to-become-a-speaker": "Ready to become a speaker?",
-    "join-the-community": "Join the community in Slack",
+    "join-the-community": "Join the community in Discord",
     "ask-questions-get-help": "Ask questions, get help from the community and stay up to date with the latest events.",
 
     "we-will-help-polish-your-talk": "How it works",
@@ -76,6 +76,8 @@
     "what-can-i-speak-about-answer": "You're welcome to speak about programing languages, frameworks, tools, databases, infrastructure, email design, user interfaces, users experience, prototyping, AI agents and agentic workflows, and any other topic or experience that can add value to our community.",
     "how-much-time-do-i-have-question": "How much time do I have to give my talk?",
     "how-much-time-do-i-have-answer": "You'll have 15 minutes for your talk and 5 minutes for Q&A after the presentation is over.",
+    "do-i-need-slides-question": "Do I need slides?",
+    "do-i-need-slides-answer": "Ideally yes, but they're not required. Slides can help tell your story, but a clear, well-structured talk matters more. Use whatever helps you share your idea.",
     "can-i-speak-about-new-tech-question": "I recently learned about a new technology, can I speak about it?",
     "can-i-speak-about-new-tech-answer": "Of course! When we've just learned about a topic we have a unique perspective compared to an expert. Don't count yourself out and apply as a speaker!",
     "can-i-recommend-someone-question": "Can I recommend someone to speak at this event?",
@@ -83,7 +85,13 @@
     "should-i-apply-question": "I've never done any public speaking before, should I apply as a speaker?",
     "should-i-apply-answer": "Yes, you should! The FSN team is here to help you give the best talk possible. Share your topic and we'll give you feedback and guidance along the way.",
     "who-should-attend-this-event-question": "Who should attend to this event?",
-    "who-should-attend-this-event-answer": "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow."
+    "who-should-attend-this-event-answer": "Anyone who's interested in programming and design. It doesn't matter if you're a student, beginner or an expert. There's space for everyone to learn and grow.",
+    "how-much-does-it-cost-question": "How much does it cost to attend?",
+    "how-much-does-it-cost-answer": "Nothing. Fullstack Nights events are free and open to the community. Just grab a ticket so we can plan for space.",
+    "what-language-question": "What language should my talk be in?",
+    "what-language-answer": "English or Spanish, whichever you're most comfortable with. Our community is bilingual and both are welcome.",
+    "will-my-talk-be-recorded-question": "Will my talk be recorded?",
+    "will-my-talk-be-recorded-answer": "We sometimes record talks and share them on our YouTube channel. If you'd rather not be recorded, just let us know and we'll respect that."
   },
   "code-of-conduct": {
     "section-title": "Code of conduct",
@@ -157,5 +165,27 @@
   "sponsors": {
     "title": "Sponsors",
     "thanks-to-our-sponsors": "Thanks to the sponsors making this event possible."
+  },
+  "submission": {
+    "title": "Submit your topic",
+    "subtitle": "Propose a talk or a topic table for Fullstack Nights.",
+    "required": "Indicates a required question",
+    "name": "What's your name?",
+    "email": "Your email",
+    "topic-area": "What is your topic about?",
+    "topic-area-design": "Design",
+    "topic-area-code": "Code",
+    "topic-area-other": "Other",
+    "topic-area-other-placeholder": "Tell us the area",
+    "description": "Give us a short description of your topic",
+    "intent": "I would like to...",
+    "intent-talk": "Present a talk",
+    "intent-topic-table": "Host a topic table",
+    "on-behalf": "Submitting for someone else? Add their email",
+    "on-behalf-placeholder": "their@email.com",
+    "thank-you-title": "Thanks for your submission!",
+    "thank-you-body": "We've received your topic and a member of the FSN team will get back to you soon.",
+    "error": "Something went wrong. Please try again or reach out to us on Discord.",
+    "bot-field": "Don't fill this out if you're human:"
   }
 }
