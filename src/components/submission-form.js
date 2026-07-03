@@ -57,7 +57,10 @@ function SubmissionForm() {
     event.preventDefault();
     setStatus("submitting");
 
-    fetch("/", { method: "POST", body: new URLSearchParams(new FormData(event.target)) })
+    fetch("/", {
+      method: "POST",
+      body: new URLSearchParams(new FormData(event.target))
+    })
       .then((response) => {
         if (!response.ok) throw new Error(response.statusText);
         setStatus("success");

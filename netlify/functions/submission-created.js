@@ -63,7 +63,10 @@ exports.handler = async (event) => {
       console.error(
         `submission-created: Discord returned ${response.status} for form "${formName}"`
       );
-      return { statusCode: 502, body: `Discord webhook failed: ${response.status}` };
+      return {
+        statusCode: 502,
+        body: `Discord webhook failed: ${response.status}`
+      };
     }
   } catch (error) {
     console.error(

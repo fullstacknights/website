@@ -1,6 +1,6 @@
 import CONFIG from "./config";
 
-export const DISCORD_LINK = "https://discord.gg/5MTV7Kmwn5";
+export const DISCORD_LINK = "https://discord.gg/aeKTqu6A";
 
 export const ORGANIZERS = [
   {
