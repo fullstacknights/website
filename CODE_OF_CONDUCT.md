@@ -2,7 +2,7 @@
 
 ## Short version
 
-Our conference is dedicated to offering a welcoming experience for everyone, regardless of their gender, sexual orientation, ability, appearance, ethnicity or religion. We do not tolerate abuses towards the participants of the conference in any form. Sexual language and/or sexualized images are not appropriate for any aspect of the conference, including talks, workshops, gatherings, Twitter or any other online medium associated to the event. Conference participants who violate these rules could be sanctioned or expelled from the conference without any reimbursement, at the discretion of the conference organizers.
+Our conference is dedicated to offering a welcoming experience for everyone, regardless of their gender, sexual orientation, ability, appearance, ethnicity or religion. We do not tolerate abuses towards the participants of the conference in any form. Sexual language and/or sexualized images are not appropriate for any aspect of the conference, including talks, workshops, gatherings, Discord, X or any other online medium associated to the event. Conference participants who violate these rules could be sanctioned or expelled from the conference without any reimbursement, at the discretion of the conference organizers.
 
 ## Long version
 

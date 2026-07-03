@@ -43,7 +43,9 @@ i18next is initialized in `gatsby-browser.js`. Languages are detected via `i18ne
 This project uses **Gatsby's built-in [Head API](https://www.gatsbyjs.com/docs/reference/built-in-components/gatsby-head/)** — `react-helmet` was removed. Each page in `src/pages/` exports a top-level `Head` component **at module scope**, not inside the page's JSX:
 
 ```js
-export default function MyPage() { /* ... */ }
+export default function MyPage() {
+  /* ... */
+}
 export const Head = () => <SEO title="My Page" />;
 ```
 
