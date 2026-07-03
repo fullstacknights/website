@@ -65,5 +65,3 @@ Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md) to get star
 ## License
 
 [MIT](LICENSE)
-</content>
-</invoke>
