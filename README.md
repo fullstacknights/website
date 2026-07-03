@@ -5,7 +5,7 @@
 **Charlas sobre tecnología y diseño en un ambiente informal.**
 
 [![CI](https://github.com/fullstacknights/website/actions/workflows/ci.yml/badge.svg)](https://github.com/fullstacknights/website/actions/workflows/ci.yml)
-[![Discord](https://img.shields.io/discord/1521687604586614926?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/5MTV7Kmwn5)
+[![Discord](https://img.shields.io/discord/1521687604586614926?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/aeKTqu6A)
 [![License: MIT](https://img.shields.io/github/license/fullstacknights/website?color=blue)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%E2%89%A522-339933?logo=node.js&logoColor=white)](.nvmrc)
 [![Gatsby](https://img.shields.io/badge/Gatsby-5-663399?logo=gatsby&logoColor=white)](https://www.gatsbyjs.com/)
@@ -55,7 +55,7 @@ build, and a Percy visual snapshot on each pull request.
 
 ## Community
 
-- Join us on [Discord](https://discord.gg/5MTV7Kmwn5)
+- Join us on [Discord](https://discord.gg/aeKTqu6A)
 - Read the [Code of Conduct](CODE_OF_CONDUCT.md) ([español](https://fullstacknights.com/code-of-conduct/))
 
 ## Contributing
