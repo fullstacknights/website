@@ -23,12 +23,12 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^8.0.0",
-    "autoprefixer": "^10.5.2",
+    "autoprefixer": "^10.5.4",
     "gatsby-plugin-react-svg": "^3.3.0",
-    "oxlint": "^1.72.0",
-    "postcss": "^8.5.16",
-    "prettier": "^3.9.4",
-    "tailwindcss": "^3.4.19"
+    "oxlint": "^1.74.0",
+    "postcss": "^8.5.20",
+    "prettier": "^3.9.5",
+    "tailwindcss": "^4.3.3"
   },
   "license": "MIT",
   "scripts": {
