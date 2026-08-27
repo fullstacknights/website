@@ -9,6 +9,7 @@ import LumaEvents from "./luma-events";
 import PageHighlight from "./page-highlight";
 import PageSection from "./page-section";
 import ProfileCard from "./profile-card";
+import RegistrationButton from "./registration-button";
 import Question from "./question";
 import Sponsors from "./sponsors";
 import SEO from "./seo";
@@ -32,6 +33,7 @@ export {
   PageHighlight,
   PageSection,
   ProfileCard,
+  RegistrationButton,
   Question,
   Sponsors,
   SEO,

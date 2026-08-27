@@ -1,11 +1,13 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+import { resolveLanguage } from "../language";
+
 const LUMA_CALENDAR_ID = "cal-xorZLhCJO1uKH5s";
 
 function LumaEvents() {
   const { t, i18n } = useTranslation();
-  const lang = i18n.language?.startsWith("es") ? "es" : "en";
+  const lang = resolveLanguage(i18n.language);
   const src = `https://luma.com/embed/calendar/${LUMA_CALENDAR_ID}/events?lang=${lang}`;
 
   return (

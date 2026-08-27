@@ -3,6 +3,7 @@
   "find-us": "Encuéntranos en",
   "join-us": "Únete",
   "learn-more": "Conoce más",
+  "get-tickets": "Obtén tu boleto",
   "submit": "Enviar",
   "subject": "Título",
   "your-thoughts": "Sus ideas",
@@ -65,7 +66,6 @@
     "ready-to-become-a-speaker": "¡Se parte de esta lista!",
     "join-the-community": "Únete a la comunidad en Discord",
     "ask-questions-get-help": "Haz preguntas, obtén ayuda y mantente al tanto de los eventos más recientes.",
-
     "we-will-help-polish-your-talk": "Cómo funciona",
     "everyone-has-valuable-knowledge-to-share": "Toda persona tiene conocimiento valioso que aportar a la comunidad, y mantenemos el proceso sencillo. Envíanos tu tema y nosotros nos encargamos del resto.",
     "topic-scoping": "Alcance del tema",
@@ -117,16 +117,12 @@
   "schedule": {
     "schedule": "Horario",
     "we-try-to-be-punctual": "Tratamos de que el evento sea lo más organizado y puntual posible. Abajo puedes confirmar el horario.",
-    "get-tickets": "Obtén tu boleto",
     "make-your-way-to-our-venue": "Llega hasta el local del evento",
     "doors-open": "Puertas abren",
-    "check-in": "Registro y confirmación de micrófono abierto",
+    "check-in": "Registro",
     "introduction-and-kick-off": "Introducción y comienzo",
     "grab-your-seat": "Tome asiento",
-    "open-mic-6-x-3": "Open Mic (6 x 3 min)",
-    "enjoy-the-event": "¡Disfrute el evento!",
     "wrap-up-networking": "Conclusión / Networking",
-    "networking-break": "Networking / Descanso",
     "the-end": "Fin"
   },
   "topic-tables": {
@@ -154,19 +150,14 @@
     "upcoming-events": "Próximos eventos",
     "at": "a las",
     "venue": "Sitio",
-    "get-tickets": "Obtén tu boleto",
-    "line-up": "Apúntate para el próximo evento",
-    "while-you-wait": "A lo que llega la hora del próximo evento, revisa nuestro",
-    "code-of-conduct": "código de conducta",
-    "or-request-an-open-mic": "o solicita un espacio de microfono abierto.",
-    "schedule": "horario"
+    "line-up": "Apúntate para el próximo evento"
   },
   "footer": {
     "code-of-conduct": "Código de Conducta"
   },
   "sponsors": {
     "title": "Patrocinadores",
-    "thanks-to-our-sponsors": "Gracias a los patrocinadores que hacen este evento posible."
+    "thanks-to-our-sponsors": "Agradecemos a nuestros patrocinadores por hacer posible esta edición."
   },
   "submission": {
     "title": "Envía tu tema",
