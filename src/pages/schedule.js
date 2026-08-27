@@ -43,10 +43,10 @@ function buildTimeline(event, t, language) {
       header: t("schedule.introduction-and-kick-off"),
       subheader: t("schedule.grab-your-seat")
     },
-    ...event.participants.map((participant, index) => ({
+    // Slots stay unnamed so the schedule doesn't commit to a speaking order.
+    ...event.participants.map((_, index) => ({
       dateTime: at(firstTalkMinutes + index * talkMinutes),
-      header: participant.name,
-      subheader: participant.topic
+      header: t("schedule.presentation", { number: index + 1 })
     })),
     {
       dateTime: at(firstTalkMinutes + event.participants.length * talkMinutes),

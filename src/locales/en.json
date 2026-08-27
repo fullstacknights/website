@@ -122,6 +122,7 @@
     "check-in": "Check-in",
     "introduction-and-kick-off": "Introduction and kick-off",
     "grab-your-seat": "Grab your seat",
+    "presentation": "Presentation {{number}}",
     "wrap-up-networking": "Wrap-up / Networking",
     "the-end": "The end"
   },

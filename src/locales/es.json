@@ -122,6 +122,7 @@
     "check-in": "Registro",
     "introduction-and-kick-off": "Introducción y comienzo",
     "grab-your-seat": "Tome asiento",
+    "presentation": "Presentación {{number}}",
     "wrap-up-networking": "Conclusión / Networking",
     "the-end": "Fin"
   },
