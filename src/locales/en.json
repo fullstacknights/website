@@ -3,6 +3,7 @@
   "find-us": "Find us on",
   "join-us": "Join us",
   "learn-more": "Learn more",
+  "get-tickets": "Get tickets",
   "submit": "Submit",
   "subject": "Subject",
   "your-thoughts": "Your thoughts",
@@ -65,7 +66,6 @@
     "ready-to-become-a-speaker": "Ready to become a speaker?",
     "join-the-community": "Join the community in Discord",
     "ask-questions-get-help": "Ask questions, get help from the community and stay up to date with the latest events.",
-
     "we-will-help-polish-your-talk": "How it works",
     "everyone-has-valuable-knowledge-to-share": "Everyone has valuable knowledge to share, and we keep the process simple. Submit your topic and we'll take it from there.",
     "topic-scoping": "Topic scoping",
@@ -117,16 +117,13 @@
   "schedule": {
     "schedule": "Schedule",
     "we-try-to-be-punctual": "We try to be as organized and punctual as possible. Check out our schedule below.",
-    "get-tickets": "Get tickets",
     "make-your-way-to-our-venue": "Make your way to our venue",
     "doors-open": "Doors open",
-    "check-in": "Check-in and reset your open-mic spot",
+    "check-in": "Check-in",
     "introduction-and-kick-off": "Introduction and kick-off",
     "grab-your-seat": "Grab your seat",
-    "open-mic-6-x-3": "Open Mic (6 x 3 min)",
-    "enjoy-the-event": "Enjoy the event!",
+    "presentation": "Presentation {{number}}",
     "wrap-up-networking": "Wrap-up / Networking",
-    "networking-break": "Networking / Break",
     "the-end": "The end"
   },
   "topic-tables": {
@@ -154,19 +151,14 @@
     "upcoming-events": "Upcoming events",
     "at": "at",
     "venue": "Venue",
-    "get-tickets": "Get tickets",
-    "line-up": "Line up for the next event",
-    "while-you-wait": "While you wait for the event check out our",
-    "code-of-conduct": "code of conduct",
-    "schedule": "schedule",
-    "or-request-an-open-mic": "or request an open mic spot."
+    "line-up": "Line up for the next event"
   },
   "footer": {
     "code-of-conduct": "Code of Conduct"
   },
   "sponsors": {
     "title": "Sponsors",
-    "thanks-to-our-sponsors": "Thanks to the sponsors making this event possible."
+    "thanks-to-our-sponsors": "We thank our sponsors for making this edition possible."
   },
   "submission": {
     "title": "Submit your topic",

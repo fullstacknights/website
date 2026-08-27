@@ -23,6 +23,8 @@ function Sponsors({ sponsors = [] }) {
               className="max-h-20 m-6"
               src={sponsor.logo}
               alt={sponsor.name}
+              width="160"
+              height="28"
             />
           );
 

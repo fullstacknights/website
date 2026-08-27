@@ -23,8 +23,14 @@ Static marketing site for Fullstack Nights (a Puerto Rico tech/design community)
 
 `CONFIG.activeEvent` is the single switch that drives event-related UI across the site:
 
-- When `false`: the `/schedule/` route is filtered out of the nav (`getSections` in `src/constants.js`) and the homepage hides `<UpcomingEvent>`.
-- When `true`: set `CONFIG.event` to `{ type, date, venue, participants }`. `type` is `"topic-tables"` or anything else (treated as Speakers). The homepage layout shifts (different spacing classes are applied).
+- When `false`: the `/schedule/` route is filtered out of the nav (`getSections` in `src/constants.js`), the homepage hides `<UpcomingEvent>`, and `/schedule/` falls back to the Luma calendar for anyone arriving by bookmark.
+- When `true`: set `CONFIG.event` to `{ type, date, registrationUrl, venue, participants }`, plus optional `endDate`, `agenda`, and `sponsors`. The homepage layout shifts (different spacing classes are applied).
+
+`date` and `endDate` are offset-less ISO strings (`"2026-09-10T18:00:00"`). JavaScript parses that form as _local_ time, so every visitor sees the venue's wall-clock time instead of their own timezone — do not append a `-04:00` offset or the times will shift for out-of-state visitors.
+
+`/schedule/` builds its timeline from `participants`, allotting one equal-length slot per speaker. The slots are numbered ("Presentation 1") rather than named, so the schedule doesn't commit to a speaking order — only the count of `participants` reaches the timeline. `agenda` (`{ kickOffMinutes, firstTalkMinutes, talkMinutes }`) tunes those offsets; omit it to use `DEFAULT_AGENDA` in `src/pages/schedule.js`.
+
+`type` only selects the "Topic Tables" vs "Speakers" label on the homepage card. The generated timeline is speakers-shaped either way — a topic-tables event needs a matching branch in `buildTimeline` plus the agenda copy in both locale files, neither of which exists today.
 
 When adding a new event, edit only `src/config.js` — no other files should hardcode event data.
 

@@ -1,16 +1,20 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
-import { Link } from "gatsby";
-import { format } from "date-fns";
-
 import Card from "./card";
 import ProfileCard from "./profile-card";
+import RegistrationButton from "./registration-button";
+import { formatFullDate, formatTime } from "../date";
 
-const EVENTBRITE_LINK = "https://fullstacknights.eventbrite.com";
-
-function UpcomingEvent({ participants, type, date, venue }) {
-  const { t } = useTranslation();
+function UpcomingEvent({
+  participants,
+  type,
+  date,
+  endDate,
+  venue,
+  registrationUrl
+}) {
+  const { t, i18n } = useTranslation();
 
   return (
     <section className="mb-20">
@@ -23,8 +27,9 @@ function UpcomingEvent({ participants, type, date, venue }) {
             {type === "topic-tables" ? "Topic Tables" : "Speakers"}
           </h4>
           <p className="text-h4">
-            {format(new Date(date), "EEEE, MMMM d, y")},{" "}
-            {t("upcoming-event.at")} 7pm
+            {formatFullDate(date, i18n.language)}, {t("upcoming-event.at")}{" "}
+            {formatTime(date)}
+            {endDate ? ` – ${formatTime(endDate)}` : ""}
           </p>
           <p className="text-h4 flex items-center justify-center">
             {t("upcoming-event.venue")}:
@@ -39,14 +44,7 @@ function UpcomingEvent({ participants, type, date, venue }) {
           </p>
         </div>
         <div className="mb-10">
-          <a
-            className="btn btn--primary w-1/2 lg:w-2/12"
-            href={EVENTBRITE_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t("upcoming-event.get-tickets")}
-          </a>
+          <RegistrationButton url={registrationUrl} />
         </div>
         <h4 className="text-h4 font-extrabold">
           {t("upcoming-event.line-up")}
@@ -64,24 +62,6 @@ function UpcomingEvent({ participants, type, date, venue }) {
             />
           ))}
         </div>
-        <p className="text-rg inline-block">
-          {t("upcoming-event.while-you-wait")}{" "}
-          <div className="inline-block">
-            <Link
-              className="flex flex-col self-center link"
-              to="/code-of-conduct"
-            >
-              {t("upcoming-event.code-of-conduct")}
-            </Link>
-          </div>
-          ,{" "}
-          <div className="inline-block">
-            <Link className="flex flex-col link" to="/schedule">
-              {t("upcoming-event.schedule")}
-            </Link>
-          </div>{" "}
-          {t("upcoming-event.or-request-an-open-mic")}
-        </p>
       </Card>
     </section>
   );

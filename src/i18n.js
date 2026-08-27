@@ -4,6 +4,7 @@ import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
 import LanguageDetector from "i18next-browser-languagedetector";
 
+import { resolveLanguage } from "./language";
 import englishLocale from "./locales/en.json";
 import spanishLocale from "./locales/es.json";
 
@@ -11,7 +12,7 @@ export function getLanguageSwitcher({ i18n, classNames }) {
   let langDisplay;
   let langSwitch;
 
-  if (i18n.language === "en-US") {
+  if (resolveLanguage(i18n.language) === "en") {
     langDisplay = "español";
     langSwitch = "es-PR";
   } else {

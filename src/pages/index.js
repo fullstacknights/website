@@ -45,7 +45,9 @@ function IndexPage() {
         <UpcomingEvent
           type={event.type}
           date={event.date}
+          endDate={event.endDate}
           venue={event.venue}
+          registrationUrl={event.registrationUrl}
           participants={event.participants}
         />
       ) : (
