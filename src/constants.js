@@ -21,7 +21,7 @@ export const ORGANIZERS = [
   {
     name: "Giovanni Collazo",
     img: "/founders/giovanni-collazo.jpeg",
-    social: [{ network: "twitter", link: "https://twitter.com/gcollazo" }]
+    social: [{ network: "website", link: "https://gcollazo.com/" }]
   }
 ];
 
@@ -52,7 +52,7 @@ export const FOUNDERS = [
   {
     name: "Giovanni Collazo",
     img: "/founders/giovanni-collazo.jpeg",
-    social: [{ network: "twitter", link: "https://twitter.com/gcollazo" }]
+    social: [{ network: "website", link: "https://gcollazo.com/" }]
   },
   {
     name: "José Padilla",
