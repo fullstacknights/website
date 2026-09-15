@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#0282f8`,
         theme_color: `#0282f8`,
         display: `standalone`,
-        icon: `src/images/fsn.png` // This path is relative to the root of the site.
+        icon: `src/images/fsn.png`
       }
     },
     `gatsby-plugin-postcss`,

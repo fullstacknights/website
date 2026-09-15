@@ -1,7 +1,7 @@
 const PAST_SPEAKERS = [
   { name: "Axel Rivera", link: "", img: "/past-speakers/axel-rivera.jpeg" },
   {
-    name: "Jonathan González", // Not found
+    name: "Jonathan González",
     link: "",
     img: "/past-speakers/jonathan-gonzalez.jpeg"
   },

@@ -43,7 +43,6 @@ function buildTimeline(event, t, language) {
       header: t("schedule.introduction-and-kick-off"),
       subheader: t("schedule.grab-your-seat")
     },
-    // Slots stay unnamed so the schedule doesn't commit to a speaking order.
     ...event.participants.map((_, index) => ({
       dateTime: at(firstTalkMinutes + index * talkMinutes),
       header: t("schedule.presentation", { number: index + 1 })
@@ -76,8 +75,6 @@ export default function Schedule() {
   const { t, i18n } = useTranslation();
   const { activeEvent, event } = CONFIG;
 
-  // The nav hides /schedule/ off-season, but the route stays reachable by
-  // bookmark — point those visitors at the calendar, not an empty timeline.
   if (!activeEvent) {
     return (
       <Layout>

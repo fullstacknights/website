@@ -5,7 +5,6 @@ import NetlifyHoneypot from "./netlify-honeypot";
 
 const FORM_NAME = "speaker-submission";
 
-// Maps the ?type= query param (set by each page's CTA) to a pre-selected intent.
 const INTENT_BY_TYPE = {
   talk: "Present a talk",
   table: "Host a topic table",
@@ -36,15 +35,12 @@ function SubmissionForm() {
   const [status, setStatus] = useState("idle");
   const successRef = useRef(null);
 
-  // Move focus to the confirmation so screen-reader users are told the outcome.
   useEffect(() => {
     if (status === "success" && successRef.current) {
       successRef.current.focus();
     }
   }, [status]);
 
-  // Pre-select the intent based on which CTA the visitor arrived from. Done in
-  // an effect (not initial state) so it doesn't fight server-side hydration.
   useEffect(() => {
     const type = new URLSearchParams(window.location.search).get("type");
     if (INTENT_BY_TYPE[type]) setIntent(INTENT_BY_TYPE[type]);
