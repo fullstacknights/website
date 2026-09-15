@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 
 import PageSection from "./page-section";
 
-// Hidden unless an active event defines `event.sponsors`.
 function Sponsors({ sponsors = [] }) {
   const { t } = useTranslation();
 

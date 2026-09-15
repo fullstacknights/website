@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Commands
 
-Node version is pinned via `.nvmrc` (currently `22.22.2`, lts/jod). Use `nvm use` before running anything.
+Node version is pinned via `.nvmrc`. Use `nvm use` before running anything.
 
 - `npm run develop` — start the Gatsby dev server (`gatsby develop`); also aliased as `npm start`
 - `npm run build` — production build into `public/`

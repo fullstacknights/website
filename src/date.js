@@ -12,14 +12,12 @@ export function formatFullDate(date, language) {
   return format(date, "PPPP", { locale: isSpanish(language) ? es : enUS });
 }
 
-// "6:00pm" — Puerto Rico uses 12-hour time in both languages, and date-fns
-// spells the day period the same way in each, so this needs no locale.
+// "6:00pm" in both languages
 export function formatTime(date) {
   return format(date, "h:mmaaa");
 }
 
-// "Sep 10" / "10 sep". date-fns has no localized month-and-day-only token, so
-// the field order is spelled out per language.
+// "Sep 10" / "10 sep"
 export function formatShortDay(date, language) {
   const spanish = isSpanish(language);
 
