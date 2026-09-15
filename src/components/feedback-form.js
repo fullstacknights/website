@@ -8,7 +8,7 @@ const additionalFormAttr = {
   name: "feedback",
   method: "post",
   "data-netlify": "true",
-  "data-netlify-honeypot": "bot-field"
+  "netlify-honeypot": "bot-field"
 };
 
 function FeedbackForm() {
@@ -30,6 +30,7 @@ function FeedbackForm() {
         className="feedback__input"
         placeholder={t("feedback.hello-fsn")}
         type="text"
+        required
       />
       <label htmlFor="thoughts" className="feedback__label">
         {t("your-thoughts")}
@@ -40,7 +41,7 @@ function FeedbackForm() {
         className="feedback__input"
         placeholder={t("feedback.it-would-be-awesome-if")}
         rows="5"
-        type="text"
+        required
       />
     </Form>
   );

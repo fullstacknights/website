@@ -12,7 +12,7 @@ function NetlifyHoneypot({ formName }) {
       <p className="hidden">
         <label>
           {t("submission.bot-field")}
-          <input name="bot-field" />
+          <input name="bot-field" type="text" />
         </label>
       </p>
     </>

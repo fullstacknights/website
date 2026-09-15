@@ -59,7 +59,8 @@ function SubmissionForm() {
 
     fetch("/", {
       method: "POST",
-      body: new URLSearchParams(new FormData(event.target))
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(new FormData(event.target)).toString()
     })
       .then((response) => {
         if (!response.ok) throw new Error(response.statusText);
@@ -90,7 +91,7 @@ function SubmissionForm() {
       name={FORM_NAME}
       method="post"
       data-netlify="true"
-      data-netlify-honeypot="bot-field"
+      netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
       className="flex flex-col rounded shadow bg-white w-full mb-4 p-6 lg:w-1/2"
     >
