@@ -1,19 +1,9 @@
-// Netlify calls this automatically on every verified form submission
-// (spam/honeypot hits are filtered out before this runs). It forwards the
-// submission to a private Discord channel via an incoming webhook.
-//
-// This is an event-triggered function (named after the "submission-created"
-// event), so Netlify invokes it internally — it is not exposed as a public
-// HTTP endpoint. Set DISCORD_WEBHOOK_URL in Netlify → Environment variables.
-
-// null-prototype map so a form-controlled name can't resolve to an inherited
-// Object.prototype member (e.g. "toString", "constructor").
+// Null prototype: form names are user-controlled.
 const TITLES = Object.assign(Object.create(null), {
   "speaker-submission": "🎤 New speaker / topic submission",
   feedback: "💬 New feedback"
 });
 
-// Netlify metadata we don't want to echo into Discord.
 const HIDDEN_FIELDS = new Set(["bot-field", "form-name"]);
 
 exports.handler = async (event) => {

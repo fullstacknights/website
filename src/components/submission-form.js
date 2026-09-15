@@ -41,7 +41,6 @@ function SubmissionForm() {
     }
   }, [status]);
 
-  // In an effect, not initial state, to avoid a hydration mismatch.
   useEffect(() => {
     const type = new URLSearchParams(window.location.search).get("type");
     if (INTENT_BY_TYPE[type]) setIntent(INTENT_BY_TYPE[type]);

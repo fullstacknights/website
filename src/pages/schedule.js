@@ -75,7 +75,6 @@ export default function Schedule() {
   const { t, i18n } = useTranslation();
   const { activeEvent, event } = CONFIG;
 
-  // Reachable by bookmark even when hidden from the nav.
   if (!activeEvent) {
     return (
       <Layout>
